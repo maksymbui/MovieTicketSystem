@@ -4,3 +4,5 @@
 # Build output directories
 bin/
 obj/
+
+*.csproj.user
