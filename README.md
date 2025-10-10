@@ -64,31 +64,7 @@ In the demos in the lab, your code needs to be compiled in Visual Studio 2022 (w
 
 **NOTE 2:** Your final submission to Canvas is the one that is marked. It does not matter if earlier submissions were working; they will be ignored. Download your submission from Canvas and test it thoroughly in your assigned laboratory.
 
-## Queries
-
-If you have a problem such as illness affecting your assignment submission, contact the subject coordinator as soon as possible.
-
 **Dr. Avinash Singh**  
 Room: CB11.07.115  
 Phone: 9514 1825  
 Email: avinash.singh@uts.edu.au
-
-If you have a question about the assignment, please post it to the Canvas discussion board for this subject so that everyone can see the response.
-
-If serious problems are discovered in assignment specification, the class will be informed via an announcement on Canvas/EdSteam. It is your responsibility to make sure you frequently check Canvas.
-
-**PLEASE NOTE:** If the answer to your questions can be found directly in any of the following:
-- Subject outline
-- Assignment specification
-- Canvas FAQ and addendum
-- Canvas discussion board
-
-You will be directed to these locations rather than given a direct answer.
-
-## Extensions and Special Consideration
-
-Please refer to subject outline.
-
-## Academic Standards and Late Penalties
-
-Please refer to subject outline.
