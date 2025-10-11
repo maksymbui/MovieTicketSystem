@@ -66,4 +66,70 @@ public class TMDBApi
             return null;
         }
     }
+
+    public async Task<Movie[]> LoadMoviesFromFile(string filePath = "movies.json")
+    {
+        if (File.Exists(filePath))
+        {
+            var jsonContent = await File.ReadAllTextAsync(filePath);
+            var movies = JsonConvert.DeserializeObject<Movie[]>(jsonContent);
+            return movies ?? new Movie[0];
+        }
+        return new Movie[0];
+    }
+
+    public async Task<CastMember[]> GetMovieCast(int movieId)
+    {
+        try
+        {
+            var options = new RestClientOptions("https://api.themoviedb.org/3");
+            var client = new RestClient(options);
+            var request = new RestRequest($"movie/{movieId}/credits");
+
+            request.AddParameter("language", "en-US");
+            request.AddParameter("api_key", apiKey);
+
+            request.AddHeader("accept", "application/json");
+            
+            var response = await client.GetAsync(request);
+
+            if (response.Content != null)
+            {
+                var creditsResponse = JsonConvert.DeserializeObject<MovieCreditsResponse>(response.Content);
+                return creditsResponse?.Cast ?? new CastMember[0];
+            }
+            return new CastMember[0];
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Failed to load movie cast: {ex.Message}");
+            return new CastMember[0];
+        }
+    }
+
+    public async Task<Image?> LoadCastPicture(string profilePath)
+    {
+        try
+        {
+            if (!string.IsNullOrEmpty(profilePath))
+            {
+                string profileUrl = $"https://image.tmdb.org/t/p/w185{profilePath}";
+                
+                using (var httpClient = new HttpClient())
+                {
+                    var imageBytes = await httpClient.GetByteArrayAsync(profileUrl);
+                    using (var ms = new MemoryStream(imageBytes))
+                    {
+                        return Image.FromStream(ms);
+                    }
+                }
+            }
+            return null;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Failed to load cast profile: {ex.Message}");
+            return null;
+        }
+    }
 }
