@@ -1,0 +1,38 @@
+[
+  {
+    "id": "c001",
+    "name": "Aurora Cinemas",
+    "suburb": "Ultimo",
+    "state": "NSW"
+  },
+  {
+    "id": "c002",
+    "name": "Harbour Lights",
+    "suburb": "Chatswood",
+    "state": "NSW"
+  },
+  {
+    "id": "c003",
+    "name": "Miranda Luxe",
+    "suburb": "Miranda",
+    "state": "NSW"
+  },
+  {
+    "id": "c004",
+    "name": "Hurstville Grand",
+    "suburb": "Hurstville",
+    "state": "NSW"
+  },
+  {
+    "id": "c005",
+    "name": "Macquarie MegaPlex",
+    "suburb": "Macquarie Park",
+    "state": "NSW"
+  },
+  {
+    "id": "c006",
+    "name": "Parramatta Central",
+    "suburb": "Parramatta",
+    "state": "NSW"
+  }
+]

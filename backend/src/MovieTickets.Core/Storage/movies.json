@@ -1,0 +1,47 @@
+[
+  {
+    "id": "m001",
+    "title": "The Quantum Enigma",
+    "synopsis": "A brilliant physicist discovers a way to peek into alternate realities and must decide which future to save.",
+    "runtimeMinutes": 132,
+    "rating": "M",
+    "posterUrl": "",
+    "genres": [ "Sci-Fi", "Thriller" ]
+  },
+  {
+    "id": "m002",
+    "title": "Midnight Sonata",
+    "synopsis": "A gifted pianist reunites a broken family through music and memory.",
+    "runtimeMinutes": 108,
+    "rating": "PG",
+    "posterUrl": "",
+    "genres": [ "Drama", "Music" ]
+  },
+  {
+    "id": "m003",
+    "title": "Nebula Rangers",
+    "synopsis": "An unlikely crew of explorers races to stop a cosmic storm from wiping out inhabited worlds.",
+    "runtimeMinutes": 124,
+    "rating": "PG-13",
+    "posterUrl": "",
+    "genres": [ "Action", "Adventure" ]
+  },
+  {
+    "id": "m004",
+    "title": "Skyfire Odyssey",
+    "synopsis": "A daring pilot leads a rescue mission through turbulent storms to prevent a runaway satellite from crashing to earth.",
+    "runtimeMinutes": 116,
+    "rating": "M",
+    "posterUrl": "",
+    "genres": [ "Action", "Adventure" ]
+  },
+  {
+    "id": "m005",
+    "title": "Harbour Lights After Dark",
+    "synopsis": "A night-time security officer uncovers a conspiracy beneath the glimmering skyline of Sydney's harbourside.",
+    "runtimeMinutes": 104,
+    "rating": "MA15+",
+    "posterUrl": "",
+    "genres": [ "Thriller", "Mystery" ]
+  }
+]

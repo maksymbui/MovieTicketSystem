@@ -1,18 +1,6 @@
-# Movie Tickets – Assignment 2
+# Assignment 2 – Spring 2025
 
-> Working notes live in `docs/structure.md`. This README keeps the assignment brief for reference; the actual system map is in that doc.
-
-## Working tree quickstart
-
-- Backend solution lives at `backend/MovieTickets.Backend.sln`; open it in Visual Studio to build `MovieTickets.Core` (domain + storage adapters) and `MovieTickets.Api` (ASP.NET host).
-- CLI build: `dotnet build backend/MovieTickets.Backend.sln` (run inside the dev shell so the SDK is on PATH).
-- Electron shell in `desktop/` launches the React frontend (`frontend/`) and spawns the published API DLL from `backend/src/MovieTickets.Api/bin/...`.
-- JSON datasets sit under `storage/`; they are copied into the backend build output automatically.
-- The original WinForms implementation is quarantined under `legacy/winforms/` for reference only.
-- Helper tooling stays in `scripts/`; `run-desktop.sh` builds the Electron stack, and `run-winforms.sh` still runs the legacy prototype under Wine.
-- To refresh the movie catalog from TMDB, set `TMDB__APIKEY` (or edit `backend/src/MovieTickets.Api/appsettings.json`) and call `POST http://localhost:5000/api/admin/import/tmdb`.
-
-## Assignment brief
+**Faculty of Engineering and Information Technology School of Computer Science**
 
 **31927 - Applications Development with .NET**  
 **32998 - .NET Applications Development**
@@ -76,31 +64,7 @@ In the demos in the lab, your code needs to be compiled in Visual Studio 2022 (w
 
 **NOTE 2:** Your final submission to Canvas is the one that is marked. It does not matter if earlier submissions were working; they will be ignored. Download your submission from Canvas and test it thoroughly in your assigned laboratory.
 
-## Queries
-
-If you have a problem such as illness affecting your assignment submission, contact the subject coordinator as soon as possible.
-
 **Dr. Avinash Singh**  
 Room: CB11.07.115  
 Phone: 9514 1825  
 Email: avinash.singh@uts.edu.au
-
-If you have a question about the assignment, please post it to the Canvas discussion board for this subject so that everyone can see the response.
-
-If serious problems are discovered in assignment specification, the class will be informed via an announcement on Canvas/EdSteam. It is your responsibility to make sure you frequently check Canvas.
-
-**PLEASE NOTE:** If the answer to your questions can be found directly in any of the following:
-- Subject outline
-- Assignment specification
-- Canvas FAQ and addendum
-- Canvas discussion board
-
-You will be directed to these locations rather than given a direct answer.
-
-## Extensions and Special Consideration
-
-Please refer to subject outline.
-
-## Academic Standards and Late Penalties
-
-Please refer to subject outline.

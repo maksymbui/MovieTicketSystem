@@ -1,0 +1,74 @@
+[
+  {
+    "id": "a001",
+    "cinemaId": "c001",
+    "name": "Aurora Screen 1",
+    "rowCount": 8,
+    "columnCount": 12,
+    "premiumRowCutoff": 2
+  },
+  {
+    "id": "a002",
+    "cinemaId": "c001",
+    "name": "Aurora Screen 2",
+    "rowCount": 6,
+    "columnCount": 10,
+    "premiumRowCutoff": 1
+  },
+  {
+    "id": "a003",
+    "cinemaId": "c002",
+    "name": "Harbour V-Max",
+    "rowCount": 11,
+    "columnCount": 14,
+    "premiumRowCutoff": 3
+  },
+  {
+    "id": "a004",
+    "cinemaId": "c003",
+    "name": "Miranda Lounge",
+    "rowCount": 8,
+    "columnCount": 12,
+    "premiumRowCutoff": 2
+  },
+  {
+    "id": "a005",
+    "cinemaId": "c004",
+    "name": "Hurstville Gold",
+    "rowCount": 6,
+    "columnCount": 9,
+    "premiumRowCutoff": 1
+  },
+  {
+    "id": "a006",
+    "cinemaId": "c005",
+    "name": "Macquarie V-Max",
+    "rowCount": 12,
+    "columnCount": 16,
+    "premiumRowCutoff": 3
+  },
+  {
+    "id": "a007",
+    "cinemaId": "c005",
+    "name": "Macquarie Originals",
+    "rowCount": 8,
+    "columnCount": 12,
+    "premiumRowCutoff": 2
+  },
+  {
+    "id": "a008",
+    "cinemaId": "c006",
+    "name": "Parramatta Lounge",
+    "rowCount": 7,
+    "columnCount": 10,
+    "premiumRowCutoff": 1
+  },
+  {
+    "id": "a009",
+    "cinemaId": "c002",
+    "name": "Harbour Screen 2",
+    "rowCount": 7,
+    "columnCount": 11,
+    "premiumRowCutoff": 1
+  }
+]

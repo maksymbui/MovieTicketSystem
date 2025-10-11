@@ -1,0 +1,21 @@
+{
+  "name": "movie-tickets-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development electronmon src/main.ts",
+    "start": "electron dist/main.js",
+    "compile": "tsc",
+    "start:prod": "cross-env NODE_ENV=production electron dist/main.js",
+    "build": "tsc && electron-builder"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "electron": "^31.3.0",
+    "electron-builder": "^24.9.1",
+    "electronmon": "^2.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}

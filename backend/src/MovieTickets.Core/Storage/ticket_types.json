@@ -1,0 +1,30 @@
+[
+  {
+    "id": "t_adult",
+    "category": "Adult",
+    "name": "Adult",
+    "price": 20.00,
+    "requiresMembership": false
+  },
+  {
+    "id": "t_child",
+    "category": "Child",
+    "name": "Child (3-14)",
+    "price": 14.50,
+    "requiresMembership": false
+  },
+  {
+    "id": "t_senior",
+    "category": "Senior",
+    "name": "Senior",
+    "price": 16.00,
+    "requiresMembership": false
+  },
+  {
+    "id": "t_student",
+    "category": "Student",
+    "name": "Student",
+    "price": 17.50,
+    "requiresMembership": false
+  }
+]

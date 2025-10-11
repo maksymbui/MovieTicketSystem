@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTickets.Core", "src\\MovieTickets.Core\\MovieTickets.Core.csproj", "{0CBD72F1-8A54-43CA-9746-AA3CD692F8F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTickets.Api", "src\\MovieTickets.Api\\MovieTickets.Api.csproj", "{0F3FE2D9-A8AF-4BEC-88B1-5BD54C98B735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CBD72F1-8A54-43CA-9746-AA3CD692F8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CBD72F1-8A54-43CA-9746-AA3CD692F8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CBD72F1-8A54-43CA-9746-AA3CD692F8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CBD72F1-8A54-43CA-9746-AA3CD692F8F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F3FE2D9-A8AF-4BEC-88B1-5BD54C98B735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3FE2D9-A8AF-4BEC-88B1-5BD54C98B735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3FE2D9-A8AF-4BEC-88B1-5BD54C98B735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3FE2D9-A8AF-4BEC-88B1-5BD54C98B735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
