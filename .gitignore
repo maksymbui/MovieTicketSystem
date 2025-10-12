@@ -1,8 +1,54 @@
-# Visual Studio files
+# IDE helper folders
 .vs/
+.idea/
+.vscode/
+*.code-workspace
 
-# Build output directories
-bin/
-obj/
-
+# User-specific Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 *.csproj.user
+
+# .NET build output
+**/bin/
+**/obj/
+**/out/
+**/TestResults/
+
+# Logs and reports
+*.log
+*.tlog
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Node.js & web build artifacts
+node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.turbo/
+desktop/node_modules/
+desktop/dist/
+desktop/.vite/
+
+# Package manager caches
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment and local config
+.env
+.env.*
+!*.example
+frontend/.env.local
+frontend/.env.*.local
+desktop/.env
+backend/src/**/appsettings.Development.json

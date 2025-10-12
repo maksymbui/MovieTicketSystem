@@ -1,0 +1,130 @@
+[
+  {
+    "id": "s001",
+    "movieId": "m001",
+    "auditoriumId": "a001",
+    "startUtc": "2025-10-09T08:00:00Z",
+    "basePrice": 19.50,
+    "class": "Standard"
+  },
+  {
+    "id": "s002",
+    "movieId": "m001",
+    "auditoriumId": "a003",
+    "startUtc": "2025-10-09T10:30:00Z",
+    "basePrice": 24.00,
+    "class": "VMax"
+  },
+  {
+    "id": "s003",
+    "movieId": "m002",
+    "auditoriumId": "a002",
+    "startUtc": "2025-10-09T12:15:00Z",
+    "basePrice": 17.00,
+    "class": "Standard"
+  },
+  {
+    "id": "s004",
+    "movieId": "m003",
+    "auditoriumId": "a003",
+    "startUtc": "2025-10-09T13:45:00Z",
+    "basePrice": 23.00,
+    "class": "VMax"
+  },
+  {
+    "id": "s005",
+    "movieId": "m004",
+    "auditoriumId": "a004",
+    "startUtc": "2025-10-09T18:20:00Z",
+    "basePrice": 18.50,
+    "class": "Deluxe"
+  },
+  {
+    "id": "s006",
+    "movieId": "m005",
+    "auditoriumId": "a009",
+    "startUtc": "2025-10-09T20:10:00Z",
+    "basePrice": 21.00,
+    "class": "Standard"
+  },
+  {
+    "id": "s007",
+    "movieId": "m001",
+    "auditoriumId": "a006",
+    "startUtc": "2025-10-10T18:30:00Z",
+    "basePrice": 25.50,
+    "class": "VMax"
+  },
+  {
+    "id": "s008",
+    "movieId": "m002",
+    "auditoriumId": "a005",
+    "startUtc": "2025-10-10T19:15:00Z",
+    "basePrice": 28.00,
+    "class": "GoldClass"
+  },
+  {
+    "id": "s009",
+    "movieId": "m003",
+    "auditoriumId": "a007",
+    "startUtc": "2025-10-10T20:05:00Z",
+    "basePrice": 19.50,
+    "class": "Standard"
+  },
+  {
+    "id": "s010",
+    "movieId": "m004",
+    "auditoriumId": "a004",
+    "startUtc": "2025-10-10T21:30:00Z",
+    "basePrice": 18.50,
+    "class": "Deluxe"
+  },
+  {
+    "id": "s011",
+    "movieId": "m005",
+    "auditoriumId": "a008",
+    "startUtc": "2025-10-10T20:40:00Z",
+    "basePrice": 29.00,
+    "class": "GoldClass"
+  },
+  {
+    "id": "s012",
+    "movieId": "m001",
+    "auditoriumId": "a005",
+    "startUtc": "2025-10-11T17:45:00Z",
+    "basePrice": 29.00,
+    "class": "GoldClass"
+  },
+  {
+    "id": "s013",
+    "movieId": "m002",
+    "auditoriumId": "a008",
+    "startUtc": "2025-10-11T16:30:00Z",
+    "basePrice": 27.00,
+    "class": "Deluxe"
+  },
+  {
+    "id": "s014",
+    "movieId": "m003",
+    "auditoriumId": "a006",
+    "startUtc": "2025-10-11T19:45:00Z",
+    "basePrice": 24.00,
+    "class": "VMax"
+  },
+  {
+    "id": "s015",
+    "movieId": "m004",
+    "auditoriumId": "a001",
+    "startUtc": "2025-10-11T14:00:00Z",
+    "basePrice": 17.00,
+    "class": "Standard"
+  },
+  {
+    "id": "s016",
+    "movieId": "m005",
+    "auditoriumId": "a009",
+    "startUtc": "2025-10-11T21:05:00Z",
+    "basePrice": 22.00,
+    "class": "Deluxe"
+  }
+]

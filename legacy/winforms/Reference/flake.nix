@@ -18,7 +18,6 @@
       devShells.default = pkgs.mkShell {
         packages = with pkgs; [
           dotnet-sdk # yes
-          nodejs_20
           omnisharp-roslyn # lsp
           git # might as well, its for a devshell lol.
           sqlite
@@ -34,33 +33,6 @@
           xorg.libXrandr
           xorg.libICE
           xorg.libSM
-          glib
-          gtk3
-          gdk-pixbuf
-          atk
-          at-spi2-core
-          libnotify
-          libsecret
-          xdg-utils
-          expat
-          pango
-          cairo
-          nss
-          nspr
-          cups
-          libdrm
-          mesa
-          at-spi2-atk
-          dbus
-          libxkbcommon
-          alsa-lib
-          xorg.libXdamage
-          xorg.libXfixes
-          xorg.libXcomposite
-          xorg.libXScrnSaver
-          xorg.libXext
-          xorg.libXtst
-          xorg.libxshmfence
           wineWowPackages.staging # Imagine using WinForms, smh.
           winetricks
         ];
@@ -83,33 +55,6 @@
             pkgs.xorg.libXrandr
             pkgs.xorg.libICE
             pkgs.xorg.libSM
-            pkgs.glib
-            pkgs.gtk3
-            pkgs.gdk-pixbuf
-            pkgs.atk
-            pkgs.at-spi2-core
-            pkgs.libnotify
-            pkgs.libsecret
-            pkgs.xdg-utils
-            pkgs.expat
-            pkgs.pango
-            pkgs.cairo
-            pkgs.nss
-            pkgs.nspr
-            pkgs.cups
-            pkgs.libdrm
-            pkgs.mesa
-            pkgs.at-spi2-atk
-            pkgs.dbus
-            pkgs.libxkbcommon
-            pkgs.alsa-lib
-            pkgs.xorg.libXdamage
-            pkgs.xorg.libXfixes
-            pkgs.xorg.libXcomposite
-            pkgs.xorg.libXScrnSaver
-            pkgs.xorg.libXext
-            pkgs.xorg.libXtst
-            pkgs.xorg.libxshmfence
           ]}
 
           if ! command -v dotnet-ef >/dev/null 2>&1; then

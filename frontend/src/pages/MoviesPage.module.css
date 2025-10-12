@@ -1,0 +1,89 @@
+.catalogGrid {
+  display: grid;
+  gap: 24px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.catalogGrid[data-columns="1"] {
+  grid-template-columns: repeat(1, 240px);
+  justify-content: center;
+}
+
+.catalogGrid[data-columns="2"] {
+  grid-template-columns: repeat(2, 240px);
+}
+
+.catalogGrid[data-columns="3"] {
+  grid-template-columns: repeat(3, 240px);
+}
+
+.catalogGrid[data-columns="4"] {
+  grid-template-columns: repeat(4, 240px);
+}
+
+.catalogGrid[data-columns="5"] {
+  grid-template-columns: repeat(5, 240px);
+}
+
+.catalogCard {
+  width: 240px;
+  background: #202020;
+  border: 1px solid #2f2f2f;
+  border-radius: 12px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+
+.catalogPoster {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #222;
+}
+
+.catalogPoster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.catalogTitle {
+  margin-top: 16px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-align: center;
+  line-height: 1.3;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+}
+
+.catalogButton {
+  margin-top: auto;
+}
+
+.catalogFallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #faf9f6;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 8px;
+}
+
+.placeholderCard {
+  width: 240px;
+  visibility: hidden;
+  pointer-events: none;
+}
