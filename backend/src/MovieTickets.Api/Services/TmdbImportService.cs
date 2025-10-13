@@ -13,6 +13,7 @@ public sealed class TmdbImportService
     readonly TmdbOptions _options;
 
     const string PosterBaseUrl = "https://image.tmdb.org/t/p/w500";
+    const string ProfileBaseUrl = "https://image.tmdb.org/t/p/w185";
 
     public TmdbImportService(HttpClient httpClient, IOptions<TmdbOptions> options)
     {
@@ -44,7 +45,7 @@ public sealed class TmdbImportService
                 if (item == null) continue;
 
                 var details = await GetAsync<TmdbMovieDetails>(
-                    $"movie/{item.Id}?language={_options.Language}&append_to_response=release_dates",
+                    $"movie/{item.Id}?language={_options.Language}&append_to_response=release_dates,credits",
                     cancellationToken);
 
                 var mappedGenres = details?.Genres?.Select(g => g.Name).ToList()
@@ -56,6 +57,7 @@ public sealed class TmdbImportService
 
                 var rating = ExtractCertification(details, _options.Region) ?? (item.Adult ? "MA15+" : "PG");
                 var runtime = details?.Runtime ?? 0;
+                var cast = MapCast(details?.Credits?.Cast);
 
                 movies.Add(new Movie
                 {
@@ -65,7 +67,8 @@ public sealed class TmdbImportService
                     RuntimeMinutes = runtime > 0 ? runtime : 110,
                     Rating = string.IsNullOrWhiteSpace(rating) ? "NR" : rating,
                     PosterUrl = string.IsNullOrWhiteSpace(item.PosterPath) ? "" : $"{PosterBaseUrl}{item.PosterPath}",
-                    Genres = mappedGenres.Count > 0 ? mappedGenres : new List<string> { "Feature" }
+                    Genres = mappedGenres.Count > 0 ? mappedGenres : new List<string> { "Feature" },
+                    Cast = cast
                 });
 
                 if (_options.MaxMovies > 0 && movies.Count >= _options.MaxMovies)
@@ -112,6 +115,32 @@ public sealed class TmdbImportService
             .FirstOrDefault(rd => !string.IsNullOrWhiteSpace(rd.Certification))?.Certification;
 
         return string.IsNullOrWhiteSpace(certification) ? null : certification;
+    }
+
+    static List<CastMember> MapCast(List<TmdbCastMember>? cast)
+    {
+        if (cast == null || cast.Count == 0)
+            return new List<CastMember>();
+
+        var result = new List<CastMember>();
+
+        foreach (var member in cast.OrderBy(m => m?.Order ?? int.MaxValue))
+        {
+            if (member == null || string.IsNullOrWhiteSpace(member.Name))
+                continue;
+
+            result.Add(new CastMember
+            {
+                Name = member.Name!,
+                Character = string.IsNullOrWhiteSpace(member.Character) ? null : member.Character,
+                ProfileUrl = string.IsNullOrWhiteSpace(member.ProfilePath) ? null : $"{ProfileBaseUrl}{member.ProfilePath}"
+            });
+
+            if (result.Count >= 10)
+                break;
+        }
+
+        return result;
     }
 
     public sealed class TmdbOptions
@@ -178,6 +207,9 @@ public sealed class TmdbImportService
 
         [JsonPropertyName("release_dates")]
         public TmdbReleaseDates? ReleaseDates { get; init; }
+
+        [JsonPropertyName("credits")]
+        public TmdbCredits? Credits { get; init; }
     }
 
     sealed class TmdbReleaseDates
@@ -199,5 +231,26 @@ public sealed class TmdbImportService
     {
         [JsonPropertyName("certification")]
         public string? Certification { get; init; }
+    }
+
+    sealed class TmdbCredits
+    {
+        [JsonPropertyName("cast")]
+        public List<TmdbCastMember>? Cast { get; init; }
+    }
+
+    sealed class TmdbCastMember
+    {
+        [JsonPropertyName("name")]
+        public string? Name { get; init; }
+
+        [JsonPropertyName("character")]
+        public string? Character { get; init; }
+
+        [JsonPropertyName("profile_path")]
+        public string? ProfilePath { get; init; }
+
+        [JsonPropertyName("order")]
+        public int Order { get; init; }
     }
 }

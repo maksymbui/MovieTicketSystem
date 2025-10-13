@@ -31,6 +31,12 @@ export const postBooking = async (payload: CheckoutRequest) => {
   return data as Booking;
 };
 
+export interface CastMember {
+  name: string;
+  character?: string | null;
+  profileUrl?: string | null;
+}
+
 export interface Movie {
   id: string;
   title: string;
@@ -39,6 +45,7 @@ export interface Movie {
   rating: string;
   posterUrl: string;
   genres: string[];
+  cast?: CastMember[];
 }
 
 export interface ScreeningSummary {

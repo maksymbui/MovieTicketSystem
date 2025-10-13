@@ -15,7 +15,11 @@ function resolveBackendDll() {
 
 function startBackend() {
   const dllPath = resolveBackendDll();
-  const processHandle = spawn('dotnet', [dllPath], { stdio: 'inherit' });
+  const workingDirectory = path.dirname(dllPath);
+  const processHandle = spawn('dotnet', [dllPath], {
+    stdio: 'inherit',
+    cwd: workingDirectory
+  });
   processHandle.on('exit', (code) => {
     console.log(`Backend exited with code ${code}`);
   });

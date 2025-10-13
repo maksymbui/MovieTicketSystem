@@ -207,6 +207,15 @@ const MovieHero = ({ movie, isLoading }: { movie?: Movie; isLoading: boolean }) 
     );
   }
 
+  const castLine = (() => {
+    if (!movie.cast || movie.cast.length === 0) return null;
+    const names = movie.cast
+      .map((member) => member?.name?.trim())
+      .filter((name): name is string => Boolean(name));
+    if (names.length === 0) return null;
+    return names.slice(0, 8).join(', ');
+  })();
+
   return (
     <Card withBorder radius="lg" padding="lg" style={{ background: '#202020', borderColor: '#2f2f2f' }}>
       <Grid gutter="xl">
@@ -235,6 +244,14 @@ const MovieHero = ({ movie, isLoading }: { movie?: Movie; isLoading: boolean }) 
               <Text size="sm" c="gray.4" mt={6}>
                 {movie.synopsis}
               </Text>
+              {castLine && (
+                <Text size="sm" c="gray.3" mt="xs">
+                  <Text component="span" fw={600} c="gray.1">
+                    Cast:
+                  </Text>{' '}
+                  {castLine}
+                </Text>
+              )}
             </div>
             <Group gap="sm">
               <Badge color="charcoal" variant="light">

@@ -1,5 +1,3 @@
-using System.Text.Json.Serialization;
-
 namespace MovieTickets.Core.Entities;
 
 public sealed class Movie
@@ -11,8 +9,8 @@ public sealed class Movie
     public string Rating { get; set; } = "PG";
     public string PosterUrl { get; set; } = "";
 
-    [JsonPropertyName("genres")]
     public List<string> Genres { get; set; } = new();
+    public List<CastMember> Cast { get; set; } = new();
 
     public override string ToString() => Title;
 }

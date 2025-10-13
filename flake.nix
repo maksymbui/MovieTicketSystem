@@ -21,6 +21,7 @@
           nodejs_20
           omnisharp-roslyn # lsp
           git # might as well, its for a devshell lol.
+          jq
           sqlite
           icu
           fontconfig
