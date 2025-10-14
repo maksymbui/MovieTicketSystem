@@ -9,6 +9,7 @@ public sealed class ScreeningSummary
     public DateTime StartUtc { get; init; }
     public string CinemaId { get; init; } = "";
     public string CinemaName { get; init; } = "";
+    public string CinemaState { get; init; } = "";
     public string AuditoriumName { get; init; } = "";
     public decimal BasePrice { get; init; }
     public ScreeningClass Class { get; init; }

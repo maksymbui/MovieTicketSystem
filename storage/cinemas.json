@@ -1,38 +1,152 @@
 [
   {
-    "id": "c001",
-    "name": "Aurora Cinemas",
-    "suburb": "Ultimo",
-    "state": "NSW"
+    "Id": "cinema-001",
+    "Name": "Harbour Lights Cinemas",
+    "Suburb": "Sydney CBD",
+    "State": "NSW"
   },
   {
-    "id": "c002",
-    "name": "Harbour Lights",
-    "suburb": "Chatswood",
-    "state": "NSW"
+    "Id": "cinema-002",
+    "Name": "Parramatta Central",
+    "Suburb": "Parramatta",
+    "State": "NSW"
   },
   {
-    "id": "c003",
-    "name": "Miranda Luxe",
-    "suburb": "Miranda",
-    "state": "NSW"
+    "Id": "cinema-003",
+    "Name": "Hurstville Grand",
+    "Suburb": "Hurstville",
+    "State": "NSW"
   },
   {
-    "id": "c004",
-    "name": "Hurstville Grand",
-    "suburb": "Hurstville",
-    "state": "NSW"
+    "Id": "cinema-004",
+    "Name": "Newcastle Waterfront",
+    "Suburb": "Newcastle",
+    "State": "NSW"
   },
   {
-    "id": "c005",
-    "name": "Macquarie MegaPlex",
-    "suburb": "Macquarie Park",
-    "state": "NSW"
+    "Id": "cinema-005",
+    "Name": "Bondi Junction Luxe",
+    "Suburb": "Bondi Junction",
+    "State": "NSW"
   },
   {
-    "id": "c006",
-    "name": "Parramatta Central",
-    "suburb": "Parramatta",
-    "state": "NSW"
+    "Id": "cinema-006",
+    "Name": "Castle Hill Epic",
+    "Suburb": "Castle Hill",
+    "State": "NSW"
+  },
+  {
+    "Id": "cinema-007",
+    "Name": "Melbourne Central Screens",
+    "Suburb": "Melbourne CBD",
+    "State": "VIC"
+  },
+  {
+    "Id": "cinema-008",
+    "Name": "Docklands Luxe",
+    "Suburb": "Docklands",
+    "State": "VIC"
+  },
+  {
+    "Id": "cinema-009",
+    "Name": "Southbank Premium",
+    "Suburb": "Southbank",
+    "State": "VIC"
+  },
+  {
+    "Id": "cinema-010",
+    "Name": "Geelong Waterfront Screens",
+    "Suburb": "Geelong",
+    "State": "VIC"
+  },
+  {
+    "Id": "cinema-011",
+    "Name": "Chadstone Aurora",
+    "Suburb": "Chadstone",
+    "State": "VIC"
+  },
+  {
+    "Id": "cinema-012",
+    "Name": "Brisbane Riverfront Cinema",
+    "Suburb": "Brisbane CBD",
+    "State": "QLD"
+  },
+  {
+    "Id": "cinema-013",
+    "Name": "Pacific Fair Max",
+    "Suburb": "Broadbeach",
+    "State": "QLD"
+  },
+  {
+    "Id": "cinema-014",
+    "Name": "Cairns Northern Lights",
+    "Suburb": "Cairns",
+    "State": "QLD"
+  },
+  {
+    "Id": "cinema-015",
+    "Name": "Townsville Coral Cinemas",
+    "Suburb": "Townsville",
+    "State": "QLD"
+  },
+  {
+    "Id": "cinema-016",
+    "Name": "Sunshine Coast Horizon",
+    "Suburb": "Maroochydore",
+    "State": "QLD"
+  },
+  {
+    "Id": "cinema-017",
+    "Name": "Adelaide City Cinema",
+    "Suburb": "Adelaide",
+    "State": "SA"
+  },
+  {
+    "Id": "cinema-018",
+    "Name": "Glenelg Seaside Screens",
+    "Suburb": "Glenelg",
+    "State": "SA"
+  },
+  {
+    "Id": "cinema-019",
+    "Name": "Mount Barker Summit",
+    "Suburb": "Mount Barker",
+    "State": "SA"
+  },
+  {
+    "Id": "cinema-020",
+    "Name": "Norwood ArtHouse",
+    "Suburb": "Norwood",
+    "State": "SA"
+  },
+  {
+    "Id": "cinema-021",
+    "Name": "Port Adelaide Docks Cinema",
+    "Suburb": "Port Adelaide",
+    "State": "SA"
+  },
+  {
+    "Id": "cinema-022",
+    "Name": "Perth Skyline Cinema",
+    "Suburb": "Perth",
+    "State": "WA"
+  },
+  {
+    "Id": "cinema-023",
+    "Name": "Fremantle Harbourhouse",
+    "Suburb": "Fremantle",
+    "State": "WA"
+  },
+  {
+    "Id": "cinema-024",
+    "Name": "Joondalup Lakeside",
+    "Suburb": "Joondalup",
+    "State": "WA"
+  },
+  {
+    "Id": "cinema-025",
+    "Name": "Albany Coastline Cinema",
+    "Suburb": "Albany",
+    "State": "WA"
   }
 ]

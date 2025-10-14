@@ -1,8 +1,0 @@
-# Visual Studio files
-.vs/
-
-# Build output directories
-bin/
-obj/
-
-*.csproj.user

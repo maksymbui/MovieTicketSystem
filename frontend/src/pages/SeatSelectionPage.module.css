@@ -1,0 +1,162 @@
+.mapOuter {
+  background: #151515;
+  border: 1px solid #252525;
+  border-radius: 16px;
+  padding: 18px 20px 22px;
+}
+
+.screenHeader {
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  color: #959595;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.mapScroll {
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.mapScroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.mapScroll::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.mapScroll::-webkit-scrollbar-thumb {
+  background: rgba(46, 46, 46, 0.8);
+  border-radius: 999px;
+}
+
+.mapContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-width: fit-content;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rowLabel {
+  width: 20px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #a5a5a5;
+  text-align: right;
+  letter-spacing: 0.04em;
+}
+
+.seatRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.seat {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  border: 1px solid #2f2f2f;
+  background: #1c1c1c;
+  transition: transform 120ms ease, background 120ms ease;
+  cursor: pointer;
+}
+
+.seat:hover:not(.reserved):not(.blocked) {
+  transform: translateY(-2px);
+  background: #2a2a2a;
+}
+
+.selected {
+  background: #26a38b;
+  border-color: #26a38b;
+  box-shadow: 0 0 0 2px rgba(38, 163, 139, 0.18);
+}
+
+.reserved {
+  background: #2a2a2a;
+  border-color: #2a2a2a;
+  cursor: not-allowed;
+}
+
+.blocked {
+  background: transparent;
+  border-color: transparent;
+  cursor: not-allowed;
+}
+
+.aisle {
+  width: 18px;
+  height: 24px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.footerSpacer {
+  width: 20px;
+}
+
+.columnNumbers {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #7a7a7a;
+  font-size: 0.65rem;
+  letter-spacing: 0.04em;
+}
+
+.columnNumber {
+  width: 24px;
+  text-align: center;
+}
+
+.legend {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.7rem;
+  color: #a5a5a5;
+}
+
+.legendSwatch {
+  width: 18px;
+  height: 12px;
+  border-radius: 6px;
+  border: 1px solid #2f2f2f;
+}
+
+.legendSwatchSelected {
+  background: #26a38b;
+  border-color: #26a38b;
+}
+
+.legendSwatchAvailable {
+  background: #1c1c1c;
+}
+
+.legendSwatchReserved {
+  background: #2a2a2a;
+  border-color: #2a2a2a;
+}

@@ -1,74 +1,394 @@
 [
   {
-    "id": "a001",
-    "cinemaId": "c001",
-    "name": "Aurora Screen 1",
-    "rowCount": 8,
-    "columnCount": 12,
-    "premiumRowCutoff": 2
+    "Id": "aud-001",
+    "CinemaId": "cinema-001",
+    "Name": "Harbour Screen 1",
+    "RowCount": 10,
+    "ColumnCount": 16,
+    "PremiumRowCutoff": 2
   },
   {
-    "id": "a002",
-    "cinemaId": "c001",
-    "name": "Aurora Screen 2",
-    "rowCount": 6,
-    "columnCount": 10,
-    "premiumRowCutoff": 1
+    "Id": "aud-002",
+    "CinemaId": "cinema-001",
+    "Name": "Harbour V-Max",
+    "RowCount": 12,
+    "ColumnCount": 18,
+    "PremiumRowCutoff": 3
   },
   {
-    "id": "a003",
-    "cinemaId": "c002",
-    "name": "Harbour V-Max",
-    "rowCount": 11,
-    "columnCount": 14,
-    "premiumRowCutoff": 3
+    "Id": "aud-003",
+    "CinemaId": "cinema-001",
+    "Name": "Harbour Gold Lounge",
+    "RowCount": 6,
+    "ColumnCount": 10,
+    "PremiumRowCutoff": 1
   },
   {
-    "id": "a004",
-    "cinemaId": "c003",
-    "name": "Miranda Lounge",
-    "rowCount": 8,
-    "columnCount": 12,
-    "premiumRowCutoff": 2
+    "Id": "aud-004",
+    "CinemaId": "cinema-002",
+    "Name": "Central Screen 1",
+    "RowCount": 9,
+    "ColumnCount": 14,
+    "PremiumRowCutoff": 2
   },
   {
-    "id": "a005",
-    "cinemaId": "c004",
-    "name": "Hurstville Gold",
-    "rowCount": 6,
-    "columnCount": 9,
-    "premiumRowCutoff": 1
+    "Id": "aud-005",
+    "CinemaId": "cinema-002",
+    "Name": "Central Premiere",
+    "RowCount": 7,
+    "ColumnCount": 12,
+    "PremiumRowCutoff": 1
   },
   {
-    "id": "a006",
-    "cinemaId": "c005",
-    "name": "Macquarie V-Max",
-    "rowCount": 12,
-    "columnCount": 16,
-    "premiumRowCutoff": 3
+    "Id": "aud-006",
+    "CinemaId": "cinema-003",
+    "Name": "Grand Screen",
+    "RowCount": 10,
+    "ColumnCount": 15,
+    "PremiumRowCutoff": 2
   },
   {
-    "id": "a007",
-    "cinemaId": "c005",
-    "name": "Macquarie Originals",
-    "rowCount": 8,
-    "columnCount": 12,
-    "premiumRowCutoff": 2
+    "Id": "aud-007",
+    "CinemaId": "cinema-003",
+    "Name": "Grand V-Max",
+    "RowCount": 12,
+    "ColumnCount": 18,
+    "PremiumRowCutoff": 3
   },
   {
-    "id": "a008",
-    "cinemaId": "c006",
-    "name": "Parramatta Lounge",
-    "rowCount": 7,
-    "columnCount": 10,
-    "premiumRowCutoff": 1
+    "Id": "aud-008",
+    "CinemaId": "cinema-004",
+    "Name": "Waterfront Screen",
+    "RowCount": 9,
+    "ColumnCount": 14,
+    "PremiumRowCutoff": 2
   },
   {
-    "id": "a009",
-    "cinemaId": "c002",
-    "name": "Harbour Screen 2",
-    "rowCount": 7,
-    "columnCount": 11,
-    "premiumRowCutoff": 1
+    "Id": "aud-009",
+    "CinemaId": "cinema-004",
+    "Name": "Harbour Lounge",
+    "RowCount": 7,
+    "ColumnCount": 11,
+    "PremiumRowCutoff": 1
+  },
+  {
+    "Id": "aud-010",
+    "CinemaId": "cinema-005",
+    "Name": "Luxe Screen",
+    "RowCount": 9,
+    "ColumnCount": 14,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-011",
+    "CinemaId": "cinema-005",
+    "Name": "Luxe Gold",
+    "RowCount": 6,
+    "ColumnCount": 10,
+    "PremiumRowCutoff": 1
+  },
+  {
+    "Id": "aud-012",
+    "CinemaId": "cinema-006",
+    "Name": "Epic Screen",
+    "RowCount": 10,
+    "ColumnCount": 16,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-013",
+    "CinemaId": "cinema-006",
+    "Name": "Epic V-Max",
+    "RowCount": 12,
+    "ColumnCount": 18,
+    "PremiumRowCutoff": 3
+  },
+  {
+    "Id": "aud-014",
+    "CinemaId": "cinema-007",
+    "Name": "Central Screen 1",
+    "RowCount": 11,
+    "ColumnCount": 18,
+    "PremiumRowCutoff": 3
+  },
+  {
+    "Id": "aud-015",
+    "CinemaId": "cinema-007",
+    "Name": "Central V-Max",
+    "RowCount": 13,
+    "ColumnCount": 20,
+    "PremiumRowCutoff": 4
+  },
+  {
+    "Id": "aud-016",
+    "CinemaId": "cinema-007",
+    "Name": "Central Gold Lounge",
+    "RowCount": 6,
+    "ColumnCount": 10,
+    "PremiumRowCutoff": 1
+  },
+  {
+    "Id": "aud-017",
+    "CinemaId": "cinema-008",
+    "Name": "Luxe Screen",
+    "RowCount": 9,
+    "ColumnCount": 14,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-018",
+    "CinemaId": "cinema-008",
+    "Name": "Luxe Premiere",
+    "RowCount": 7,
+    "ColumnCount": 12,
+    "PremiumRowCutoff": 1
+  },
+  {
+    "Id": "aud-019",
+    "CinemaId": "cinema-009",
+    "Name": "Southbank Screen",
+    "RowCount": 10,
+    "ColumnCount": 16,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-020",
+    "CinemaId": "cinema-009",
+    "Name": "Southbank Gold",
+    "RowCount": 6,
+    "ColumnCount": 10,
+    "PremiumRowCutoff": 1
+  },
+  {
+    "Id": "aud-021",
+    "CinemaId": "cinema-010",
+    "Name": "Waterfront Screen",
+    "RowCount": 9,
+    "ColumnCount": 15,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-022",
+    "CinemaId": "cinema-010",
+    "Name": "Waterfront Lounge",
+    "RowCount": 7,
+    "ColumnCount": 11,
+    "PremiumRowCutoff": 1
+  },
+  {
+    "Id": "aud-023",
+    "CinemaId": "cinema-011",
+    "Name": "Aurora Screen",
+    "RowCount": 10,
+    "ColumnCount": 16,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-024",
+    "CinemaId": "cinema-011",
+    "Name": "Aurora V-Max",
+    "RowCount": 12,
+    "ColumnCount": 18,
+    "PremiumRowCutoff": 3
+  },
+  {
+    "Id": "aud-025",
+    "CinemaId": "cinema-012",
+    "Name": "Riverfront Screen",
+    "RowCount": 10,
+    "ColumnCount": 16,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-026",
+    "CinemaId": "cinema-012",
+    "Name": "Riverfront Premiere",
+    "RowCount": 8,
+    "ColumnCount": 12,
+    "PremiumRowCutoff": 1
+  },
+  {
+    "Id": "aud-027",
+    "CinemaId": "cinema-013",
+    "Name": "Pacific Screen",
+    "RowCount": 10,
+    "ColumnCount": 16,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-028",
+    "CinemaId": "cinema-013",
+    "Name": "Pacific V-Max",
+    "RowCount": 13,
+    "ColumnCount": 19,
+    "PremiumRowCutoff": 3
+  },
+  {
+    "Id": "aud-029",
+    "CinemaId": "cinema-014",
+    "Name": "Northern Screen",
+    "RowCount": 9,
+    "ColumnCount": 15,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-030",
+    "CinemaId": "cinema-015",
+    "Name": "Coral Screen",
+    "RowCount": 9,
+    "ColumnCount": 14,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-031",
+    "CinemaId": "cinema-015",
+    "Name": "Coral Lounge",
+    "RowCount": 7,
+    "ColumnCount": 11,
+    "PremiumRowCutoff": 1
+  },
+  {
+    "Id": "aud-032",
+    "CinemaId": "cinema-016",
+    "Name": "Horizon Screen",
+    "RowCount": 9,
+    "ColumnCount": 15,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-033",
+    "CinemaId": "cinema-016",
+    "Name": "Horizon Luxe",
+    "RowCount": 7,
+    "ColumnCount": 11,
+    "PremiumRowCutoff": 1
+  },
+  {
+    "Id": "aud-034",
+    "CinemaId": "cinema-017",
+    "Name": "City Screen",
+    "RowCount": 9,
+    "ColumnCount": 15,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-035",
+    "CinemaId": "cinema-017",
+    "Name": "City Premiere",
+    "RowCount": 7,
+    "ColumnCount": 11,
+    "PremiumRowCutoff": 1
+  },
+  {
+    "Id": "aud-036",
+    "CinemaId": "cinema-018",
+    "Name": "Seaside Screen",
+    "RowCount": 9,
+    "ColumnCount": 14,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-037",
+    "CinemaId": "cinema-018",
+    "Name": "Seaside Gold Lounge",
+    "RowCount": 6,
+    "ColumnCount": 10,
+    "PremiumRowCutoff": 1
+  },
+  {
+    "Id": "aud-038",
+    "CinemaId": "cinema-019",
+    "Name": "Summit Screen",
+    "RowCount": 8,
+    "ColumnCount": 12,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-039",
+    "CinemaId": "cinema-020",
+    "Name": "ArtHouse Screen",
+    "RowCount": 8,
+    "ColumnCount": 12,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-040",
+    "CinemaId": "cinema-020",
+    "Name": "ArtHouse Boutique",
+    "RowCount": 6,
+    "ColumnCount": 10,
+    "PremiumRowCutoff": 1
+  },
+  {
+    "Id": "aud-041",
+    "CinemaId": "cinema-021",
+    "Name": "Docks Screen",
+    "RowCount": 9,
+    "ColumnCount": 14,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-042",
+    "CinemaId": "cinema-021",
+    "Name": "Docks Lounge",
+    "RowCount": 7,
+    "ColumnCount": 11,
+    "PremiumRowCutoff": 1
+  },
+  {
+    "Id": "aud-043",
+    "CinemaId": "cinema-022",
+    "Name": "Skyline Screen",
+    "RowCount": 10,
+    "ColumnCount": 16,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-044",
+    "CinemaId": "cinema-022",
+    "Name": "Skyline V-Max",
+    "RowCount": 13,
+    "ColumnCount": 20,
+    "PremiumRowCutoff": 4
+  },
+  {
+    "Id": "aud-045",
+    "CinemaId": "cinema-023",
+    "Name": "Harbourhouse Screen",
+    "RowCount": 9,
+    "ColumnCount": 14,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-046",
+    "CinemaId": "cinema-023",
+    "Name": "Harbourhouse Premiere",
+    "RowCount": 7,
+    "ColumnCount": 12,
+    "PremiumRowCutoff": 1
+  },
+  {
+    "Id": "aud-047",
+    "CinemaId": "cinema-024",
+    "Name": "Lakeside Screen",
+    "RowCount": 9,
+    "ColumnCount": 14,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-048",
+    "CinemaId": "cinema-025",
+    "Name": "Coastline Screen",
+    "RowCount": 9,
+    "ColumnCount": 14,
+    "PremiumRowCutoff": 2
+  },
+  {
+    "Id": "aud-049",
+    "CinemaId": "cinema-025",
+    "Name": "Coastline Lounge",
+    "RowCount": 7,
+    "ColumnCount": 11,
+    "PremiumRowCutoff": 1
   }
 ]

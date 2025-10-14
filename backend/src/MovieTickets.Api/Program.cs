@@ -1,3 +1,4 @@
+using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.OpenApi.Models;
 using MovieTickets.Api.Services;
@@ -36,6 +37,10 @@ builder.Services.AddSingleton<MovieCatalogService>();
 builder.Services.AddSingleton<ScreeningService>();
 builder.Services.AddSingleton<PricingService>();
 builder.Services.AddSingleton<BookingService>();
+builder.Services.ConfigureHttpJsonOptions(options =>
+{
+    options.SerializerOptions.Converters.Add(new JsonStringEnumConverter());
+});
 
 var app = builder.Build();
 

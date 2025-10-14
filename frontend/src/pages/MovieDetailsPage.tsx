@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import {
@@ -18,8 +18,28 @@ import {
   Text,
   Title
 } from '@mantine/core';
-import { IconAlertCircle, IconClock, IconMapPin, IconTicket } from '@tabler/icons-react';
+import { IconAlertCircle, IconArmchair, IconBolt, IconCrown, IconMapPin, IconSparkles, IconTicket } from '@tabler/icons-react';
 import { fetchMovies, fetchScreenings, Movie, ScreeningSummary } from '@/hooks/useApi';
+import { sessionClassPalette } from '@/theme';
+
+type CinemaOption = {
+  value: string;
+  label: string;
+  state: string;
+};
+
+const STATE_LABELS: Record<string, string> = {
+  ACT: 'ACT',
+  NSW: 'NSW',
+  NT: 'NT',
+  QLD: 'QLD',
+  SA: 'SA',
+  TAS: 'TAS',
+  VIC: 'VIC',
+  WA: 'WA'
+};
+
+const DAY_RANGE = 7;
 
 const MovieDetailsPage = () => {
   const { movieId } = useParams<{ movieId: string }>();
@@ -32,61 +52,137 @@ const MovieDetailsPage = () => {
     enabled: Boolean(movieId)
   });
 
-  const cinemaOptions = useMemo(() => {
-    const unique = Array.from(
-      new Map(screenings.map((s) => [s.cinemaId, s.cinemaName])).entries()
-    ).map(([value, label]) => ({ value, label }));
-    return unique.sort((a, b) => a.label.localeCompare(b.label));
+  const cinemaOptions = useMemo<CinemaOption[]>(() => {
+    const map = new Map<string, CinemaOption>();
+    screenings.forEach((s) => {
+      if (!map.has(s.cinemaId)) {
+        map.set(s.cinemaId, {
+          value: s.cinemaId,
+          label: s.cinemaName,
+          state: s.cinemaState ?? ''
+        });
+      }
+    });
+    return Array.from(map.values()).sort((a, b) => a.label.localeCompare(b.label));
   }, [screenings]);
 
+  const stateSegments = useMemo(() => {
+    const stateMap = new Map<string, string>();
+    cinemaOptions.forEach(({ state }) => {
+      if (!state) return;
+      const label = STATE_LABELS[state] ?? state;
+      stateMap.set(state, label);
+    });
+    return [
+      { value: 'all', label: 'All states' },
+      ...Array.from(stateMap.entries())
+        .sort((a, b) => a[0].localeCompare(b[0]))
+        .map(([value, label]) => ({ value, label }))
+    ];
+  }, [cinemaOptions]);
+
   const daySegments = useMemo(() => {
-    const unique = new Set(
-      screenings.map((s) => new Date(s.startUtc).toISOString().split('T')[0])
-    );
-    const sorted = Array.from(unique).sort();
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
     const formatter = new Intl.DateTimeFormat(undefined, {
       weekday: 'short',
       month: 'short',
       day: 'numeric'
     });
-    const todayIso = new Date().toISOString().split('T')[0];
-    const tomorrowIso = new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+    const segments = Array.from({ length: DAY_RANGE }, (_, offset) => {
+      const date = new Date(today);
+      date.setDate(date.getDate() + offset);
+      const iso = date.toISOString().split('T')[0];
+      if (offset === 0) return { value: iso, label: 'Today' };
+      if (offset === 1) return { value: iso, label: 'Tomorrow' };
+      return { value: iso, label: formatter.format(date) };
+    });
+    return [{ value: 'all', label: 'All days' }, ...segments];
+  }, []);
 
-    return [
-      { value: 'all', label: 'All days' },
-      ...sorted.map((iso) => {
-        if (iso === todayIso) return { value: iso, label: 'Today' };
-        if (iso === tomorrowIso) return { value: iso, label: 'Tomorrow' };
-        return { value: iso, label: formatter.format(new Date(iso)) };
-      })
-    ];
-  }, [screenings]);
+  const defaultDayValue = useMemo(() => {
+    const todaySegment = daySegments.find((segment) => segment.label === 'Today');
+    if (todaySegment) return todaySegment.value;
+    const firstNonAll = daySegments.find((segment) => segment.value !== 'all');
+    return firstNonAll?.value ?? 'all';
+  }, [daySegments]);
 
+  const [selectedState, setSelectedState] = useState('all');
   const [selectedCinemas, setSelectedCinemas] = useState<string[]>([]);
-  const [selectedDay, setSelectedDay] = useState(daySegments[0]?.value ?? 'all');
+  const [selectedDay, setSelectedDay] = useState(defaultDayValue);
+
+  useEffect(() => {
+    if (!daySegments.some((segment) => segment.value === selectedDay)) {
+      setSelectedDay(defaultDayValue);
+    }
+  }, [daySegments, selectedDay, defaultDayValue]);
+
+  useEffect(() => {
+    if (!stateSegments.some((segment) => segment.value === selectedState)) {
+      setSelectedState('all');
+      return;
+    }
+
+    if (selectedState === 'all') return;
+    const allowedIds = new Set(
+      cinemaOptions.filter((option) => option.state === selectedState).map((opt) => opt.value)
+    );
+    setSelectedCinemas((prev) => prev.filter((id) => allowedIds.has(id)));
+  }, [cinemaOptions, selectedState, stateSegments]);
+
+  const filteredCinemaOptions = useMemo(() => {
+    if (selectedState === 'all') return cinemaOptions;
+    return cinemaOptions.filter((option) => option.state === selectedState);
+  }, [cinemaOptions, selectedState]);
 
   const filteredScreenings = useMemo(() => {
     return screenings
       .filter((session) =>
+        selectedState === 'all' ? true : session.cinemaState === selectedState
+      )
+      .filter((session) =>
         selectedCinemas.length === 0 ? true : selectedCinemas.includes(session.cinemaId)
       )
       .filter((session) =>
-        selectedDay === 'all' ? true : session.startUtc.startsWith(selectedDay)
+        selectedDay === 'all' || selectedDay === ''
+          ? true
+          : session.startUtc.startsWith(selectedDay)
       )
       .sort((a, b) => {
         const timeDiff = new Date(a.startUtc).getTime() - new Date(b.startUtc).getTime();
         if (timeDiff !== 0) return timeDiff;
         return stringCompare(a.cinemaName, b.cinemaName);
       });
-  }, [screenings, selectedCinemas, selectedDay]);
+  }, [screenings, selectedCinemas, selectedDay, selectedState]);
 
   const groupedByCinema = useMemo(() => {
-    const map = new Map<string, ScreeningSummary[]>();
+    const map = new Map<
+      string,
+      { id: string; name: string; state: string; sessions: ScreeningSummary[] }
+    >();
     filteredScreenings.forEach((session) => {
-      if (!map.has(session.cinemaName)) map.set(session.cinemaName, []);
-      map.get(session.cinemaName)!.push(session);
+      if (!map.has(session.cinemaId)) {
+        map.set(session.cinemaId, {
+          id: session.cinemaId,
+          name: session.cinemaName,
+          state: session.cinemaState,
+          sessions: []
+        });
+      }
+      map.get(session.cinemaId)!.sessions.push(session);
     });
-    return Array.from(map.entries());
+    const formatter = (value: ScreeningSummary) => new Date(value.startUtc).getTime();
+    const classCompare = (a: ScreeningSummary, b: ScreeningSummary) =>
+      stringCompare(a.class, b.class);
+    const values = Array.from(map.values());
+    values.forEach((entry) =>
+      entry.sessions.sort((a, b) => {
+        const timeDiff = formatter(a) - formatter(b);
+        if (timeDiff !== 0) return timeDiff;
+        return classCompare(a, b);
+      })
+    );
+    return values.sort((a, b) => stringCompare(a.name, b.name));
   }, [filteredScreenings]);
 
   return (
@@ -110,24 +206,48 @@ const MovieDetailsPage = () => {
           </Stack>
 
           <Grid gutter="lg" align="center">
-            <Grid.Col span={{ base: 12, md: 6 }}>
+            <Grid.Col span={{ base: 12, md: 4 }}>
+              <Stack gap={4}>
+                <Text size="sm" c="gray.4" fw={500}>
+                  States
+                </Text>
+                <SegmentedControl
+                  value={selectedState}
+                  onChange={setSelectedState}
+                  data={stateSegments}
+                  fullWidth
+                  color="tealAccent"
+                  radius="md"
+                />
+              </Stack>
+            </Grid.Col>
+            <Grid.Col span={{ base: 12, md: 4 }}>
               <MultiSelect
-                data={cinemaOptions}
+                data={filteredCinemaOptions}
                 value={selectedCinemas}
                 onChange={setSelectedCinemas}
                 placeholder="Filter by cinema"
                 searchable
                 clearable
+                nothingFound="No cinemas in this state"
                 label="Cinemas"
               />
             </Grid.Col>
-            <Grid.Col span={{ base: 12, md: 6 }}>
-              <SegmentedControl
-                value={selectedDay}
-                onChange={setSelectedDay}
-                data={daySegments}
-                fullWidth
-              />
+            <Grid.Col span={{ base: 12, md: 4 }}>
+              <Stack gap={4}>
+                <Text size="sm" c="gray.4" fw={500}>
+                  Date
+                </Text>
+                <SegmentedControl
+                  value={selectedDay}
+                  onChange={setSelectedDay}
+                  data={daySegments}
+                  fullWidth
+                  color="tealAccent"
+                  radius="md"
+                  disabled={daySegments.length === 0}
+                />
+              </Stack>
             </Grid.Col>
           </Grid>
 
@@ -141,14 +261,14 @@ const MovieDetailsPage = () => {
               variant="light"
               icon={<IconAlertCircle size={18} />}
             >
-              No sessions match the selected filters.
+              There are no current sessions with the selected filters.
             </Alert>
           )}
 
           <Stack gap="lg">
-            {groupedByCinema.map(([cinemaName, cinemaSessions]) => (
+            {groupedByCinema.map(({ id, name, state, sessions }) => (
               <Card
-                key={cinemaName}
+                key={id}
                 withBorder
                 padding="lg"
                 radius="md"
@@ -156,30 +276,50 @@ const MovieDetailsPage = () => {
               >
                 <Group justify="space-between" mb="md" align="flex-start">
                   <div>
-                    <Title order={4}>{cinemaName}</Title>
+                    <Title order={4}>{name}</Title>
                     <Text size="xs" c="gray.5">
-                      {cinemaSessions.length} session{cinemaSessions.length > 1 ? 's' : ''} available
+                      {state ? `${state} • ` : ''}
+                      {sessions.length} session{sessions.length > 1 ? 's' : ''} available
                     </Text>
                   </div>
                 </Group>
                 <Divider mb="md" color="rgba(255,255,255,0.05)" />
                 <Group gap="sm">
-                  {cinemaSessions.map((session) => (
-                    <Button
-                      key={session.screeningId}
-                      component={Link}
-                      to={`/screenings/${session.screeningId}/seats`}
-                      variant="light"
-                      color="tealAccent"
-                      radius="md"
-                      leftSection={<IconClock size={16} />}
-                    >
-                      {formatSessionTime(session.startUtc)}
-                      <Text size="xs" c="gray.6" ml={8}>
-                        {session.class}
-                      </Text>
-                    </Button>
-                  ))}
+                  {sessions.map((session) => {
+                    const style = getSessionClassStyle(session.class);
+                    const ClassIcon = getSessionClassIcon(session.class);
+                    return (
+                      <Button
+                        key={session.screeningId}
+                        component={Link}
+                        to={`/screenings/${session.screeningId}/seats`}
+                        radius="md"
+                        style={{
+                          backgroundColor: style.background,
+                          borderColor: style.background,
+                          color: style.foreground
+                        }}
+                      >
+                        <Group gap="xs" align="center">
+                          <ClassIcon size={16} color={style.foreground} />
+                          <Text fw={600} size="sm" c={style.foreground}>
+                            {formatSessionTime(session.startUtc)}
+                          </Text>
+                          <Badge
+                            size="xs"
+                            radius="sm"
+                            variant="filled"
+                            style={{
+                              backgroundColor: style.foreground,
+                              color: style.background
+                            }}
+                          >
+                            {formatClassLabel(session.class)}
+                          </Badge>
+                        </Group>
+                      </Button>
+                    );
+                  })}
                 </Group>
               </Card>
             ))}
@@ -326,13 +466,26 @@ const SimpleSkeletonList = () => (
   </Stack>
 );
 
+const CLASS_ICON_MAP = {
+  Standard: IconArmchair,
+  Deluxe: IconSparkles,
+  VMax: IconBolt,
+  GoldClass: IconCrown
+} as const;
+
+const getSessionClassIcon = (value: string) =>
+  CLASS_ICON_MAP[value as keyof typeof CLASS_ICON_MAP] ?? IconArmchair;
+
+const getSessionClassStyle = (value: string) =>
+  sessionClassPalette[value as keyof typeof sessionClassPalette] ?? sessionClassPalette.Standard;
+
+const formatClassLabel = (value: string) =>
+  value.replace(/([a-z])([A-Z])/g, '$1 $2').trim();
+
 const formatSessionTime = (iso: string) => {
   const date = new Date(iso);
-  return date.toLocaleString(undefined, {
-    weekday: 'short',
-    day: 'numeric',
-    month: 'short',
-    hour: '2-digit',
+  return date.toLocaleTimeString(undefined, {
+    hour: 'numeric',
     minute: '2-digit'
   });
 };

@@ -80,3 +80,22 @@ export const theme = createTheme({
     }
   }
 });
+
+export const sessionClassPalette = {
+  Standard: {
+    background: '#1d8270',
+    foreground: '#e6fffb'
+  },
+  Deluxe: {
+    background: '#b8523c',
+    foreground: '#fff0eb'
+  },
+  VMax: {
+    background: '#4edfc0',
+    foreground: '#0c4139'
+  },
+  GoldClass: {
+    background: '#d8b157',
+    foreground: '#1c1202'
+  }
+} as const;

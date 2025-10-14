@@ -1,130 +1,7178 @@
 [
   {
-    "id": "s001",
-    "movieId": "m001",
-    "auditoriumId": "a001",
-    "startUtc": "2025-10-09T08:00:00Z",
-    "basePrice": 19.50,
-    "class": "Standard"
+    "Id": "session-0224",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-13T21:00:00Z",
+    "BasePrice": 20.42,
+    "Class": "Standard"
   },
   {
-    "id": "s002",
-    "movieId": "m001",
-    "auditoriumId": "a003",
-    "startUtc": "2025-10-09T10:30:00Z",
-    "basePrice": 24.00,
-    "class": "VMax"
+    "Id": "session-0098",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-13T21:00:00Z",
+    "BasePrice": 19.65,
+    "Class": "Standard"
   },
   {
-    "id": "s003",
-    "movieId": "m002",
-    "auditoriumId": "a002",
-    "startUtc": "2025-10-09T12:15:00Z",
-    "basePrice": 17.00,
-    "class": "Standard"
+    "Id": "session-0712",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-014",
+    "StartUtc": "2025-10-13T21:00:00Z",
+    "BasePrice": 20.55,
+    "Class": "Standard"
   },
   {
-    "id": "s004",
-    "movieId": "m003",
-    "auditoriumId": "a003",
-    "startUtc": "2025-10-09T13:45:00Z",
-    "basePrice": 23.00,
-    "class": "VMax"
+    "Id": "session-0311",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-020",
+    "StartUtc": "2025-10-13T21:00:00Z",
+    "BasePrice": 32.85,
+    "Class": "GoldClass"
   },
   {
-    "id": "s005",
-    "movieId": "m004",
-    "auditoriumId": "a004",
-    "startUtc": "2025-10-09T18:20:00Z",
-    "basePrice": 18.50,
-    "class": "Deluxe"
+    "Id": "session-0085",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-13T21:00:00Z",
+    "BasePrice": 22.84,
+    "Class": "Deluxe"
   },
   {
-    "id": "s006",
-    "movieId": "m005",
-    "auditoriumId": "a009",
-    "startUtc": "2025-10-09T20:10:00Z",
-    "basePrice": 21.00,
-    "class": "Standard"
+    "Id": "session-0600",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-13T21:00:00Z",
+    "BasePrice": 20.94,
+    "Class": "Standard"
   },
   {
-    "id": "s007",
-    "movieId": "m001",
-    "auditoriumId": "a006",
-    "startUtc": "2025-10-10T18:30:00Z",
-    "basePrice": 25.50,
-    "class": "VMax"
+    "Id": "session-0647",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-13T21:00:00Z",
+    "BasePrice": 18.86,
+    "Class": "Standard"
   },
   {
-    "id": "s008",
-    "movieId": "m002",
-    "auditoriumId": "a005",
-    "startUtc": "2025-10-10T19:15:00Z",
-    "basePrice": 28.00,
-    "class": "GoldClass"
+    "Id": "session-0828",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-13T21:00:00Z",
+    "BasePrice": 22.14,
+    "Class": "Deluxe"
   },
   {
-    "id": "s009",
-    "movieId": "m003",
-    "auditoriumId": "a007",
-    "startUtc": "2025-10-10T20:05:00Z",
-    "basePrice": 19.50,
-    "class": "Standard"
+    "Id": "session-0208",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-13T21:00:00Z",
+    "BasePrice": 19.16,
+    "Class": "Standard"
   },
   {
-    "id": "s010",
-    "movieId": "m004",
-    "auditoriumId": "a004",
-    "startUtc": "2025-10-10T21:30:00Z",
-    "basePrice": 18.50,
-    "class": "Deluxe"
+    "Id": "session-0607",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-13T21:00:00Z",
+    "BasePrice": 18.14,
+    "Class": "Standard"
   },
   {
-    "id": "s011",
-    "movieId": "m005",
-    "auditoriumId": "a008",
-    "startUtc": "2025-10-10T20:40:00Z",
-    "basePrice": 29.00,
-    "class": "GoldClass"
+    "Id": "session-0626",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-13T21:00:00Z",
+    "BasePrice": 18.04,
+    "Class": "Standard"
   },
   {
-    "id": "s012",
-    "movieId": "m001",
-    "auditoriumId": "a005",
-    "startUtc": "2025-10-11T17:45:00Z",
-    "basePrice": 29.00,
-    "class": "GoldClass"
+    "Id": "session-0741",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-046",
+    "StartUtc": "2025-10-13T21:00:00Z",
+    "BasePrice": 22.65,
+    "Class": "Deluxe"
   },
   {
-    "id": "s013",
-    "movieId": "m002",
-    "auditoriumId": "a008",
-    "startUtc": "2025-10-11T16:30:00Z",
-    "basePrice": 27.00,
-    "class": "Deluxe"
+    "Id": "session-0895",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-13T21:00:00Z",
+    "BasePrice": 34.10,
+    "Class": "GoldClass"
   },
   {
-    "id": "s014",
-    "movieId": "m003",
-    "auditoriumId": "a006",
-    "startUtc": "2025-10-11T19:45:00Z",
-    "basePrice": 24.00,
-    "class": "VMax"
+    "Id": "session-0527",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-001",
+    "StartUtc": "2025-10-13T22:30:00Z",
+    "BasePrice": 19.25,
+    "Class": "Standard"
   },
   {
-    "id": "s015",
-    "movieId": "m004",
-    "auditoriumId": "a001",
-    "startUtc": "2025-10-11T14:00:00Z",
-    "basePrice": 17.00,
-    "class": "Standard"
+    "Id": "session-0222",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-13T22:30:00Z",
+    "BasePrice": 19.88,
+    "Class": "Standard"
   },
   {
-    "id": "s016",
-    "movieId": "m005",
-    "auditoriumId": "a009",
-    "startUtc": "2025-10-11T21:05:00Z",
-    "basePrice": 22.00,
-    "class": "Deluxe"
+    "Id": "session-0095",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-13T22:30:00Z",
+    "BasePrice": 19.40,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0309",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-13T22:30:00Z",
+    "BasePrice": 19.56,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0265",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-025",
+    "StartUtc": "2025-10-13T22:30:00Z",
+    "BasePrice": 19.58,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0818",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-028",
+    "StartUtc": "2025-10-13T22:30:00Z",
+    "BasePrice": 26.94,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0577",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-034",
+    "StartUtc": "2025-10-13T22:30:00Z",
+    "BasePrice": 19.24,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0386",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-13T22:30:00Z",
+    "BasePrice": 20.28,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0838",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-13T22:30:00Z",
+    "BasePrice": 19.78,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0444",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-040",
+    "StartUtc": "2025-10-13T22:30:00Z",
+    "BasePrice": 23.52,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0742",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-046",
+    "StartUtc": "2025-10-13T22:30:00Z",
+    "BasePrice": 23.61,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0566",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-048",
+    "StartUtc": "2025-10-13T22:30:00Z",
+    "BasePrice": 19.83,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0526",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-002",
+    "StartUtc": "2025-10-14T00:15:00Z",
+    "BasePrice": 25.79,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0225",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-14T00:15:00Z",
+    "BasePrice": 20.01,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0099",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-013",
+    "StartUtc": "2025-10-14T00:15:00Z",
+    "BasePrice": 25.97,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0710",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-015",
+    "StartUtc": "2025-10-14T00:15:00Z",
+    "BasePrice": 25.24,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0264",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-025",
+    "StartUtc": "2025-10-14T00:15:00Z",
+    "BasePrice": 18.73,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0409",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-14T00:15:00Z",
+    "BasePrice": 18.32,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0112",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-14T00:15:00Z",
+    "BasePrice": 18.33,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0482",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-033",
+    "StartUtc": "2025-10-14T00:15:00Z",
+    "BasePrice": 34.96,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0207",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-14T00:15:00Z",
+    "BasePrice": 20.07,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0611",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-14T00:15:00Z",
+    "BasePrice": 18.67,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0445",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-040",
+    "StartUtc": "2025-10-14T00:15:00Z",
+    "BasePrice": 22.11,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0429",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-046",
+    "StartUtc": "2025-10-14T00:15:00Z",
+    "BasePrice": 21.77,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0567",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-14T00:15:00Z",
+    "BasePrice": 34.46,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0754",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-003",
+    "StartUtc": "2025-10-14T02:00:00Z",
+    "BasePrice": 35.25,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0757",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-005",
+    "StartUtc": "2025-10-14T02:00:00Z",
+    "BasePrice": 24.04,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0363",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-14T02:00:00Z",
+    "BasePrice": 19.05,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0024",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-015",
+    "StartUtc": "2025-10-14T02:00:00Z",
+    "BasePrice": 25.78,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0082",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-025",
+    "StartUtc": "2025-10-14T02:00:00Z",
+    "BasePrice": 18.87,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0817",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-14T02:00:00Z",
+    "BasePrice": 18.71,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0827",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-14T02:00:00Z",
+    "BasePrice": 18.03,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0483",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-14T02:00:00Z",
+    "BasePrice": 19.61,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0384",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-037",
+    "StartUtc": "2025-10-14T02:00:00Z",
+    "BasePrice": 34.66,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0609",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-14T02:00:00Z",
+    "BasePrice": 20.55,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0443",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-040",
+    "StartUtc": "2025-10-14T02:00:00Z",
+    "BasePrice": 23.91,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0743",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-14T02:00:00Z",
+    "BasePrice": 19.89,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0873",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-14T02:00:00Z",
+    "BasePrice": 19.26,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0887",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-14T02:00:00Z",
+    "BasePrice": 34.51,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0528",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-001",
+    "StartUtc": "2025-10-14T03:45:00Z",
+    "BasePrice": 19.86,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0223",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-005",
+    "StartUtc": "2025-10-14T03:45:00Z",
+    "BasePrice": 23.72,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0096",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-14T03:45:00Z",
+    "BasePrice": 19.21,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0711",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-014",
+    "StartUtc": "2025-10-14T03:45:00Z",
+    "BasePrice": 18.35,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0307",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-14T03:45:00Z",
+    "BasePrice": 18.73,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0798",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-14T03:45:00Z",
+    "BasePrice": 18.68,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0266",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-14T03:45:00Z",
+    "BasePrice": 22.68,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0597",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-14T03:45:00Z",
+    "BasePrice": 18.91,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0648",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-14T03:45:00Z",
+    "BasePrice": 20.10,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0388",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-037",
+    "StartUtc": "2025-10-14T03:45:00Z",
+    "BasePrice": 34.15,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0608",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-14T03:45:00Z",
+    "BasePrice": 20.03,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0625",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-040",
+    "StartUtc": "2025-10-14T03:45:00Z",
+    "BasePrice": 23.97,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0431",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-046",
+    "StartUtc": "2025-10-14T03:45:00Z",
+    "BasePrice": 22.05,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0886",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-14T03:45:00Z",
+    "BasePrice": 35.39,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0654",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-14T05:30:00Z",
+    "BasePrice": 19.69,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0362",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-14T05:30:00Z",
+    "BasePrice": 20.61,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0308",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-020",
+    "StartUtc": "2025-10-14T05:30:00Z",
+    "BasePrice": 32.91,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0665",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-021",
+    "StartUtc": "2025-10-14T05:30:00Z",
+    "BasePrice": 19.56,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0084",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-14T05:30:00Z",
+    "BasePrice": 24.13,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0408",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-028",
+    "StartUtc": "2025-10-14T05:30:00Z",
+    "BasePrice": 26.63,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0113",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-14T05:30:00Z",
+    "BasePrice": 20.63,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0206",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-14T05:30:00Z",
+    "BasePrice": 20.66,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0442",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-14T05:30:00Z",
+    "BasePrice": 18.10,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0852",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-14T05:30:00Z",
+    "BasePrice": 25.39,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0432",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-046",
+    "StartUtc": "2025-10-14T05:30:00Z",
+    "BasePrice": 23.97,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0894",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-14T05:30:00Z",
+    "BasePrice": 35.38,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0753",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-002",
+    "StartUtc": "2025-10-14T07:15:00Z",
+    "BasePrice": 26.80,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0653",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-14T07:15:00Z",
+    "BasePrice": 19.61,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0171",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-007",
+    "StartUtc": "2025-10-14T07:15:00Z",
+    "BasePrice": 25.09,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0097",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-14T07:15:00Z",
+    "BasePrice": 18.95,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0023",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-016",
+    "StartUtc": "2025-10-14T07:15:00Z",
+    "BasePrice": 34.27,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0663",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-021",
+    "StartUtc": "2025-10-14T07:15:00Z",
+    "BasePrice": 18.53,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0799",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-14T07:15:00Z",
+    "BasePrice": 18.85,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0083",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-025",
+    "StartUtc": "2025-10-14T07:15:00Z",
+    "BasePrice": 19.64,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0598",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-14T07:15:00Z",
+    "BasePrice": 20.39,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0387",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-037",
+    "StartUtc": "2025-10-14T07:15:00Z",
+    "BasePrice": 34.91,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0610",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-14T07:15:00Z",
+    "BasePrice": 20.69,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0441",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-040",
+    "StartUtc": "2025-10-14T07:15:00Z",
+    "BasePrice": 24.05,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0430",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-14T07:15:00Z",
+    "BasePrice": 19.26,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0872",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-14T07:15:00Z",
+    "BasePrice": 19.64,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0565",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-048",
+    "StartUtc": "2025-10-14T07:15:00Z",
+    "BasePrice": 19.43,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0226",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-14T09:00:00Z",
+    "BasePrice": 19.24,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0170",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-007",
+    "StartUtc": "2025-10-14T09:00:00Z",
+    "BasePrice": 27.20,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0364",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-013",
+    "StartUtc": "2025-10-14T09:00:00Z",
+    "BasePrice": 27.37,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0310",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-14T09:00:00Z",
+    "BasePrice": 20.98,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0664",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-14T09:00:00Z",
+    "BasePrice": 24.49,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0263",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-14T09:00:00Z",
+    "BasePrice": 22.89,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0599",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-14T09:00:00Z",
+    "BasePrice": 20.68,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0385",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-037",
+    "StartUtc": "2025-10-14T09:00:00Z",
+    "BasePrice": 33.57,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0839",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-14T09:00:00Z",
+    "BasePrice": 18.79,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0624",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-14T09:00:00Z",
+    "BasePrice": 20.26,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0853",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-14T09:00:00Z",
+    "BasePrice": 27.87,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0428",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-14T09:00:00Z",
+    "BasePrice": 19.43,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0893",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-14T09:00:00Z",
+    "BasePrice": 34.35,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0018",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-14T21:00:00Z",
+    "BasePrice": 20.90,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0768",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-007",
+    "StartUtc": "2025-10-14T21:00:00Z",
+    "BasePrice": 27.46,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0651",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-010",
+    "StartUtc": "2025-10-14T21:00:00Z",
+    "BasePrice": 18.69,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0077",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-013",
+    "StartUtc": "2025-10-14T21:00:00Z",
+    "BasePrice": 27.11,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0153",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-020",
+    "StartUtc": "2025-10-14T21:00:00Z",
+    "BasePrice": 34.59,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0188",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-024",
+    "StartUtc": "2025-10-14T21:00:00Z",
+    "BasePrice": 26.24,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0357",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-025",
+    "StartUtc": "2025-10-14T21:00:00Z",
+    "BasePrice": 20.07,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0658",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-14T21:00:00Z",
+    "BasePrice": 19.23,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0033",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-14T21:00:00Z",
+    "BasePrice": 19.42,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0415",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-14T21:00:00Z",
+    "BasePrice": 19.76,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0405",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-14T21:00:00Z",
+    "BasePrice": 19.81,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0167",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-14T21:00:00Z",
+    "BasePrice": 20.99,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0378",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-14T21:00:00Z",
+    "BasePrice": 18.71,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0056",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-14T21:00:00Z",
+    "BasePrice": 26.97,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0645",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-14T21:00:00Z",
+    "BasePrice": 19.77,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0046",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-14T21:00:00Z",
+    "BasePrice": 18.49,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0634",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-048",
+    "StartUtc": "2025-10-14T21:00:00Z",
+    "BasePrice": 18.87,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0416",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-002",
+    "StartUtc": "2025-10-14T22:30:00Z",
+    "BasePrice": 25.17,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0015",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-14T22:30:00Z",
+    "BasePrice": 18.82,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0765",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-006",
+    "StartUtc": "2025-10-14T22:30:00Z",
+    "BasePrice": 20.63,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0234",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-14T22:30:00Z",
+    "BasePrice": 18.05,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0116",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-14T22:30:00Z",
+    "BasePrice": 20.00,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0490",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-14T22:30:00Z",
+    "BasePrice": 23.37,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0031",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-14T22:30:00Z",
+    "BasePrice": 20.25,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0480",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-14T22:30:00Z",
+    "BasePrice": 19.63,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0840",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-14T22:30:00Z",
+    "BasePrice": 19.54,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0168",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-14T22:30:00Z",
+    "BasePrice": 18.13,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0411",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-14T22:30:00Z",
+    "BasePrice": 20.89,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0688",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-14T22:30:00Z",
+    "BasePrice": 27.21,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0869",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-046",
+    "StartUtc": "2025-10-14T22:30:00Z",
+    "BasePrice": 22.85,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0044",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-14T22:30:00Z",
+    "BasePrice": 19.07,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0636",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-14T22:30:00Z",
+    "BasePrice": 32.53,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0073",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-005",
+    "StartUtc": "2025-10-15T00:15:00Z",
+    "BasePrice": 21.83,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0769",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-007",
+    "StartUtc": "2025-10-15T00:15:00Z",
+    "BasePrice": 26.32,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0640",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-15T00:15:00Z",
+    "BasePrice": 18.51,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0652",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-15T00:15:00Z",
+    "BasePrice": 33.33,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0076",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-15T00:15:00Z",
+    "BasePrice": 18.89,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0117",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-15T00:15:00Z",
+    "BasePrice": 18.42,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0358",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-15T00:15:00Z",
+    "BasePrice": 22.16,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0492",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-030",
+    "StartUtc": "2025-10-15T00:15:00Z",
+    "BasePrice": 19.64,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0560",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-15T00:15:00Z",
+    "BasePrice": 18.54,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0413",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-037",
+    "StartUtc": "2025-10-15T00:15:00Z",
+    "BasePrice": 32.99,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0845",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-15T00:15:00Z",
+    "BasePrice": 18.46,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0002",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-15T00:15:00Z",
+    "BasePrice": 18.10,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0500",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-15T00:15:00Z",
+    "BasePrice": 19.66,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0686",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-043",
+    "StartUtc": "2025-10-15T00:15:00Z",
+    "BasePrice": 18.21,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0394",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-15T00:15:00Z",
+    "BasePrice": 18.36,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0720",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-048",
+    "StartUtc": "2025-10-15T00:15:00Z",
+    "BasePrice": 18.34,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0019",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-005",
+    "StartUtc": "2025-10-15T02:00:00Z",
+    "BasePrice": 22.73,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0199",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-007",
+    "StartUtc": "2025-10-15T02:00:00Z",
+    "BasePrice": 26.65,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0203",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-15T02:00:00Z",
+    "BasePrice": 33.91,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0079",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-013",
+    "StartUtc": "2025-10-15T02:00:00Z",
+    "BasePrice": 27.80,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0154",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-15T02:00:00Z",
+    "BasePrice": 19.98,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0183",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-021",
+    "StartUtc": "2025-10-15T02:00:00Z",
+    "BasePrice": 20.95,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0449",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-15T02:00:00Z",
+    "BasePrice": 18.12,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0356",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-15T02:00:00Z",
+    "BasePrice": 23.44,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0491",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-15T02:00:00Z",
+    "BasePrice": 23.64,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0564",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-033",
+    "StartUtc": "2025-10-15T02:00:00Z",
+    "BasePrice": 34.98,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0414",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-15T02:00:00Z",
+    "BasePrice": 20.27,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0406",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-15T02:00:00Z",
+    "BasePrice": 20.71,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0520",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-15T02:00:00Z",
+    "BasePrice": 18.43,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0498",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-15T02:00:00Z",
+    "BasePrice": 18.54,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0687",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-15T02:00:00Z",
+    "BasePrice": 26.30,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0884",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-15T02:00:00Z",
+    "BasePrice": 33.90,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0417",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-001",
+    "StartUtc": "2025-10-15T03:45:00Z",
+    "BasePrice": 20.67,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0017",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-15T03:45:00Z",
+    "BasePrice": 20.16,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0764",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-006",
+    "StartUtc": "2025-10-15T03:45:00Z",
+    "BasePrice": 20.81,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0202",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-010",
+    "StartUtc": "2025-10-15T03:45:00Z",
+    "BasePrice": 19.73,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0204",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-013",
+    "StartUtc": "2025-10-15T03:45:00Z",
+    "BasePrice": 26.26,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0152",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-15T03:45:00Z",
+    "BasePrice": 19.13,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0182",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-15T03:45:00Z",
+    "BasePrice": 21.82,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0114",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-024",
+    "StartUtc": "2025-10-15T03:45:00Z",
+    "BasePrice": 27.79,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0295",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-15T03:45:00Z",
+    "BasePrice": 21.56,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0032",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-15T03:45:00Z",
+    "BasePrice": 18.20,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0481",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-037",
+    "StartUtc": "2025-10-15T03:45:00Z",
+    "BasePrice": 32.63,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0841",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-15T03:45:00Z",
+    "BasePrice": 19.98,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0169",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-15T03:45:00Z",
+    "BasePrice": 20.74,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0377",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-042",
+    "StartUtc": "2025-10-15T03:45:00Z",
+    "BasePrice": 23.72,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0060",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-15T03:45:00Z",
+    "BasePrice": 27.29,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0868",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-046",
+    "StartUtc": "2025-10-15T03:45:00Z",
+    "BasePrice": 23.26,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0045",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-15T03:45:00Z",
+    "BasePrice": 20.21,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0635",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-15T03:45:00Z",
+    "BasePrice": 35.38,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0072",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-005",
+    "StartUtc": "2025-10-15T05:30:00Z",
+    "BasePrice": 21.83,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0200",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-007",
+    "StartUtc": "2025-10-15T05:30:00Z",
+    "BasePrice": 26.97,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0205",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-013",
+    "StartUtc": "2025-10-15T05:30:00Z",
+    "BasePrice": 27.39,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0728",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-015",
+    "StartUtc": "2025-10-15T05:30:00Z",
+    "BasePrice": 26.15,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0797",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-020",
+    "StartUtc": "2025-10-15T05:30:00Z",
+    "BasePrice": 34.34,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0181",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-021",
+    "StartUtc": "2025-10-15T05:30:00Z",
+    "BasePrice": 19.20,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0115",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-15T05:30:00Z",
+    "BasePrice": 20.60,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0294",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-025",
+    "StartUtc": "2025-10-15T05:30:00Z",
+    "BasePrice": 18.35,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0659",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-15T05:30:00Z",
+    "BasePrice": 18.20,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0563",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-033",
+    "StartUtc": "2025-10-15T05:30:00Z",
+    "BasePrice": 34.51,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0407",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-15T05:30:00Z",
+    "BasePrice": 19.16,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0521",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-15T05:30:00Z",
+    "BasePrice": 19.88,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0499",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-042",
+    "StartUtc": "2025-10-15T05:30:00Z",
+    "BasePrice": 24.44,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0057",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-15T05:30:00Z",
+    "BasePrice": 27.78,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0395",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-15T05:30:00Z",
+    "BasePrice": 19.24,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0719",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-048",
+    "StartUtc": "2025-10-15T05:30:00Z",
+    "BasePrice": 19.17,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0071",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-005",
+    "StartUtc": "2025-10-15T07:15:00Z",
+    "BasePrice": 21.96,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0639",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-009",
+    "StartUtc": "2025-10-15T07:15:00Z",
+    "BasePrice": 22.25,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0650",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-15T07:15:00Z",
+    "BasePrice": 33.58,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0075",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-013",
+    "StartUtc": "2025-10-15T07:15:00Z",
+    "BasePrice": 25.69,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0189",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-15T07:15:00Z",
+    "BasePrice": 18.66,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0561",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-033",
+    "StartUtc": "2025-10-15T07:15:00Z",
+    "BasePrice": 33.49,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0001",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-040",
+    "StartUtc": "2025-10-15T07:15:00Z",
+    "BasePrice": 23.52,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0410",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-15T07:15:00Z",
+    "BasePrice": 20.94,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0059",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-15T07:15:00Z",
+    "BasePrice": 27.57,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0646",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-15T07:15:00Z",
+    "BasePrice": 20.30,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0878",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-15T07:15:00Z",
+    "BasePrice": 19.45,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0885",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-048",
+    "StartUtc": "2025-10-15T07:15:00Z",
+    "BasePrice": 18.81,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0016",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-15T09:00:00Z",
+    "BasePrice": 18.22,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0201",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-007",
+    "StartUtc": "2025-10-15T09:00:00Z",
+    "BasePrice": 26.14,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0649",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-15T09:00:00Z",
+    "BasePrice": 34.16,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0078",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-013",
+    "StartUtc": "2025-10-15T09:00:00Z",
+    "BasePrice": 27.11,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0796",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-15T09:00:00Z",
+    "BasePrice": 19.84,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0190",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-15T09:00:00Z",
+    "BasePrice": 18.87,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0562",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-033",
+    "StartUtc": "2025-10-15T09:00:00Z",
+    "BasePrice": 33.77,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0844",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-15T09:00:00Z",
+    "BasePrice": 19.19,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0003",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-040",
+    "StartUtc": "2025-10-15T09:00:00Z",
+    "BasePrice": 23.79,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0412",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-15T09:00:00Z",
+    "BasePrice": 18.20,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0058",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-043",
+    "StartUtc": "2025-10-15T09:00:00Z",
+    "BasePrice": 19.82,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0644",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-15T09:00:00Z",
+    "BasePrice": 19.66,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0879",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-15T09:00:00Z",
+    "BasePrice": 18.50,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0890",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-15T09:00:00Z",
+    "BasePrice": 32.54,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0613",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-007",
+    "StartUtc": "2025-10-15T21:00:00Z",
+    "BasePrice": 27.44,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0389",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-15T21:00:00Z",
+    "BasePrice": 20.35,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0474",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-15T21:00:00Z",
+    "BasePrice": 33.15,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0452",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-018",
+    "StartUtc": "2025-10-15T21:00:00Z",
+    "BasePrice": 22.12,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0319",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-15T21:00:00Z",
+    "BasePrice": 21.84,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0821",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-028",
+    "StartUtc": "2025-10-15T21:00:00Z",
+    "BasePrice": 26.21,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0291",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-034",
+    "StartUtc": "2025-10-15T21:00:00Z",
+    "BasePrice": 20.44,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0238",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-037",
+    "StartUtc": "2025-10-15T21:00:00Z",
+    "BasePrice": 34.68,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0088",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-15T21:00:00Z",
+    "BasePrice": 18.47,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0628",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-040",
+    "StartUtc": "2025-10-15T21:00:00Z",
+    "BasePrice": 23.11,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0145",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-15T21:00:00Z",
+    "BasePrice": 18.86,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0865",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-15T21:00:00Z",
+    "BasePrice": 27.45,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0404",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-15T21:00:00Z",
+    "BasePrice": 19.62,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0896",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-048",
+    "StartUtc": "2025-10-15T21:00:00Z",
+    "BasePrice": 19.18,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0036",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-006",
+    "StartUtc": "2025-10-15T22:30:00Z",
+    "BasePrice": 19.09,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0392",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-15T22:30:00Z",
+    "BasePrice": 19.92,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0774",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-15T22:30:00Z",
+    "BasePrice": 33.38,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0176",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-015",
+    "StartUtc": "2025-10-15T22:30:00Z",
+    "BasePrice": 25.13,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0091",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-017",
+    "StartUtc": "2025-10-15T22:30:00Z",
+    "BasePrice": 18.83,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0749",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-15T22:30:00Z",
+    "BasePrice": 23.72,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0803",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-15T22:30:00Z",
+    "BasePrice": 18.14,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0107",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-15T22:30:00Z",
+    "BasePrice": 24.12,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0713",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-15T22:30:00Z",
+    "BasePrice": 19.63,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0290",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-15T22:30:00Z",
+    "BasePrice": 22.22,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0272",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-037",
+    "StartUtc": "2025-10-15T22:30:00Z",
+    "BasePrice": 35.11,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0144",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-042",
+    "StartUtc": "2025-10-15T22:30:00Z",
+    "BasePrice": 22.47,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0400",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-15T22:30:00Z",
+    "BasePrice": 18.20,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0760",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-16T00:15:00Z",
+    "BasePrice": 20.37,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0038",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-007",
+    "StartUtc": "2025-10-16T00:15:00Z",
+    "BasePrice": 27.37,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0216",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-009",
+    "StartUtc": "2025-10-16T00:15:00Z",
+    "BasePrice": 23.80,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0775",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-010",
+    "StartUtc": "2025-10-16T00:15:00Z",
+    "BasePrice": 20.95,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0177",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-015",
+    "StartUtc": "2025-10-16T00:15:00Z",
+    "BasePrice": 25.98,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0092",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-017",
+    "StartUtc": "2025-10-16T00:15:00Z",
+    "BasePrice": 19.43,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0794",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-16T00:15:00Z",
+    "BasePrice": 19.16,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0321",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-021",
+    "StartUtc": "2025-10-16T00:15:00Z",
+    "BasePrice": 20.50,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0806",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-16T00:15:00Z",
+    "BasePrice": 20.84,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0110",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-16T00:15:00Z",
+    "BasePrice": 23.87,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0622",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-16T00:15:00Z",
+    "BasePrice": 21.92,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0292",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-034",
+    "StartUtc": "2025-10-16T00:15:00Z",
+    "BasePrice": 18.88,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0239",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-16T00:15:00Z",
+    "BasePrice": 19.66,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0847",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-16T00:15:00Z",
+    "BasePrice": 18.23,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0142",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-16T00:15:00Z",
+    "BasePrice": 20.94,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0403",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-16T00:15:00Z",
+    "BasePrice": 20.13,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0037",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-007",
+    "StartUtc": "2025-10-16T02:00:00Z",
+    "BasePrice": 26.24,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0390",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-16T02:00:00Z",
+    "BasePrice": 20.21,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0476",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-16T02:00:00Z",
+    "BasePrice": 33.16,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0178",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-016",
+    "StartUtc": "2025-10-16T02:00:00Z",
+    "BasePrice": 33.34,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0090",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-018",
+    "StartUtc": "2025-10-16T02:00:00Z",
+    "BasePrice": 23.01,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0748",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-16T02:00:00Z",
+    "BasePrice": 21.58,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0227",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-16T02:00:00Z",
+    "BasePrice": 19.12,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0399",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-16T02:00:00Z",
+    "BasePrice": 22.97,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0275",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-16T02:00:00Z",
+    "BasePrice": 19.85,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0089",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-16T02:00:00Z",
+    "BasePrice": 19.57,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0627",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-040",
+    "StartUtc": "2025-10-16T02:00:00Z",
+    "BasePrice": 22.97,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0184",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-042",
+    "StartUtc": "2025-10-16T02:00:00Z",
+    "BasePrice": 22.78,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0863",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-043",
+    "StartUtc": "2025-10-16T02:00:00Z",
+    "BasePrice": 19.95,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0402",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-16T02:00:00Z",
+    "BasePrice": 19.47,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0897",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-16T02:00:00Z",
+    "BasePrice": 32.57,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0614",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-006",
+    "StartUtc": "2025-10-16T03:45:00Z",
+    "BasePrice": 18.65,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0215",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-16T03:45:00Z",
+    "BasePrice": 19.84,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0477",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-010",
+    "StartUtc": "2025-10-16T03:45:00Z",
+    "BasePrice": 19.11,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0262",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-018",
+    "StartUtc": "2025-10-16T03:45:00Z",
+    "BasePrice": 24.16,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0795",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-020",
+    "StartUtc": "2025-10-16T03:45:00Z",
+    "BasePrice": 32.85,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0750",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-021",
+    "StartUtc": "2025-10-16T03:45:00Z",
+    "BasePrice": 20.53,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0802",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-024",
+    "StartUtc": "2025-10-16T03:45:00Z",
+    "BasePrice": 26.68,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0108",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-16T03:45:00Z",
+    "BasePrice": 22.01,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0229",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-16T03:45:00Z",
+    "BasePrice": 20.33,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0623",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-16T03:45:00Z",
+    "BasePrice": 21.87,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0338",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-033",
+    "StartUtc": "2025-10-16T03:45:00Z",
+    "BasePrice": 33.44,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0397",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-034",
+    "StartUtc": "2025-10-16T03:45:00Z",
+    "BasePrice": 18.37,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0237",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-16T03:45:00Z",
+    "BasePrice": 20.92,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0051",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-040",
+    "StartUtc": "2025-10-16T03:45:00Z",
+    "BasePrice": 22.10,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0021",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-042",
+    "StartUtc": "2025-10-16T03:45:00Z",
+    "BasePrice": 21.93,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0864",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-16T03:45:00Z",
+    "BasePrice": 25.31,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0870",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-16T03:45:00Z",
+    "BasePrice": 19.85,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0277",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-005",
+    "StartUtc": "2025-10-16T05:30:00Z",
+    "BasePrice": 21.83,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0035",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-007",
+    "StartUtc": "2025-10-16T05:30:00Z",
+    "BasePrice": 27.70,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0270",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-16T05:30:00Z",
+    "BasePrice": 18.35,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0778",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-16T05:30:00Z",
+    "BasePrice": 35.10,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0261",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-018",
+    "StartUtc": "2025-10-16T05:30:00Z",
+    "BasePrice": 22.05,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0320",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-021",
+    "StartUtc": "2025-10-16T05:30:00Z",
+    "BasePrice": 18.42,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0807",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-024",
+    "StartUtc": "2025-10-16T05:30:00Z",
+    "BasePrice": 26.99,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0822",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-16T05:30:00Z",
+    "BasePrice": 20.60,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0313",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-030",
+    "StartUtc": "2025-10-16T05:30:00Z",
+    "BasePrice": 18.45,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0271",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-037",
+    "StartUtc": "2025-10-16T05:30:00Z",
+    "BasePrice": 33.40,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0050",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-040",
+    "StartUtc": "2025-10-16T05:30:00Z",
+    "BasePrice": 22.31,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0143",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-16T05:30:00Z",
+    "BasePrice": 18.51,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0856",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-043",
+    "StartUtc": "2025-10-16T05:30:00Z",
+    "BasePrice": 20.27,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0874",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-16T05:30:00Z",
+    "BasePrice": 20.30,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0759",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-16T07:15:00Z",
+    "BasePrice": 20.27,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0034",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-007",
+    "StartUtc": "2025-10-16T07:15:00Z",
+    "BasePrice": 26.05,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0214",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-009",
+    "StartUtc": "2025-10-16T07:15:00Z",
+    "BasePrice": 22.20,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0475",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-010",
+    "StartUtc": "2025-10-16T07:15:00Z",
+    "BasePrice": 19.58,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0453",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-018",
+    "StartUtc": "2025-10-16T07:15:00Z",
+    "BasePrice": 23.79,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0318",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-021",
+    "StartUtc": "2025-10-16T07:15:00Z",
+    "BasePrice": 20.53,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0111",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-16T07:15:00Z",
+    "BasePrice": 21.56,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0715",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-16T07:15:00Z",
+    "BasePrice": 18.61,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0312",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-030",
+    "StartUtc": "2025-10-16T07:15:00Z",
+    "BasePrice": 18.50,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0337",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-16T07:15:00Z",
+    "BasePrice": 19.87,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0398",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-034",
+    "StartUtc": "2025-10-16T07:15:00Z",
+    "BasePrice": 18.56,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0274",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-037",
+    "StartUtc": "2025-10-16T07:15:00Z",
+    "BasePrice": 35.36,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0846",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-16T07:15:00Z",
+    "BasePrice": 19.68,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0020",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-042",
+    "StartUtc": "2025-10-16T07:15:00Z",
+    "BasePrice": 22.26,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0857",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-16T07:15:00Z",
+    "BasePrice": 27.92,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0871",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-16T07:15:00Z",
+    "BasePrice": 18.26,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0276",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-16T09:00:00Z",
+    "BasePrice": 18.89,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0612",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-006",
+    "StartUtc": "2025-10-16T09:00:00Z",
+    "BasePrice": 20.91,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0391",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-16T09:00:00Z",
+    "BasePrice": 19.03,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0473",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-010",
+    "StartUtc": "2025-10-16T09:00:00Z",
+    "BasePrice": 18.99,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0454",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-017",
+    "StartUtc": "2025-10-16T09:00:00Z",
+    "BasePrice": 20.61,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0109",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-16T09:00:00Z",
+    "BasePrice": 21.66,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0714",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-16T09:00:00Z",
+    "BasePrice": 20.76,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0228",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-16T09:00:00Z",
+    "BasePrice": 19.05,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0336",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-16T09:00:00Z",
+    "BasePrice": 18.08,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0293",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-16T09:00:00Z",
+    "BasePrice": 23.19,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0273",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-16T09:00:00Z",
+    "BasePrice": 18.25,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0022",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-042",
+    "StartUtc": "2025-10-16T09:00:00Z",
+    "BasePrice": 23.69,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0401",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-16T09:00:00Z",
+    "BasePrice": 20.58,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0381",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-001",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 19.22,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0012",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-009",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 23.74,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0516",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 34.66,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0529",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-013",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 27.19,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0121",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-014",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 20.87,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0683",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-017",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 20.63,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0788",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-020",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 32.70,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0250",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 21.61,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0048",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 23.42,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0638",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 20.25,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0069",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 20.66,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0550",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 23.33,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0297",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 18.44,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0574",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 24.42,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0011",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 18.78,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0842",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 20.96,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0668",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-040",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 23.49,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0554",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-043",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 19.74,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0029",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-046",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 21.87,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0875",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 18.37,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0676",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-16T21:00:00Z",
+    "BasePrice": 34.46,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0382",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-003",
+    "StartUtc": "2025-10-16T22:30:00Z",
+    "BasePrice": 32.51,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0074",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-16T22:30:00Z",
+    "BasePrice": 18.26,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0616",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-007",
+    "StartUtc": "2025-10-16T22:30:00Z",
+    "BasePrice": 26.44,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0267",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-16T22:30:00Z",
+    "BasePrice": 19.15,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0783",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-16T22:30:00Z",
+    "BasePrice": 35.17,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0532",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-16T22:30:00Z",
+    "BasePrice": 18.63,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0120",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-015",
+    "StartUtc": "2025-10-16T22:30:00Z",
+    "BasePrice": 26.66,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0682",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-018",
+    "StartUtc": "2025-10-16T22:30:00Z",
+    "BasePrice": 23.65,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0434",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-021",
+    "StartUtc": "2025-10-16T22:30:00Z",
+    "BasePrice": 18.59,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0375",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-16T22:30:00Z",
+    "BasePrice": 19.33,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0179",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-16T22:30:00Z",
+    "BasePrice": 22.47,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0813",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-028",
+    "StartUtc": "2025-10-16T22:30:00Z",
+    "BasePrice": 26.69,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0067",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-16T22:30:00Z",
+    "BasePrice": 20.78,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0621",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-16T22:30:00Z",
+    "BasePrice": 22.56,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0831",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-16T22:30:00Z",
+    "BasePrice": 20.26,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0576",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-16T22:30:00Z",
+    "BasePrice": 21.95,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0122",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-16T22:30:00Z",
+    "BasePrice": 18.10,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0669",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-16T22:30:00Z",
+    "BasePrice": 20.55,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0380",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-003",
+    "StartUtc": "2025-10-17T00:15:00Z",
+    "BasePrice": 32.94,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0488",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-005",
+    "StartUtc": "2025-10-17T00:15:00Z",
+    "BasePrice": 23.29,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0268",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-009",
+    "StartUtc": "2025-10-17T00:15:00Z",
+    "BasePrice": 22.26,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0569",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-17T00:15:00Z",
+    "BasePrice": 34.06,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0709",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-016",
+    "StartUtc": "2025-10-17T00:15:00Z",
+    "BasePrice": 35.27,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0784",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-017",
+    "StartUtc": "2025-10-17T00:15:00Z",
+    "BasePrice": 19.53,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0371",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-020",
+    "StartUtc": "2025-10-17T00:15:00Z",
+    "BasePrice": 33.38,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0249",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-17T00:15:00Z",
+    "BasePrice": 24.19,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0374",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-17T00:15:00Z",
+    "BasePrice": 18.21,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0047",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-025",
+    "StartUtc": "2025-10-17T00:15:00Z",
+    "BasePrice": 20.50,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0105",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-028",
+    "StartUtc": "2025-10-17T00:15:00Z",
+    "BasePrice": 27.73,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0068",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-17T00:15:00Z",
+    "BasePrice": 19.52,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0549",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-030",
+    "StartUtc": "2025-10-17T00:15:00Z",
+    "BasePrice": 18.62,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0298",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-17T00:15:00Z",
+    "BasePrice": 19.29,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0133",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-17T00:15:00Z",
+    "BasePrice": 23.83,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0843",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-17T00:15:00Z",
+    "BasePrice": 18.11,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0280",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-17T00:15:00Z",
+    "BasePrice": 18.28,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0030",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-17T00:15:00Z",
+    "BasePrice": 20.00,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0146",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-17T02:00:00Z",
+    "BasePrice": 20.99,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0517",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-010",
+    "StartUtc": "2025-10-17T02:00:00Z",
+    "BasePrice": 20.72,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0053",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-014",
+    "StartUtc": "2025-10-17T02:00:00Z",
+    "BasePrice": 18.85,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0785",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-017",
+    "StartUtc": "2025-10-17T02:00:00Z",
+    "BasePrice": 18.95,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0448",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-17T02:00:00Z",
+    "BasePrice": 18.22,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0252",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-17T02:00:00Z",
+    "BasePrice": 21.84,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0808",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-024",
+    "StartUtc": "2025-10-17T02:00:00Z",
+    "BasePrice": 26.36,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0049",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-17T02:00:00Z",
+    "BasePrice": 23.63,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0637",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-17T02:00:00Z",
+    "BasePrice": 19.13,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0070",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-17T02:00:00Z",
+    "BasePrice": 18.52,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0619",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-17T02:00:00Z",
+    "BasePrice": 24.08,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0296",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-033",
+    "StartUtc": "2025-10-17T02:00:00Z",
+    "BasePrice": 35.16,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0575",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-17T02:00:00Z",
+    "BasePrice": 23.38,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0124",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-037",
+    "StartUtc": "2025-10-17T02:00:00Z",
+    "BasePrice": 34.93,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0837",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-17T02:00:00Z",
+    "BasePrice": 18.48,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0553",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-17T02:00:00Z",
+    "BasePrice": 25.24,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0028",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-17T02:00:00Z",
+    "BasePrice": 19.24,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0883",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-17T02:00:00Z",
+    "BasePrice": 18.29,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0379",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-001",
+    "StartUtc": "2025-10-17T03:45:00Z",
+    "BasePrice": 19.93,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0615",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-006",
+    "StartUtc": "2025-10-17T03:45:00Z",
+    "BasePrice": 18.71,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0014",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-009",
+    "StartUtc": "2025-10-17T03:45:00Z",
+    "BasePrice": 22.29,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0514",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-010",
+    "StartUtc": "2025-10-17T03:45:00Z",
+    "BasePrice": 19.30,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0531",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-013",
+    "StartUtc": "2025-10-17T03:45:00Z",
+    "BasePrice": 25.48,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0055",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-016",
+    "StartUtc": "2025-10-17T03:45:00Z",
+    "BasePrice": 33.06,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0685",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-017",
+    "StartUtc": "2025-10-17T03:45:00Z",
+    "BasePrice": 18.87,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0446",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-17T03:45:00Z",
+    "BasePrice": 20.07,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0251",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-17T03:45:00Z",
+    "BasePrice": 23.96,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0809",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-024",
+    "StartUtc": "2025-10-17T03:45:00Z",
+    "BasePrice": 25.20,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0180",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-17T03:45:00Z",
+    "BasePrice": 21.79,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0066",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-17T03:45:00Z",
+    "BasePrice": 20.03,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0548",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-030",
+    "StartUtc": "2025-10-17T03:45:00Z",
+    "BasePrice": 19.99,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0830",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-033",
+    "StartUtc": "2025-10-17T03:45:00Z",
+    "BasePrice": 35.26,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0134",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-17T03:45:00Z",
+    "BasePrice": 22.34,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0282",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-17T03:45:00Z",
+    "BasePrice": 18.32,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0751",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-003",
+    "StartUtc": "2025-10-17T05:30:00Z",
+    "BasePrice": 33.30,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0013",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-009",
+    "StartUtc": "2025-10-17T05:30:00Z",
+    "BasePrice": 23.89,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0515",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-010",
+    "StartUtc": "2025-10-17T05:30:00Z",
+    "BasePrice": 18.93,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0530",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-17T05:30:00Z",
+    "BasePrice": 18.05,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0052",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-015",
+    "StartUtc": "2025-10-17T05:30:00Z",
+    "BasePrice": 26.42,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0684",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-018",
+    "StartUtc": "2025-10-17T05:30:00Z",
+    "BasePrice": 22.00,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0789",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-020",
+    "StartUtc": "2025-10-17T05:30:00Z",
+    "BasePrice": 35.05,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0279",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-17T05:30:00Z",
+    "BasePrice": 21.91,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0372",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-024",
+    "StartUtc": "2025-10-17T05:30:00Z",
+    "BasePrice": 26.18,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0814",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-17T05:30:00Z",
+    "BasePrice": 18.08,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0655",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-17T05:30:00Z",
+    "BasePrice": 20.67,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0552",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-17T05:30:00Z",
+    "BasePrice": 22.68,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0299",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-033",
+    "StartUtc": "2025-10-17T05:30:00Z",
+    "BasePrice": 34.22,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0137",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-17T05:30:00Z",
+    "BasePrice": 24.13,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0010",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-17T05:30:00Z",
+    "BasePrice": 20.33,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0666",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-17T05:30:00Z",
+    "BasePrice": 20.48,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0851",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-17T05:30:00Z",
+    "BasePrice": 27.75,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0675",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-048",
+    "StartUtc": "2025-10-17T05:30:00Z",
+    "BasePrice": 19.50,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0752",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-001",
+    "StartUtc": "2025-10-17T07:15:00Z",
+    "BasePrice": 18.68,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0269",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-009",
+    "StartUtc": "2025-10-17T07:15:00Z",
+    "BasePrice": 22.57,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0568",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-010",
+    "StartUtc": "2025-10-17T07:15:00Z",
+    "BasePrice": 18.51,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0594",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-17T07:15:00Z",
+    "BasePrice": 19.03,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0708",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-016",
+    "StartUtc": "2025-10-17T07:15:00Z",
+    "BasePrice": 34.72,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0370",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-020",
+    "StartUtc": "2025-10-17T07:15:00Z",
+    "BasePrice": 34.64,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0278",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-17T07:15:00Z",
+    "BasePrice": 23.49,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0376",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-17T07:15:00Z",
+    "BasePrice": 19.72,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0104",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-028",
+    "StartUtc": "2025-10-17T07:15:00Z",
+    "BasePrice": 25.85,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0656",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-17T07:15:00Z",
+    "BasePrice": 19.24,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0551",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-17T07:15:00Z",
+    "BasePrice": 22.39,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0829",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-17T07:15:00Z",
+    "BasePrice": 18.15,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0135",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-034",
+    "StartUtc": "2025-10-17T07:15:00Z",
+    "BasePrice": 19.63,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0009",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-037",
+    "StartUtc": "2025-10-17T07:15:00Z",
+    "BasePrice": 35.19,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0667",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-17T07:15:00Z",
+    "BasePrice": 19.81,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0850",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-17T07:15:00Z",
+    "BasePrice": 27.90,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0383",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-002",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 27.62,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0489",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 19.21,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0147",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 18.30,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0782",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 35.27,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0595",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-013",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 25.32,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0054",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-016",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 34.84,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0447",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 20.74,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0433",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 23.71,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0373",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-024",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 25.11,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0106",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-028",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 26.52,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0657",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 20.50,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0620",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-030",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 19.26,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0832",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-033",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 34.92,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0136",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-034",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 20.11,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0123",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 18.05,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0836",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 20.21,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0281",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-040",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 22.24,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0882",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 18.83,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0674",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-048",
+    "StartUtc": "2025-10-17T09:00:00Z",
+    "BasePrice": 18.62,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0285",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-003",
+    "StartUtc": "2025-10-17T21:00:00Z",
+    "BasePrice": 32.60,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0762",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-007",
+    "StartUtc": "2025-10-17T21:00:00Z",
+    "BasePrice": 27.76,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0330",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-009",
+    "StartUtc": "2025-10-17T21:00:00Z",
+    "BasePrice": 22.24,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0779",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-17T21:00:00Z",
+    "BasePrice": 33.71,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0506",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-014",
+    "StartUtc": "2025-10-17T21:00:00Z",
+    "BasePrice": 18.47,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0352",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-018",
+    "StartUtc": "2025-10-17T21:00:00Z",
+    "BasePrice": 22.98,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0317",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-025",
+    "StartUtc": "2025-10-17T21:00:00Z",
+    "BasePrice": 19.29,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0513",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-17T21:00:00Z",
+    "BasePrice": 18.42,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0590",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-17T21:00:00Z",
+    "BasePrice": 19.40,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0042",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-030",
+    "StartUtc": "2025-10-17T21:00:00Z",
+    "BasePrice": 20.93,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0439",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-17T21:00:00Z",
+    "BasePrice": 22.28,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0522",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-17T21:00:00Z",
+    "BasePrice": 18.22,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0244",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-17T21:00:00Z",
+    "BasePrice": 19.68,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0231",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-043",
+    "StartUtc": "2025-10-17T21:00:00Z",
+    "BasePrice": 19.81,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0197",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-17T21:00:00Z",
+    "BasePrice": 20.27,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0472",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-17T21:00:00Z",
+    "BasePrice": 34.84,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0159",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-002",
+    "StartUtc": "2025-10-17T22:30:00Z",
+    "BasePrice": 26.71,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0419",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-17T22:30:00Z",
+    "BasePrice": 20.15,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0781",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-17T22:30:00Z",
+    "BasePrice": 34.74,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0504",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-015",
+    "StartUtc": "2025-10-17T22:30:00Z",
+    "BasePrice": 27.57,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0326",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-018",
+    "StartUtc": "2025-10-17T22:30:00Z",
+    "BasePrice": 23.05,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0786",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-17T22:30:00Z",
+    "BasePrice": 20.44,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0316",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-17T22:30:00Z",
+    "BasePrice": 23.40,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0593",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-17T22:30:00Z",
+    "BasePrice": 19.70,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0041",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-030",
+    "StartUtc": "2025-10-17T22:30:00Z",
+    "BasePrice": 19.40,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0584",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-033",
+    "StartUtc": "2025-10-17T22:30:00Z",
+    "BasePrice": 34.39,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0081",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-17T22:30:00Z",
+    "BasePrice": 23.27,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0495",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-17T22:30:00Z",
+    "BasePrice": 20.89,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0523",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-17T22:30:00Z",
+    "BasePrice": 18.27,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0617",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-17T22:30:00Z",
+    "BasePrice": 19.36,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0139",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-17T22:30:00Z",
+    "BasePrice": 25.56,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0195",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-046",
+    "StartUtc": "2025-10-17T22:30:00Z",
+    "BasePrice": 22.89,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0877",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-17T22:30:00Z",
+    "BasePrice": 19.39,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0004",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-048",
+    "StartUtc": "2025-10-17T22:30:00Z",
+    "BasePrice": 20.48,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0284",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-003",
+    "StartUtc": "2025-10-18T00:15:00Z",
+    "BasePrice": 33.12,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0758",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-005",
+    "StartUtc": "2025-10-18T00:15:00Z",
+    "BasePrice": 23.39,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0418",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-18T00:15:00Z",
+    "BasePrice": 20.52,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0718",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-18T00:15:00Z",
+    "BasePrice": 34.47,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0661",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-013",
+    "StartUtc": "2025-10-18T00:15:00Z",
+    "BasePrice": 26.96,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0505",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-016",
+    "StartUtc": "2025-10-18T00:15:00Z",
+    "BasePrice": 32.58,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0353",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-017",
+    "StartUtc": "2025-10-18T00:15:00Z",
+    "BasePrice": 18.69,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0541",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-18T00:15:00Z",
+    "BasePrice": 20.75,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0314",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-18T00:15:00Z",
+    "BasePrice": 21.53,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0700",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-18T00:15:00Z",
+    "BasePrice": 20.03,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0040",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-18T00:15:00Z",
+    "BasePrice": 22.99,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0438",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-034",
+    "StartUtc": "2025-10-18T00:15:00Z",
+    "BasePrice": 20.99,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0344",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-040",
+    "StartUtc": "2025-10-18T00:15:00Z",
+    "BasePrice": 21.68,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0185",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-18T00:15:00Z",
+    "BasePrice": 20.54,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0141",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-18T00:15:00Z",
+    "BasePrice": 26.84,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0196",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-18T00:15:00Z",
+    "BasePrice": 18.86,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0881",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-18T00:15:00Z",
+    "BasePrice": 18.07,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0008",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-18T00:15:00Z",
+    "BasePrice": 34.71,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0283",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-001",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 19.44,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0770",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-006",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 19.23,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0421",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 19.43,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0773",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 34.99,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0496",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-013",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 27.91,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0539",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-016",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 32.87,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0455",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-017",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 19.76,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0545",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 18.28,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0450",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 19.64,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0149",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-025",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 20.46,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0511",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-028",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 26.00,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0592",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 18.37,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0585",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 19.15,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0573",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 21.53,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0217",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 20.81,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0524",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 19.35,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0186",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-042",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 22.36,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0232",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-043",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 20.94,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0198",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 18.93,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0369",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 18.65,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0470",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-18T02:00:00Z",
+    "BasePrice": 33.09,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0156",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-001",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 18.82,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0767",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-006",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 19.32,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0329",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 18.00,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0716",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 33.53,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0660",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-013",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 25.90,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0537",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-015",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 26.59,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0354",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-018",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 23.12,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0543",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 20.23,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0315",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 21.98,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0825",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 19.97,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0701",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 19.01,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0039",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 23.32,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0583",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 18.48,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0080",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-034",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 20.98,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0494",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 19.90,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0093",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-040",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 22.54,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0187",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-042",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 22.12,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0140",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 27.85,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0745",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-046",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 21.86,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0005",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-048",
+    "StartUtc": "2025-10-18T03:45:00Z",
+    "BasePrice": 18.67,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0157",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-002",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 27.74,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0761",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-005",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 24.22,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0771",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-006",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 19.57,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0732",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 19.84,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0780",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 34.95,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0662",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 19.62,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0538",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-016",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 34.31,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0355",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-017",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 20.82,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0542",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-020",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 34.78,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0150",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 22.41,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0826",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-028",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 26.37,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0591",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 18.77,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0043",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 24.23,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0437",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 23.18,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0618",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 19.82,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0138",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 26.23,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0581",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-046",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 23.49,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0876",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 20.06,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0471",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-18T05:30:00Z",
+    "BasePrice": 32.92,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0155",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-002",
+    "StartUtc": "2025-10-18T07:15:00Z",
+    "BasePrice": 27.60,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0324",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-18T07:15:00Z",
+    "BasePrice": 18.95,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0420",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-18T07:15:00Z",
+    "BasePrice": 18.64,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0717",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-010",
+    "StartUtc": "2025-10-18T07:15:00Z",
+    "BasePrice": 18.37,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0536",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-016",
+    "StartUtc": "2025-10-18T07:15:00Z",
+    "BasePrice": 32.50,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0327",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-018",
+    "StartUtc": "2025-10-18T07:15:00Z",
+    "BasePrice": 23.24,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0544",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-18T07:15:00Z",
+    "BasePrice": 19.50,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0451",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-024",
+    "StartUtc": "2025-10-18T07:15:00Z",
+    "BasePrice": 27.77,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0151",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-025",
+    "StartUtc": "2025-10-18T07:15:00Z",
+    "BasePrice": 18.81,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0510",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-18T07:15:00Z",
+    "BasePrice": 20.50,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0702",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-18T07:15:00Z",
+    "BasePrice": 19.27,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0436",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-034",
+    "StartUtc": "2025-10-18T07:15:00Z",
+    "BasePrice": 18.34,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0218",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-18T07:15:00Z",
+    "BasePrice": 20.65,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0345",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-18T07:15:00Z",
+    "BasePrice": 18.77,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0243",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-18T07:15:00Z",
+    "BasePrice": 19.96,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0230",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-043",
+    "StartUtc": "2025-10-18T07:15:00Z",
+    "BasePrice": 19.09,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0582",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-046",
+    "StartUtc": "2025-10-18T07:15:00Z",
+    "BasePrice": 21.70,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0006",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-048",
+    "StartUtc": "2025-10-18T07:15:00Z",
+    "BasePrice": 20.89,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0158",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-002",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 26.87,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0325",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-005",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 22.32,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0763",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-006",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 20.72,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0328",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 18.96,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0772",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 34.60,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0497",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 20.42,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0503",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-014",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 20.37,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0456",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-017",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 20.70,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0787",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-020",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 34.82,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0148",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 22.14,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0512",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-028",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 26.64,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0703",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 18.45,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0586",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 19.96,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0440",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 23.93,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0493",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 20.31,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0094",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 20.55,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0233",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 27.85,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0744",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-046",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 22.95,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0880",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 20.90,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0007",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-048",
+    "StartUtc": "2025-10-18T09:00:00Z",
+    "BasePrice": 18.74,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0194",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-001",
+    "StartUtc": "2025-10-18T21:00:00Z",
+    "BasePrice": 20.04,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0175",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-005",
+    "StartUtc": "2025-10-18T21:00:00Z",
+    "BasePrice": 21.59,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0393",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-18T21:00:00Z",
+    "BasePrice": 20.55,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0334",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-015",
+    "StartUtc": "2025-10-18T21:00:00Z",
+    "BasePrice": 26.49,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0633",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-018",
+    "StartUtc": "2025-10-18T21:00:00Z",
+    "BasePrice": 23.53,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0792",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-020",
+    "StartUtc": "2025-10-18T21:00:00Z",
+    "BasePrice": 33.90,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0458",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-021",
+    "StartUtc": "2025-10-18T21:00:00Z",
+    "BasePrice": 20.21,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0726",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-18T21:00:00Z",
+    "BasePrice": 20.88,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0164",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-18T21:00:00Z",
+    "BasePrice": 23.10,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0160",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-034",
+    "StartUtc": "2025-10-18T21:00:00Z",
+    "BasePrice": 18.22,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0131",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-037",
+    "StartUtc": "2025-10-18T21:00:00Z",
+    "BasePrice": 33.06,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0848",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-18T21:00:00Z",
+    "BasePrice": 20.54,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0289",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-18T21:00:00Z",
+    "BasePrice": 20.61,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0862",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-18T21:00:00Z",
+    "BasePrice": 26.25,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0468",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-18T21:00:00Z",
+    "BasePrice": 18.20,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0241",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-048",
+    "StartUtc": "2025-10-18T21:00:00Z",
+    "BasePrice": 20.51,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0193",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-001",
+    "StartUtc": "2025-10-18T22:30:00Z",
+    "BasePrice": 19.21,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0174",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-18T22:30:00Z",
+    "BasePrice": 19.98,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0333",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-014",
+    "StartUtc": "2025-10-18T22:30:00Z",
+    "BasePrice": 20.39,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0695",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-18T22:30:00Z",
+    "BasePrice": 20.00,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0747",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-18T22:30:00Z",
+    "BasePrice": 22.22,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0580",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-18T22:30:00Z",
+    "BasePrice": 20.75,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0824",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-18T22:30:00Z",
+    "BasePrice": 19.93,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0464",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-18T22:30:00Z",
+    "BasePrice": 24.13,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0835",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-18T22:30:00Z",
+    "BasePrice": 18.30,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0257",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-034",
+    "StartUtc": "2025-10-18T22:30:00Z",
+    "BasePrice": 18.46,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0849",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-18T22:30:00Z",
+    "BasePrice": 19.83,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0287",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-042",
+    "StartUtc": "2025-10-18T22:30:00Z",
+    "BasePrice": 22.39,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0859",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-043",
+    "StartUtc": "2025-10-18T22:30:00Z",
+    "BasePrice": 19.70,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0240",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-18T22:30:00Z",
+    "BasePrice": 33.26,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0191",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-003",
+    "StartUtc": "2025-10-19T00:15:00Z",
+    "BasePrice": 34.28,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0689",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-006",
+    "StartUtc": "2025-10-19T00:15:00Z",
+    "BasePrice": 19.86,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0540",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-016",
+    "StartUtc": "2025-10-19T00:15:00Z",
+    "BasePrice": 32.71,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0631",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-017",
+    "StartUtc": "2025-10-19T00:15:00Z",
+    "BasePrice": 18.75,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0696",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-020",
+    "StartUtc": "2025-10-19T00:15:00Z",
+    "BasePrice": 33.37,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0461",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-19T00:15:00Z",
+    "BasePrice": 23.85,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0800",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-19T00:15:00Z",
+    "BasePrice": 19.61,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0087",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-028",
+    "StartUtc": "2025-10-19T00:15:00Z",
+    "BasePrice": 25.51,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0463",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-030",
+    "StartUtc": "2025-10-19T00:15:00Z",
+    "BasePrice": 20.25,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0350",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-033",
+    "StartUtc": "2025-10-19T00:15:00Z",
+    "BasePrice": 35.03,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0161",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-19T00:15:00Z",
+    "BasePrice": 21.77,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0547",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-039",
+    "StartUtc": "2025-10-19T00:15:00Z",
+    "BasePrice": 18.05,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0288",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-19T00:15:00Z",
+    "BasePrice": 20.08,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0322",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-043",
+    "StartUtc": "2025-10-19T00:15:00Z",
+    "BasePrice": 19.84,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0867",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-046",
+    "StartUtc": "2025-10-19T00:15:00Z",
+    "BasePrice": 21.79,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0065",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-001",
+    "StartUtc": "2025-10-19T02:00:00Z",
+    "BasePrice": 20.71,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0172",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-19T02:00:00Z",
+    "BasePrice": 18.04,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0692",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-007",
+    "StartUtc": "2025-10-19T02:00:00Z",
+    "BasePrice": 27.88,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0424",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-19T02:00:00Z",
+    "BasePrice": 19.81,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0335",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-014",
+    "StartUtc": "2025-10-19T02:00:00Z",
+    "BasePrice": 18.12,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0793",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-19T02:00:00Z",
+    "BasePrice": 20.30,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0746",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-021",
+    "StartUtc": "2025-10-19T02:00:00Z",
+    "BasePrice": 20.85,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0801",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-024",
+    "StartUtc": "2025-10-19T02:00:00Z",
+    "BasePrice": 27.62,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0816",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-028",
+    "StartUtc": "2025-10-19T02:00:00Z",
+    "BasePrice": 25.81,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0727",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-19T02:00:00Z",
+    "BasePrice": 18.93,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0163",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-030",
+    "StartUtc": "2025-10-19T02:00:00Z",
+    "BasePrice": 19.94,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0834",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-19T02:00:00Z",
+    "BasePrice": 18.76,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0255",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-034",
+    "StartUtc": "2025-10-19T02:00:00Z",
+    "BasePrice": 19.46,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0706",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-19T02:00:00Z",
+    "BasePrice": 19.99,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0348",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-19T02:00:00Z",
+    "BasePrice": 19.30,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0861",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-19T02:00:00Z",
+    "BasePrice": 25.52,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0467",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-19T02:00:00Z",
+    "BasePrice": 18.22,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0891",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-19T02:00:00Z",
+    "BasePrice": 34.24,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0192",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-001",
+    "StartUtc": "2025-10-19T03:45:00Z",
+    "BasePrice": 18.14,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0756",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-19T03:45:00Z",
+    "BasePrice": 18.33,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0690",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-006",
+    "StartUtc": "2025-10-19T03:45:00Z",
+    "BasePrice": 20.93,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0427",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-19T03:45:00Z",
+    "BasePrice": 18.99,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0332",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-014",
+    "StartUtc": "2025-10-19T03:45:00Z",
+    "BasePrice": 19.93,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0119",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-020",
+    "StartUtc": "2025-10-19T03:45:00Z",
+    "BasePrice": 34.85,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0457",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-19T03:45:00Z",
+    "BasePrice": 23.73,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0578",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-19T03:45:00Z",
+    "BasePrice": 19.18,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0086",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-19T03:45:00Z",
+    "BasePrice": 20.27,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0465",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-19T03:45:00Z",
+    "BasePrice": 22.72,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0253",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-034",
+    "StartUtc": "2025-10-19T03:45:00Z",
+    "BasePrice": 18.22,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0346",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-042",
+    "StartUtc": "2025-10-19T03:45:00Z",
+    "BasePrice": 22.83,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0323",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-19T03:45:00Z",
+    "BasePrice": 27.68,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0672",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-19T03:45:00Z",
+    "BasePrice": 20.48,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0889",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-049",
+    "StartUtc": "2025-10-19T03:45:00Z",
+    "BasePrice": 35.18,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0063",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-002",
+    "StartUtc": "2025-10-19T05:30:00Z",
+    "BasePrice": 25.01,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0173",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-005",
+    "StartUtc": "2025-10-19T05:30:00Z",
+    "BasePrice": 21.68,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0425",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-19T05:30:00Z",
+    "BasePrice": 19.15,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0305",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-014",
+    "StartUtc": "2025-10-19T05:30:00Z",
+    "BasePrice": 18.57,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0118",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-19T05:30:00Z",
+    "BasePrice": 20.41,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0460",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-19T05:30:00Z",
+    "BasePrice": 24.21,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0579",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-024",
+    "StartUtc": "2025-10-19T05:30:00Z",
+    "BasePrice": 27.24,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0162",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-030",
+    "StartUtc": "2025-10-19T05:30:00Z",
+    "BasePrice": 19.49,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0833",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-19T05:30:00Z",
+    "BasePrice": 20.78,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0254",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-034",
+    "StartUtc": "2025-10-19T05:30:00Z",
+    "BasePrice": 19.30,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0129",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-19T05:30:00Z",
+    "BasePrice": 19.54,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0705",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-19T05:30:00Z",
+    "BasePrice": 18.92,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0546",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-040",
+    "StartUtc": "2025-10-19T05:30:00Z",
+    "BasePrice": 22.54,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0286",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-042",
+    "StartUtc": "2025-10-19T05:30:00Z",
+    "BasePrice": 23.02,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0860",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-19T05:30:00Z",
+    "BasePrice": 27.78,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0469",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-046",
+    "StartUtc": "2025-10-19T05:30:00Z",
+    "BasePrice": 24.13,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0671",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-19T05:30:00Z",
+    "BasePrice": 20.32,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0242",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-048",
+    "StartUtc": "2025-10-19T05:30:00Z",
+    "BasePrice": 18.49,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0064",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-003",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 33.04,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0691",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-007",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 26.14,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0733",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 20.57,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0426",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 20.57,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0306",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-016",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 33.78,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0630",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-017",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 20.74,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0694",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-020",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 32.71,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0435",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-021",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 18.06,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0815",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-028",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 25.01,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0466",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 22.96,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0351",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-033",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 34.12,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0396",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 21.84,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0130",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-037",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 34.89,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0704",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 18.95,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0347",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-042",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 23.45,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0855",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-043",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 20.89,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0866",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-046",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 22.94,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0673",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 18.27,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0888",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-048",
+    "StartUtc": "2025-10-19T07:15:00Z",
+    "BasePrice": 20.54,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0525",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-003",
+    "StartUtc": "2025-10-19T09:00:00Z",
+    "BasePrice": 32.99,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0755",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-19T09:00:00Z",
+    "BasePrice": 18.83,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0331",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-014",
+    "StartUtc": "2025-10-19T09:00:00Z",
+    "BasePrice": 20.25,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0632",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-017",
+    "StartUtc": "2025-10-19T09:00:00Z",
+    "BasePrice": 20.98,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0693",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-19T09:00:00Z",
+    "BasePrice": 20.45,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0459",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-021",
+    "StartUtc": "2025-10-19T09:00:00Z",
+    "BasePrice": 19.65,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0810",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-19T09:00:00Z",
+    "BasePrice": 19.59,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0823",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-027",
+    "StartUtc": "2025-10-19T09:00:00Z",
+    "BasePrice": 19.34,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0462",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-030",
+    "StartUtc": "2025-10-19T09:00:00Z",
+    "BasePrice": 18.83,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0256",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-19T09:00:00Z",
+    "BasePrice": 24.23,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0132",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-19T09:00:00Z",
+    "BasePrice": 19.90,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0707",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-19T09:00:00Z",
+    "BasePrice": 18.67,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0349",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-042",
+    "StartUtc": "2025-10-19T09:00:00Z",
+    "BasePrice": 21.67,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0854",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-19T09:00:00Z",
+    "BasePrice": 25.52,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0670",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-19T09:00:00Z",
+    "BasePrice": 18.08,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0605",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-003",
+    "StartUtc": "2025-10-19T21:00:00Z",
+    "BasePrice": 35.18,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0247",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-006",
+    "StartUtc": "2025-10-19T21:00:00Z",
+    "BasePrice": 19.67,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0698",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-009",
+    "StartUtc": "2025-10-19T21:00:00Z",
+    "BasePrice": 24.45,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0641",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-013",
+    "StartUtc": "2025-10-19T21:00:00Z",
+    "BasePrice": 27.17,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0219",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-015",
+    "StartUtc": "2025-10-19T21:00:00Z",
+    "BasePrice": 25.75,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0629",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-017",
+    "StartUtc": "2025-10-19T21:00:00Z",
+    "BasePrice": 19.97,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0601",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-021",
+    "StartUtc": "2025-10-19T21:00:00Z",
+    "BasePrice": 19.55,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0805",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-19T21:00:00Z",
+    "BasePrice": 20.35,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0210",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-025",
+    "StartUtc": "2025-10-19T21:00:00Z",
+    "BasePrice": 20.71,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0508",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-19T21:00:00Z",
+    "BasePrice": 20.15,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0725",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-030",
+    "StartUtc": "2025-10-19T21:00:00Z",
+    "BasePrice": 18.86,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0739",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-033",
+    "StartUtc": "2025-10-19T21:00:00Z",
+    "BasePrice": 34.87,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0025",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-19T21:00:00Z",
+    "BasePrice": 23.61,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0259",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-19T21:00:00Z",
+    "BasePrice": 19.80,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0534",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-19T21:00:00Z",
+    "BasePrice": 18.79,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0302",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-19T21:00:00Z",
+    "BasePrice": 20.82,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0366",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-19T21:00:00Z",
+    "BasePrice": 19.35,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0606",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-003",
+    "StartUtc": "2025-10-19T22:30:00Z",
+    "BasePrice": 33.94,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0766",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-006",
+    "StartUtc": "2025-10-19T22:30:00Z",
+    "BasePrice": 20.28,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0697",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-009",
+    "StartUtc": "2025-10-19T22:30:00Z",
+    "BasePrice": 23.70,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0235",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-19T22:30:00Z",
+    "BasePrice": 18.89,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0559",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-018",
+    "StartUtc": "2025-10-19T22:30:00Z",
+    "BasePrice": 23.56,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0721",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-19T22:30:00Z",
+    "BasePrice": 22.15,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0680",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-024",
+    "StartUtc": "2025-10-19T22:30:00Z",
+    "BasePrice": 25.69,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0209",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-19T22:30:00Z",
+    "BasePrice": 21.95,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0811",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-028",
+    "StartUtc": "2025-10-19T22:30:00Z",
+    "BasePrice": 25.12,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0570",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-19T22:30:00Z",
+    "BasePrice": 19.27,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0596",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-034",
+    "StartUtc": "2025-10-19T22:30:00Z",
+    "BasePrice": 19.58,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0342",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-19T22:30:00Z",
+    "BasePrice": 19.10,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0535",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-042",
+    "StartUtc": "2025-10-19T22:30:00Z",
+    "BasePrice": 22.63,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0300",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-19T22:30:00Z",
+    "BasePrice": 19.29,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0125",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-19T22:30:00Z",
+    "BasePrice": 19.61,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0101",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-001",
+    "StartUtc": "2025-10-20T00:15:00Z",
+    "BasePrice": 18.11,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0589",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-20T00:15:00Z",
+    "BasePrice": 19.22,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0248",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-006",
+    "StartUtc": "2025-10-20T00:15:00Z",
+    "BasePrice": 19.16,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0730",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-20T00:15:00Z",
+    "BasePrice": 18.51,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0486",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-20T00:15:00Z",
+    "BasePrice": 35.12,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0236",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-20T00:15:00Z",
+    "BasePrice": 20.11,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0221",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-015",
+    "StartUtc": "2025-10-20T00:15:00Z",
+    "BasePrice": 26.00,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0558",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-018",
+    "StartUtc": "2025-10-20T00:15:00Z",
+    "BasePrice": 21.78,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0723",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-021",
+    "StartUtc": "2025-10-20T00:15:00Z",
+    "BasePrice": 18.28,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0819",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-028",
+    "StartUtc": "2025-10-20T00:15:00Z",
+    "BasePrice": 26.65,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0519",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-20T00:15:00Z",
+    "BasePrice": 19.49,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0361",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-20T00:15:00Z",
+    "BasePrice": 22.03,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0737",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-20T00:15:00Z",
+    "BasePrice": 20.23,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0027",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-20T00:15:00Z",
+    "BasePrice": 24.01,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0303",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-20T00:15:00Z",
+    "BasePrice": 19.59,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0365",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-20T00:15:00Z",
+    "BasePrice": 20.02,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0892",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-048",
+    "StartUtc": "2025-10-20T00:15:00Z",
+    "BasePrice": 20.78,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0246",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-006",
+    "StartUtc": "2025-10-20T02:00:00Z",
+    "BasePrice": 18.56,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0478",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-20T02:00:00Z",
+    "BasePrice": 19.93,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0776",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-010",
+    "StartUtc": "2025-10-20T02:00:00Z",
+    "BasePrice": 18.85,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0643",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-20T02:00:00Z",
+    "BasePrice": 20.23,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0166",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-018",
+    "StartUtc": "2025-10-20T02:00:00Z",
+    "BasePrice": 22.75,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0602",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-20T02:00:00Z",
+    "BasePrice": 21.83,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0679",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-20T02:00:00Z",
+    "BasePrice": 18.14,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0213",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-20T02:00:00Z",
+    "BasePrice": 21.64,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0507",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-20T02:00:00Z",
+    "BasePrice": 19.82,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0359",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-030",
+    "StartUtc": "2025-10-20T02:00:00Z",
+    "BasePrice": 19.98,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0061",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-033",
+    "StartUtc": "2025-10-20T02:00:00Z",
+    "BasePrice": 35.04,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0339",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-20T02:00:00Z",
+    "BasePrice": 18.88,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0258",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-20T02:00:00Z",
+    "BasePrice": 20.86,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0533",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-20T02:00:00Z",
+    "BasePrice": 18.97,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0128",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-20T02:00:00Z",
+    "BasePrice": 20.05,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0100",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-003",
+    "StartUtc": "2025-10-20T03:45:00Z",
+    "BasePrice": 33.72,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0245",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-007",
+    "StartUtc": "2025-10-20T03:45:00Z",
+    "BasePrice": 26.75,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0699",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-009",
+    "StartUtc": "2025-10-20T03:45:00Z",
+    "BasePrice": 22.51,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0487",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-011",
+    "StartUtc": "2025-10-20T03:45:00Z",
+    "BasePrice": 33.34,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0555",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-018",
+    "StartUtc": "2025-10-20T03:45:00Z",
+    "BasePrice": 23.37,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0604",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-20T03:45:00Z",
+    "BasePrice": 24.29,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0804",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-20T03:45:00Z",
+    "BasePrice": 18.36,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0812",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-028",
+    "StartUtc": "2025-10-20T03:45:00Z",
+    "BasePrice": 27.04,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0509",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-20T03:45:00Z",
+    "BasePrice": 19.64,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0422",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-030",
+    "StartUtc": "2025-10-20T03:45:00Z",
+    "BasePrice": 18.79,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0062",
+    "MovieId": "tmdb-1290879",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-20T03:45:00Z",
+    "BasePrice": 18.11,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0301",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-046",
+    "StartUtc": "2025-10-20T03:45:00Z",
+    "BasePrice": 23.19,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0368",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-20T03:45:00Z",
+    "BasePrice": 18.36,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0102",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-003",
+    "StartUtc": "2025-10-20T05:30:00Z",
+    "BasePrice": 35.12,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0587",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-20T05:30:00Z",
+    "BasePrice": 18.63,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0734",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-006",
+    "StartUtc": "2025-10-20T05:30:00Z",
+    "BasePrice": 19.87,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0479",
+    "MovieId": "tmdb-1061474",
+    "AuditoriumId": "aud-008",
+    "StartUtc": "2025-10-20T05:30:00Z",
+    "BasePrice": 20.86,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0777",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-010",
+    "StartUtc": "2025-10-20T05:30:00Z",
+    "BasePrice": 18.03,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0556",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-017",
+    "StartUtc": "2025-10-20T05:30:00Z",
+    "BasePrice": 20.14,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0722",
+    "MovieId": "tmdb-1086910",
+    "AuditoriumId": "aud-021",
+    "StartUtc": "2025-10-20T05:30:00Z",
+    "BasePrice": 20.03,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0677",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-20T05:30:00Z",
+    "BasePrice": 19.28,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0572",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-20T05:30:00Z",
+    "BasePrice": 20.24,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0360",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-030",
+    "StartUtc": "2025-10-20T05:30:00Z",
+    "BasePrice": 19.25,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0740",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-032",
+    "StartUtc": "2025-10-20T05:30:00Z",
+    "BasePrice": 19.83,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0341",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-20T05:30:00Z",
+    "BasePrice": 19.41,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0260",
+    "MovieId": "tmdb-575265",
+    "AuditoriumId": "aud-038",
+    "StartUtc": "2025-10-20T05:30:00Z",
+    "BasePrice": 19.42,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0501",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-042",
+    "StartUtc": "2025-10-20T05:30:00Z",
+    "BasePrice": 21.75,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0858",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-044",
+    "StartUtc": "2025-10-20T05:30:00Z",
+    "BasePrice": 27.12,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0367",
+    "MovieId": "tmdb-1311031",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-20T05:30:00Z",
+    "BasePrice": 18.32,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0103",
+    "MovieId": "tmdb-793387",
+    "AuditoriumId": "aud-003",
+    "StartUtc": "2025-10-20T07:15:00Z",
+    "BasePrice": 35.30,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0735",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-007",
+    "StartUtc": "2025-10-20T07:15:00Z",
+    "BasePrice": 25.98,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0731",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-009",
+    "StartUtc": "2025-10-20T07:15:00Z",
+    "BasePrice": 23.85,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0485",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-010",
+    "StartUtc": "2025-10-20T07:15:00Z",
+    "BasePrice": 18.51,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0557",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-018",
+    "StartUtc": "2025-10-20T07:15:00Z",
+    "BasePrice": 21.52,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0791",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-019",
+    "StartUtc": "2025-10-20T07:15:00Z",
+    "BasePrice": 18.92,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0678",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-024",
+    "StartUtc": "2025-10-20T07:15:00Z",
+    "BasePrice": 25.01,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0211",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-025",
+    "StartUtc": "2025-10-20T07:15:00Z",
+    "BasePrice": 18.09,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0820",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-028",
+    "StartUtc": "2025-10-20T07:15:00Z",
+    "BasePrice": 26.41,
+    "Class": "VMax"
+  },
+  {
+    "Id": "session-0571",
+    "MovieId": "tmdb-533533",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-20T07:15:00Z",
+    "BasePrice": 18.98,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0423",
+    "MovieId": "tmdb-1267319",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-20T07:15:00Z",
+    "BasePrice": 23.17,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0026",
+    "MovieId": "tmdb-1328803",
+    "AuditoriumId": "aud-035",
+    "StartUtc": "2025-10-20T07:15:00Z",
+    "BasePrice": 22.25,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0340",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-036",
+    "StartUtc": "2025-10-20T07:15:00Z",
+    "BasePrice": 20.00,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0502",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-041",
+    "StartUtc": "2025-10-20T07:15:00Z",
+    "BasePrice": 20.48,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0304",
+    "MovieId": "tmdb-986097",
+    "AuditoriumId": "aud-045",
+    "StartUtc": "2025-10-20T07:15:00Z",
+    "BasePrice": 19.74,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0127",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-20T07:15:00Z",
+    "BasePrice": 20.20,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0588",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-004",
+    "StartUtc": "2025-10-20T09:00:00Z",
+    "BasePrice": 18.79,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0736",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-006",
+    "StartUtc": "2025-10-20T09:00:00Z",
+    "BasePrice": 19.53,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0729",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-009",
+    "StartUtc": "2025-10-20T09:00:00Z",
+    "BasePrice": 22.82,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0484",
+    "MovieId": "tmdb-617126",
+    "AuditoriumId": "aud-010",
+    "StartUtc": "2025-10-20T09:00:00Z",
+    "BasePrice": 19.99,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0642",
+    "MovieId": "tmdb-755898",
+    "AuditoriumId": "aud-012",
+    "StartUtc": "2025-10-20T09:00:00Z",
+    "BasePrice": 19.21,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0220",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-016",
+    "StartUtc": "2025-10-20T09:00:00Z",
+    "BasePrice": 33.15,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0165",
+    "MovieId": "tmdb-1186350",
+    "AuditoriumId": "aud-017",
+    "StartUtc": "2025-10-20T09:00:00Z",
+    "BasePrice": 19.78,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0790",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-020",
+    "StartUtc": "2025-10-20T09:00:00Z",
+    "BasePrice": 33.72,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0603",
+    "MovieId": "tmdb-1251717",
+    "AuditoriumId": "aud-022",
+    "StartUtc": "2025-10-20T09:00:00Z",
+    "BasePrice": 23.78,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0681",
+    "MovieId": "tmdb-1053008",
+    "AuditoriumId": "aud-023",
+    "StartUtc": "2025-10-20T09:00:00Z",
+    "BasePrice": 20.27,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0212",
+    "MovieId": "tmdb-941109",
+    "AuditoriumId": "aud-026",
+    "StartUtc": "2025-10-20T09:00:00Z",
+    "BasePrice": 23.53,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0518",
+    "MovieId": "tmdb-1038392",
+    "AuditoriumId": "aud-029",
+    "StartUtc": "2025-10-20T09:00:00Z",
+    "BasePrice": 19.28,
+    "Class": "Standard"
+  },
+  {
+    "Id": "session-0724",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-031",
+    "StartUtc": "2025-10-20T09:00:00Z",
+    "BasePrice": 23.63,
+    "Class": "Deluxe"
+  },
+  {
+    "Id": "session-0738",
+    "MovieId": "tmdb-1257009",
+    "AuditoriumId": "aud-033",
+    "StartUtc": "2025-10-20T09:00:00Z",
+    "BasePrice": 32.91,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0343",
+    "MovieId": "tmdb-803796",
+    "AuditoriumId": "aud-037",
+    "StartUtc": "2025-10-20T09:00:00Z",
+    "BasePrice": 35.26,
+    "Class": "GoldClass"
+  },
+  {
+    "Id": "session-0126",
+    "MovieId": "tmdb-338969",
+    "AuditoriumId": "aud-047",
+    "StartUtc": "2025-10-20T09:00:00Z",
+    "BasePrice": 19.82,
+    "Class": "Standard"
   }
 ]

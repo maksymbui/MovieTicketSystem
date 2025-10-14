@@ -9,24 +9,9 @@ import {
   QuoteRequestPayload,
   OrderQuote
 } from '@/hooks/useApi';
-import {
-  Alert,
-  Badge,
-  Box,
-  Button,
-  Card,
-  Divider,
-  Grid,
-  Group,
-  List,
-  Loader,
-  Paper,
-  Stack,
-  Text,
-  Title,
-  Tooltip
-} from '@mantine/core';
+import { Alert, Badge, Button, Card, Divider, Grid, Group, List, Loader, Stack, Text, Title, Tooltip } from '@mantine/core';
 import { IconChairDirector, IconInfoCircle, IconReceipt, IconTicket, IconUser } from '@tabler/icons-react';
+import classes from './SeatSelectionPage.module.css';
 
 const SeatSelectionPage = () => {
   const { screeningId } = useParams<{ screeningId: string }>();
@@ -172,6 +157,15 @@ const SeatSelectionPage = () => {
   );
 };
 
+const computeAisleBreaks = (columns: number) => {
+  if (columns <= 6) return [];
+  const breaks: number[] = [];
+  for (let i = 4; i < columns; i += 4) {
+    if (i < columns) breaks.push(i);
+  }
+  return breaks;
+};
+
 const SeatGrid = ({
   seatMap,
   selected,
@@ -182,64 +176,62 @@ const SeatGrid = ({
   onToggle: (seat: string) => void;
 }) => {
   const selectedLabels = useMemo(() => new Set(selected.map((s) => s.seatLabel)), [selected]);
-
-  const rows = Array.from({ length: seatMap.rows }, (_, i) => String.fromCharCode(65 + i));
-  const cols = Array.from({ length: seatMap.columns }, (_, i) => i + 1);
+  const rows = useMemo(() => Array.from({ length: seatMap.rows }, (_, i) => String.fromCharCode(65 + i)), [seatMap.rows]);
+  const columns = useMemo(() => Array.from({ length: seatMap.columns }, (_, i) => i + 1), [seatMap.columns]);
+  const aisleBreaks = useMemo(() => computeAisleBreaks(seatMap.columns), [seatMap.columns]);
 
   return (
-    <Box ta="center">
-      <Paper
-        radius="md"
-        withBorder
-        mb="md"
-        style={{
-          display: 'inline-block',
-          padding: '1.5rem',
-          background: '#181818',
-          borderColor: '#2f2f2f'
-        }}
-      >
-        <Text size="xs" c="gray.4" mb="xs" tt="uppercase" fw={600}>
-          Front of cinema
-        </Text>
-        <Box
-          style={{
-            display: 'grid',
-            gap: '0.4rem',
-            gridTemplateColumns: `40px repeat(${cols.length}, 42px)`
-          }}
-        >
-          <span />
-          {cols.map((col) => (
-            <Text key={col} size="xs" c="gray.5">
-              {col}
-            </Text>
-          ))}
-          {rows.map((row) => (
-            <React.Fragment key={row}>
-              <Text size="xs" c="gray.5" style={{ lineHeight: '42px' }}>
-                {row}
-              </Text>
-              {cols.map((col) => {
-                const seatLabel = `${row}${col}`;
-                const state = seatMap.seats[seatLabel] ?? 'Available';
-                const isSelected = selectedLabels.has(seatLabel);
+    <div className={classes.mapOuter}>
+      <div className={classes.screenHeader}>Front of cinema</div>
+      <div className={classes.mapScroll}>
+        <div className={classes.mapContent}>
+          {rows.map((row, rowIndex) => (
+            <div className={classes.row} key={row}>
+              <span className={classes.rowLabel}>{row}</span>
+              <div className={classes.seatRow}>
+                {columns.flatMap((col) => {
+                  const seatLabel = `${row}${col}`;
+                  const state = seatMap.seats[seatLabel] ?? 'Available';
+                  const isSelected = selectedLabels.has(seatLabel);
+                  const seatNode = (
+                    <SeatButton
+                      key={seatLabel}
+                      seatLabel={seatLabel}
+                      state={state}
+                      isSelected={isSelected}
+                      onToggle={onToggle}
+                    />
+                  );
 
-                return (
-                  <SeatButton
-                    key={seatLabel}
-                    seatLabel={seatLabel}
-                    state={state}
-                    isSelected={isSelected}
-                    onToggle={onToggle}
-                  />
-                );
-              })}
-            </React.Fragment>
+                  if (aisleBreaks.includes(col) && col !== seatMap.columns) {
+                    return [seatNode, <div key={`${row}-${col}-aisle`} className={classes.aisle} />];
+                  }
+
+                  return [seatNode];
+                })}
+              </div>
+            </div>
           ))}
-        </Box>
-      </Paper>
-    </Box>
+
+          <div className={classes.footer}>
+            <span className={classes.footerSpacer} />
+            <div className={classes.columnNumbers}>
+              {columns.flatMap((col) => {
+                const label = (
+                  <span key={`col-${col}`} className={classes.columnNumber}>
+                    {col}
+                  </span>
+                );
+                if (aisleBreaks.includes(col) && col !== seatMap.columns) {
+                  return [label, <div key={`col-${col}-aisle`} className={classes.aisle} />];
+                }
+                return [label];
+              })}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
@@ -254,69 +246,39 @@ const SeatButton = ({
   isSelected: boolean;
   onToggle: (seat: string) => void;
 }) => {
-  const palette = getSeatPalette(state, isSelected);
   const disabled = state === 'Booked' || state === 'Blocked';
+  const classNames = [classes.seat];
+  if (isSelected) classNames.push(classes.selected);
+  else if (state === 'Booked') classNames.push(classes.reserved);
+  else if (state === 'Blocked') classNames.push(classes.blocked);
 
   return (
-    <Tooltip label={disabled ? `${seatLabel} reserved` : `${seatLabel} available`}>
-      <Button
-        variant={isSelected ? 'filled' : 'subtle'}
-        color={palette.color}
+    <Tooltip label={disabled ? `${seatLabel} reserved` : `${seatLabel} available`} openDelay={250}>
+      <button
+        type="button"
+        className={classNames.join(' ')}
         onClick={() => onToggle(seatLabel)}
         disabled={disabled}
-        style={{
-          width: 40,
-          height: 40,
-          padding: 0,
-          borderRadius: 10
-        }}
-      >
-        <Text size="xs">{seatLabel}</Text>
-      </Button>
+        aria-label={disabled ? `${seatLabel} reserved` : `${seatLabel} available`}
+      />
     </Tooltip>
   );
 };
 
 const Legend = () => (
-  <Group gap="lg" justify="center">
-    <LegendItem color="tealAccent" label="Selected" />
-    <LegendItem color="gray" label="Available" variant="outline" />
-    <LegendItem color="dark" label="Reserved" disabled />
-  </Group>
+  <div className={classes.legend}>
+    <LegendItem label="Selected" swatchClass={`${classes.legendSwatch} ${classes.legendSwatchSelected}`} />
+    <LegendItem label="Available" swatchClass={`${classes.legendSwatch} ${classes.legendSwatchAvailable}`} />
+    <LegendItem label="Reserved" swatchClass={`${classes.legendSwatch} ${classes.legendSwatchReserved}`} />
+  </div>
 );
 
-const LegendItem = ({
-  color,
-  label,
-  variant = 'light',
-  disabled = false
-}: {
-  color: string;
-  label: string;
-  variant?: 'light' | 'outline';
-  disabled?: boolean;
-}) => (
-  <Group gap={6}>
-    <Badge color={color} variant={variant} radius="sm">
-      <Box style={{ width: 12, height: 12 }} />
-    </Badge>
-    <Text size="xs" c={disabled ? 'gray.5' : 'gray.3'}>
-      {label}
-    </Text>
-  </Group>
+const LegendItem = ({ label, swatchClass }: { label: string; swatchClass: string }) => (
+  <div className={classes.legendItem}>
+    <span className={swatchClass} />
+    <span>{label}</span>
+  </div>
 );
-
-const getSeatPalette = (state: string, isSelected: boolean) => {
-  if (isSelected) return { color: 'tealAccent' };
-  switch (state) {
-    case 'Booked':
-      return { color: 'dark' };
-    case 'Blocked':
-      return { color: 'gray' };
-    default:
-      return { color: 'gray' };
-  }
-};
 
 const QuotePanel = ({ quote }: { quote: OrderQuote }) => (
   <Card withBorder radius="lg" padding="lg" style={{ background: '#202020', borderColor: '#2f2f2f' }}>

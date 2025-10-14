@@ -53,6 +53,7 @@ export interface ScreeningSummary {
   startUtc: string;
   cinemaId: string;
   cinemaName: string;
+  cinemaState: string;
   auditoriumName: string;
   basePrice: number;
   class: string;
