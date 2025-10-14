@@ -21,6 +21,11 @@ export const fetchSeatMap = async (screeningId: string) => {
   return data as SeatMap;
 };
 
+export const fetchTicketTypes = async () => {
+  const { data } = await client.get('/ticket-types');
+  return data as TicketType[];
+};
+
 export const postQuote = async (payload: QuoteRequestPayload) => {
   const { data } = await client.post('/quote', payload);
   return data as OrderQuote;
@@ -57,6 +62,7 @@ export interface ScreeningSummary {
   auditoriumName: string;
   basePrice: number;
   class: string;
+  movie?: Movie;
 }
 
 export interface SeatMap {
@@ -73,6 +79,14 @@ export interface SeatSelection {
   ticketTypeId: string;
 }
 
+export interface TicketType {
+  id: string;
+  category: string;
+  name: string;
+  price: number;
+  requiresMembership: boolean;
+}
+
 export interface QuoteRequestPayload {
   screeningId: string;
   seats: SeatSelection[];
@@ -83,6 +97,8 @@ export interface OrderQuoteLine {
   quantity: number;
   unitPrice: number;
   lineTotal: number;
+  seatLabel: string;
+  ticketTypeId: string;
 }
 
 export interface OrderQuote {

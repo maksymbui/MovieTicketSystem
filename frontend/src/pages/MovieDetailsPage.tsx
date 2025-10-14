@@ -293,6 +293,7 @@ const MovieDetailsPage = () => {
                         key={session.screeningId}
                         component={Link}
                         to={`/screenings/${session.screeningId}/seats`}
+                        state={{ session }}
                         radius="md"
                         style={{
                           backgroundColor: style.background,

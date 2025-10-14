@@ -56,8 +56,12 @@ public sealed class BookingService
             Total = quote.Total,
             Lines = request.Seats.Select(seat =>
             {
-                var ticketType = DataStore.GetTicketType(seat.TicketTypeId)!;
-                var quoteLine = quote.Lines.First(l => l.Description.Contains(seat.SeatLabel, StringComparison.OrdinalIgnoreCase));
+                _ = DataStore.GetTicketType(seat.TicketTypeId)
+                    ?? throw new InvalidOperationException($"Ticket type '{seat.TicketTypeId}' not found.");
+                var quoteLine = quote.Lines.FirstOrDefault(l =>
+                    l.SeatLabel.Equals(seat.SeatLabel, StringComparison.OrdinalIgnoreCase));
+                if (quoteLine is null)
+                    throw new InvalidOperationException($"Unable to locate quote line for seat {seat.SeatLabel}.");
                 return new BookingLine
                 {
                     SeatLabel = seat.SeatLabel,

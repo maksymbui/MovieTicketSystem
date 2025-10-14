@@ -34,7 +34,9 @@ public sealed class PricingService
                 {
                     Description = $"{ticketType.Name} - Seat {seat.SeatLabel}",
                     Quantity = 1,
-                    UnitPrice = unit
+                    UnitPrice = unit,
+                    SeatLabel = seat.SeatLabel,
+                    TicketTypeId = seatGroup.Key
                 });
             }
         }

@@ -65,6 +65,11 @@ app.MapGet("/api/movies/{movieId}/screenings", (string movieId, ScreeningService
     return summaries.Count == 0 ? Results.NotFound() : Results.Ok(summaries);
 });
 
+app.MapGet("/api/ticket-types", () =>
+{
+    return Results.Ok(DataStore.TicketTypes);
+});
+
 app.MapGet("/api/screenings/{screeningId}/seatmap", (string screeningId, BookingService bookings) =>
 {
     try

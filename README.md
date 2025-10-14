@@ -1,16 +1,27 @@
 # Movie Tickets – Assignment 2
 
-> Working notes live in `docs/structure.md`. This README keeps the assignment brief for reference; the actual system map is in that doc.
+## Repo notes:
 
-## Working tree quickstart
+Run:
+- `export TMDB__APIKEY="df0b8bc6934d37266ef32754dfa21420"`
+- `curl -X POST http://localhost:5000/api/admin/import/tmdb`
+- `dotnet run --project tools/SeedGenerator`
+- `./start.sh`
 
-- Backend solution lives at `backend/MovieTickets.Backend.sln`; open it in Visual Studio to build `MovieTickets.Core` (domain + storage adapters) and `MovieTickets.Api` (ASP.NET host).
-- CLI build: `dotnet build backend/MovieTickets.Backend.sln` (run inside the dev shell so the SDK is on PATH).
-- Electron shell in `desktop/` launches the React frontend (`frontend/`) and spawns the published API DLL from `backend/src/MovieTickets.Api/bin/...`.
-- JSON datasets sit under `storage/`; they are copied into the backend build output automatically.
-- The original WinForms implementation is quarantined under `legacy/winforms/` for reference only.
-- Helper tooling stays in `scripts/`; `run-desktop.sh` builds the Electron stack, and `run-winforms.sh` still runs the legacy prototype under Wine.
-- To refresh the movie catalog from TMDB, set `TMDB__APIKEY` (or edit `backend/src/MovieTickets.Api/appsettings.json`) and call `POST http://localhost:5000/api/admin/import/tmdb`.
+> [!NOTE]
+> To refresh the movie catalog from TMDB, set `TMDB__APIKEY` (or edit `backend/src/MovieTickets.Api/appsettings.json`) and call `POST http://localhost:5000/api/admin/import/tmdb`... and rerun: `dotnet run --project tools/SeedGenerator`.
+
+File structure is relavtively self-explanatory. 
+
+- `/backend`: Stores logic and seeded data. 
+- `/desktop`: Electron, nuff said.
+- `/frontend`: Honestly, I have no idea, shit is straight up vibe-coded, I don't do UI, I know enough to theme my dotfiles but making a website? couldn't care less.
+- `/storage`: Theoretically, this directory isn't needed, but I'm not bothered enough to refactor it. Tldr, its just filler data. We would curl first, then use SeedGenerator, as the CopyToOutputDirectory is set as PreserveNewest, out data won't overrite itself.
+
+> [!WARNING] 
+> After navigating towards the seat selection screen, the 'Quick Book' option is there for demo/testing, it auto-fills your current selection with adults and calls the same booking endpoint. It is not indicative of actual performance (nor is the rest of data)
+
+---
 
 ## Assignment brief
 

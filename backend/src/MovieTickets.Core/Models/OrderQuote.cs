@@ -14,5 +14,7 @@ public sealed class OrderQuoteLine
     public string Description { get; init; } = "";
     public int Quantity { get; init; }
     public decimal UnitPrice { get; init; }
+    public string SeatLabel { get; init; } = "";
+    public string TicketTypeId { get; init; } = "";
     public decimal LineTotal => UnitPrice * Quantity;
 }

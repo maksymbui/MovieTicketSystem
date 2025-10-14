@@ -4,6 +4,7 @@ import { IconTicket } from '@tabler/icons-react';
 import MoviesPage from './pages/MoviesPage';
 import MovieDetailsPage from './pages/MovieDetailsPage';
 import SeatSelectionPage from './pages/SeatSelectionPage';
+import CheckoutPage from './pages/CheckoutPage';
 
 const App = () => {
   const location = useLocation();
@@ -58,6 +59,7 @@ const App = () => {
             <Route path="/movies" element={<MoviesPage />} />
             <Route path="/movies/:movieId" element={<MovieDetailsPage />} />
             <Route path="/screenings/:screeningId/seats" element={<SeatSelectionPage />} />
+            <Route path="/screenings/:screeningId/checkout" element={<CheckoutPage />} />
           </Routes>
         </Container>
       </AppShell.Main>
