@@ -4,11 +4,13 @@
 # Repo notes:
 
 ## Run:
+```bash
 - `git clone git@github....` 
 - `export TMDB__APIKEY="df0b8bc6934d37266ef32754dfa21420"`
 - `curl -X POST http://localhost:5000/api/admin/import/tmdb`
 - `dotnet run --project tools/SeedGenerator`
 - `./start.sh`
+```
 
 > [!NOTE]
 > To refresh the movie catalog from TMDB, set `TMDB__APIKEY` (or edit `backend/src/MovieTickets.Api/appsettings.json`) and call `POST http://localhost:5000/api/admin/import/tmdb`... and rerun: `dotnet run --project tools/SeedGenerator`.
