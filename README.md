@@ -30,8 +30,7 @@ WSL with Ubuntu: (doesnt matter, nix is distro-agnostic)
 - `sh <(curl -L https://nixos.org/nix/install) --no-daemon . ~/.nix-profile/etc/profile.d/nix.sh` # installs nix
 
 - `sudo usermod -aG nix-users $USER` # this should be the main one
-- `sudo usermod -aG nixbld $USER` # but I also have this just in case...
-# adds ur user group, make sure to run `wsl --shutdown` in Powershell (admin) and rerun with `wsl.exe -d Ubuntu-24.04` or whatever you use. 
+- `sudo usermod -aG nixbld $USER` # but I also have this just in case.... adds ur user group, make sure to run `wsl --shutdown` in Powershell (admin) and rerun with `wsl.exe -d Ubuntu-24.04` or whatever you use. 
 
 - `mkdir -p ~/.config/nix`
 - `echo "experimental-features = nix-command flakes" >> ~/.config/nix/nix.conf`
