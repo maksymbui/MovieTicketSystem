@@ -1,8 +1,10 @@
 # Movie Tickets – Assignment 2
 
-## Repo notes:
 
-Run:
+# Repo notes:
+
+## Run:
+- `git clone git@github....` 
 - `export TMDB__APIKEY="df0b8bc6934d37266ef32754dfa21420"`
 - `curl -X POST http://localhost:5000/api/admin/import/tmdb`
 - `dotnet run --project tools/SeedGenerator`
@@ -20,6 +22,33 @@ File structure is relavtively self-explanatory.
 
 > [!WARNING] 
 > After navigating towards the seat selection screen, the 'Quick Book' option is there for demo/testing, it auto-fills your current selection with adults and calls the same booking endpoint. It is not indicative of actual performance (nor is the rest of data)
+
+## For Windows:
+
+WSL with Ubuntu: (doesnt matter, nix is distro-agnostic)
+- `sudo apt update && sudo apt upgrade -y`
+- `sh <(curl -L https://nixos.org/nix/install) --no-daemon . ~/.nix-profile/etc/profile.d/nix.sh` # installs nix
+
+- `sudo usermod -aG nix-users $USER` # this should be the main one
+- `sudo usermod -aG nixbld $USER` # but I also have this just in case...
+# adds ur user group, make sure to run `wsl --shutdown` in Powershell (admin) and rerun with `wsl.exe -d Ubuntu-24.04` or whatever you use. 
+
+- `mkdir -p ~/.config/nix`
+- `echo "experimental-features = nix-command flakes" >> ~/.config/nix/nix.conf`
+- `nix --version` # verify
+- `sudo systemctl start nix-daemon` # just in case
+- `sudo ls -ld /nix/var/nix /nix/var/nix/daemon-socket /nix/var/nix/daemon-socket/socket` # final check, for if you have perms to run nix commands or not
+- `nix develop` # should install stuff
+
+- `which dotnet` # result should be /nix/store/.../dotnet-sdk-8.0.300/bin/dotnet
+
+- `sed -i 's/\r$//' start.sh`
+- `chmod +x start.sh`
+
+- `export TMDB__APIKEY="df0b8bc6934d37266ef32754dfa21420"`
+- `curl -X POST http://localhost:5000/api/admin/import/tmdb`
+- `dotnet run --project tools/SeedGenerator`
+- `./start.sh`
 
 ---
 
