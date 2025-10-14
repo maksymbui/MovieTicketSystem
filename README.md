@@ -26,6 +26,8 @@ File structure is relavtively self-explanatory.
 ## For Windows:
 
 WSL with Ubuntu: (doesnt matter, nix is distro-agnostic)
+
+```bash
 - `sudo apt update && sudo apt upgrade -y`
 - `sh <(curl -L https://nixos.org/nix/install) --no-daemon . ~/.nix-profile/etc/profile.d/nix.sh` # installs nix
 
@@ -48,6 +50,7 @@ WSL with Ubuntu: (doesnt matter, nix is distro-agnostic)
 - `curl -X POST http://localhost:5000/api/admin/import/tmdb`
 - `dotnet run --project tools/SeedGenerator`
 - `./start.sh`
+```
 
 ---
 
