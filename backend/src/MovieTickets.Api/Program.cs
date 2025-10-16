@@ -184,7 +184,7 @@ app.MapPost("/api/auth/register", async (RegisterRequest req, IUserRepository us
         Role = "User"
     };
     user = await users.CreateAsync(user);
-    var token = jwt.CreateToken(user);
+    var token = jwt.Create(user);
     return Results.Ok(new AuthResponse(token, user.Id, user.Email, user.DisplayName, user.Role));
 });
 
@@ -193,7 +193,7 @@ app.MapPost("/api/auth/login", async (LoginRequest req, IUserRepository users, J
     var user = await users.FindByEmailAsync(req.Email);
     if (user is null) return Results.Unauthorized();
     if (!PasswordHasher.Verify(req.Password, user.PasswordHash)) return Results.Unauthorized();
-    var token = jwt.CreateToken(user);
+    var token = jwt.Create(user);
     return Results.Ok(new AuthResponse(token, user.Id, user.Email, user.DisplayName, user.Role));
 });
 
