@@ -6,6 +6,15 @@ const client = axios.create({
   baseURL
 });
 
+// attach token if present
+client.interceptors.request.use((config) => {
+  const raw = localStorage.getItem('mts_session');
+  if (raw) {
+    try { const s = JSON.parse(raw); if (s.token) config.headers['Authorization'] = `Bearer ${s.token}`; } catch {}
+  }
+  return config;
+});
+
 export const fetchMovies = async () => {
   const { data } = await client.get('/movies');
   return data as Movie[];
@@ -139,3 +148,22 @@ export interface Booking {
   total: number;
   lines: BookingLine[];
 }
+
+
+export type AuthResponse = { token: string; userId: string; email: string; displayName: string; role: string };
+export const login = async (email: string, password: string) => {
+  const { data } = await client.post('/auth/login', { email, password });
+  return data as AuthResponse;
+};
+export const register = async (email: string, password: string, displayName?: string) => {
+  const { data } = await client.post('/auth/register', { email, password, displayName });
+  return data as AuthResponse;
+};
+export const getMyBookings = async () => {
+  const { data } = await client.get('/my/bookings');
+  return data as Booking[];
+};
+export const getBookingByReference = async (reference: string) => {
+  const { data } = await client.get(`/bookings/${reference}`);
+  return data as Booking;
+};
