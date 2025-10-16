@@ -1,3 +1,9 @@
+
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.IdentityModel.Tokens;
+using System.Security.Claims;
+using System.Text;
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.OpenApi.Models;
@@ -14,6 +20,30 @@ builder.Services.AddHttpClient<TmdbImportService>(client =>
     client.BaseAddress = new Uri("https://api.themoviedb.org/3/");
     client.Timeout = TimeSpan.FromSeconds(10);
 });
+
+// ==== Account/Auth DI ====
+builder.Services.Configure<JwtTokenService.JwtOptions>(builder.Configuration.GetSection("Jwt"));
+builder.Services.AddSingleton<JwtTokenService>();
+builder.Services.AddSingleton<IUserRepository, JsonUserRepository>();
+
+var jwtOpt = builder.Configuration.GetSection("Jwt").Get<JwtTokenService.JwtOptions>() ?? new JwtTokenService.JwtOptions();
+var key = Encoding.UTF8.GetBytes(jwtOpt.Secret);
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = jwtOpt.Issuer,
+            ValidAudience = jwtOpt.Audience,
+            IssuerSigningKey = new SymmetricSecurityKey(key)
+        };
+    });
+builder.Services.AddAuthorization();
+
 
 builder.Services.AddCors(options =>
 {
@@ -43,6 +73,9 @@ builder.Services.ConfigureHttpJsonOptions(options =>
 });
 
 var app = builder.Build();
+
+app.UseAuthentication();
+app.UseAuthorization();
 
 DataStore.Load();
 
@@ -130,6 +163,69 @@ app.MapPost("/api/admin/import/tmdb", async (TmdbImportService importer, Cancell
     {
         return Results.BadRequest(new { message = ex.Message });
     }
+});
+
+
+// ==== Auth endpoints ====
+app.MapPost("/api/auth/register", async (RegisterRequest req, IUserRepository users, JwtTokenService jwt) =>
+{
+    if (string.IsNullOrWhiteSpace(req.Email) || string.IsNullOrWhiteSpace(req.Password))
+        return Results.BadRequest(new { message = "Email and password are required." });
+
+    var existing = await users.FindByEmailAsync(req.Email);
+    if (existing is not null)
+        return Results.BadRequest(new { message = "Email already registered." });
+
+    var user = new User
+    {
+        Email = req.Email.Trim(),
+        DisplayName = string.IsNullOrWhiteSpace(req.DisplayName) ? req.Email.Trim() : req.DisplayName.Trim(),
+        PasswordHash = PasswordHasher.Hash(req.Password),
+        Role = "User"
+    };
+    user = await users.CreateAsync(user);
+    var token = jwt.CreateToken(user);
+    return Results.Ok(new AuthResponse(token, user.Id, user.Email, user.DisplayName, user.Role));
+});
+
+app.MapPost("/api/auth/login", async (LoginRequest req, IUserRepository users, JwtTokenService jwt) =>
+{
+    var user = await users.FindByEmailAsync(req.Email);
+    if (user is null) return Results.Unauthorized();
+    if (!PasswordHasher.Verify(req.Password, user.PasswordHash)) return Results.Unauthorized();
+    var token = jwt.CreateToken(user);
+    return Results.Ok(new AuthResponse(token, user.Id, user.Email, user.DisplayName, user.Role));
+});
+
+app.MapGet("/api/auth/me", [Authorize] (HttpContext ctx) =>
+{
+    var email = ctx.User.FindFirst(ClaimTypes.Email)?.Value
+        ?? ctx.User.FindFirst("email")?.Value
+        ?? "";
+    var name = ctx.User.Identity?.Name ?? "";
+    var id = ctx.User.FindFirst(ClaimTypes.NameIdentifier)?.Value
+        ?? ctx.User.FindFirst("sub")?.Value
+        ?? "";
+    var role = ctx.User.FindFirst(ClaimTypes.Role)?.Value ?? "User";
+    return Results.Ok(new { id, email, displayName = name, role });
+});
+
+// ==== Bookings lookup ====
+app.MapGet("/api/bookings/{reference}", (string reference) =>
+{
+    var booking = MovieTickets.Core.Logic.DataStore.Bookings.FirstOrDefault(b =>
+        string.Equals(b.ReferenceCode, reference, StringComparison.OrdinalIgnoreCase));
+    return booking is null ? Results.NotFound(new { message = "Booking not found." }) : Results.Ok(booking);
+});
+
+app.MapGet("/api/my/bookings", [Authorize] (HttpContext ctx) =>
+{
+    var email = ctx.User.FindFirst(ClaimTypes.Email)?.Value
+        ?? ctx.User.FindFirst("email")?.Value;
+    if (string.IsNullOrWhiteSpace(email)) return Results.Unauthorized();
+    var bookings = MovieTickets.Core.Logic.DataStore.Bookings
+        .Where(b => string.Equals(b.CustomerEmail, email, StringComparison.OrdinalIgnoreCase));
+    return Results.Ok(bookings);
 });
 
 app.Run();
