@@ -5,6 +5,9 @@ import MoviesPage from './pages/MoviesPage';
 import MovieDetailsPage from './pages/MovieDetailsPage';
 import SeatSelectionPage from './pages/SeatSelectionPage';
 import CheckoutPage from './pages/CheckoutPage';
+import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
+import MyOrdersPage from './pages/MyOrdersPage';
 
 const App = () => {
   const location = useLocation();
@@ -48,6 +51,11 @@ const App = () => {
                 Back to catalog
               </Button>
             )}
+          <Group gap="sm">
+              <Button component={Link} to="/my-orders" variant="light">My Orders</Button>
+              <Button component={Link} to="/login" variant="light">Sign in</Button>
+              <Button component={Link} to="/register" variant="outline">Register</Button>
+            </Group>
           </Group>
         </Container>
       </AppShell.Header>
@@ -60,6 +68,9 @@ const App = () => {
             <Route path="/movies/:movieId" element={<MovieDetailsPage />} />
             <Route path="/screenings/:screeningId/seats" element={<SeatSelectionPage />} />
             <Route path="/screenings/:screeningId/checkout" element={<CheckoutPage />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/register" element={<RegisterPage />} />
+            <Route path="/my-orders" element={<MyOrdersPage />} />
           </Routes>
         </Container>
       </AppShell.Main>
