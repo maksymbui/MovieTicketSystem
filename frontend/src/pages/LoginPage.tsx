@@ -16,15 +16,15 @@ const LoginPage = () => {
     try {
       const res: AuthResponse = await login(email, password);
       saveSession(res);
-      nav('/my-orders');
-    } catch (err: any) {
-      setError('Login failed. Check email/password.');
+      nav('/');
+    } catch {
+      setError('Invalid email or password.');
     }
   };
 
   return (
-    <Paper p="xl" radius="lg" withBorder>
-      <Title order={2} mb="md">Sign in</Title>
+    <Paper maw={420} mx="auto" mt="xl" p="lg" withBorder>
+      <Title order={3} ta="center" mb="md">Sign in</Title>
       {error && <Alert color="red" mb="md">{error}</Alert>}
       <form onSubmit={onSubmit}>
         <Stack>

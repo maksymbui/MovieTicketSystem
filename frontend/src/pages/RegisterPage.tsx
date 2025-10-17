@@ -15,17 +15,17 @@ const RegisterPage = () => {
     e.preventDefault();
     setError('');
     try {
-      const res: AuthResponse = await register(email, password, displayName);
+      const res: AuthResponse = await register(email, password, displayName || undefined);
       saveSession(res);
-      nav('/my-orders');
-    } catch (err: any) {
-      setError('Registration failed. Maybe email already exists?');
+      nav('/');
+    } catch (err) {
+      setError('Sign up failed. Try a different email.');
     }
   };
 
   return (
-    <Paper p="xl" radius="lg" withBorder>
-      <Title order={2} mb="md">Create account</Title>
+    <Paper maw={420} mx="auto" mt="xl" p="lg" withBorder>
+      <Title order={3} ta="center" mb="md">Create your account</Title>
       {error && <Alert color="red" mb="md">{error}</Alert>}
       <form onSubmit={onSubmit}>
         <Stack>
