@@ -12,7 +12,7 @@ public sealed class JsonUserRepository : IUserRepository
 
     public JsonUserRepository(IWebHostEnvironment env)
     {
-        var storage = Path.Combine(env.ContentRootPath, "../../../storage");
+        var storage = Path.Combine(AppContext.BaseDirectory, "storage");
         Directory.CreateDirectory(storage);
         _filePath = Path.Combine(storage, "users.json");
         if (!File.Exists(_filePath)) File.WriteAllText(_filePath, "[]");
@@ -36,14 +36,26 @@ public sealed class JsonUserRepository : IUserRepository
         return list.FirstOrDefault(u => u.Id == id);
     }
 
+    // ✅ 修复：避免在持有锁时再次调用 ReadAsync（否则会二次 WaitAsync 造成死锁）
     public async Task<User> CreateAsync(User user, CancellationToken ct = default)
     {
         await _gate.WaitAsync(ct);
         try
         {
-            var list = await ReadAsync(ct);
+            List<User> list;
+            if (File.Exists(_filePath))
+            {
+                using var fs = File.OpenRead(_filePath);
+                list = await JsonSerializer.DeserializeAsync<List<User>>(fs, cancellationToken: ct) ?? new();
+            }
+            else
+            {
+                list = new();
+            }
+
             list.Add(user);
-            await File.WriteAllTextAsync(_filePath, JsonSerializer.Serialize(list, _json), ct);
+            using var outFs = File.Create(_filePath);
+            await JsonSerializer.SerializeAsync(outFs, list, _json, ct);
             return user;
         }
         finally { _gate.Release(); }

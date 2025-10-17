@@ -45,6 +45,7 @@ public sealed class JwtTokenService
             {
                 new Claim(JwtRegisteredClaimNames.Sub, user.Id),
                 new Claim(JwtRegisteredClaimNames.Email, user.Email),
+                new Claim(ClaimTypes.NameIdentifier, user.Id),
                 new Claim(ClaimTypes.Name, user.DisplayName),
                 new Claim(ClaimTypes.Role, user.Role)
             }),
