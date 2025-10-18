@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import {
+  TextInput,
   Alert,
   ActionIcon,
   Button,
@@ -44,6 +45,8 @@ const SeatSelectionPage = () => {
 
   const [selectedSeatLabels, setSelectedSeatLabels] = useState<string[]>([]);
   const [ticketCounts, setTicketCounts] = useState<TicketCounts>({});
+  const [promoCode, setPromoCode] = useState('');
+  const [appliedPromo, setAppliedPromo] = useState('');
 
   const { data: seatMap, isLoading: seatMapLoading } = useQuery({
     queryKey: ['seatmap', screeningId],
@@ -108,9 +111,9 @@ const SeatSelectionPage = () => {
     seatAssignments.length === selectedSeatCount &&
     ticketsSelected === selectedSeatCount;
 
-  const { data: quote, isFetching: quoteLoading } = useQuery({
-    queryKey: ['quote', screeningId, seatAssignmentsKey],
-    queryFn: () => postQuote({ screeningId: screeningId!, seats: seatAssignments }),
+  const { data: quote, isFetching: quoteLoading, refetch: refetchQuote } = useQuery({
+    queryKey: ['quote', screeningId, seatAssignmentsKey, appliedPromo],
+    queryFn: () => postQuote({ screeningId: screeningId!, seats: seatAssignments, promoCode: appliedPromo }),
     enabled: quoteEnabled
   });
 
@@ -185,7 +188,8 @@ const SeatSelectionPage = () => {
         seatLabels: selectedSeatLabels,
         quote,
         ticketTypes,
-        session
+        session,
+        promoCode: appliedPromo
       }
     });
   };
@@ -327,6 +331,28 @@ const SeatSelectionPage = () => {
 
               <Divider color="rgba(255,255,255,0.05)" />
 
+              <Group gap="sm" align="center">
+                <TextInput
+                  value={promoCode}
+                  onChange={e => setPromoCode(e.currentTarget.value)}
+                  placeholder="Enter promo code"
+                  size="xs"
+                  style={{ width: '140px' }}
+                  disabled={quoteLoading}
+                />
+                <Button
+                  size="xs"
+                  variant="outline"
+                  color="tealAccent"
+                  onClick={() => {
+                    setAppliedPromo(promoCode);
+                    refetchQuote();
+                  }}
+                  disabled={quoteLoading || !promoCode.trim()}
+                >
+                  Apply
+                </Button>
+              </Group>
               <Group justify="space-between" c="gray.5">
                 <Text size="sm">Subtotal</Text>
                 <Text size="sm">{formatCurrency(summarySubtotal)}</Text>

@@ -68,6 +68,7 @@ builder.Services.AddSingleton<ScreeningService>();
 builder.Services.AddSingleton<PricingService>();
 builder.Services.AddSingleton<BookingService>();
 builder.Services.AddSingleton<DealService>();
+builder.Services.AddSingleton<MessageService>();
 builder.Services.ConfigureHttpJsonOptions(options =>
 {
     options.SerializerOptions.Converters.Add(new JsonStringEnumConverter());
@@ -121,7 +122,7 @@ app.MapPost("/api/quote", (QuoteRequest request, BookingService bookings) =>
 {
     try
     {
-        var quote = bookings.Preview(request.ScreeningId, request.Seats);
+        var quote = bookings.Preview(request.ScreeningId, request.Seats, request.PromoCode);
         return Results.Ok(quote);
     }
     catch (Exception ex)
@@ -246,7 +247,7 @@ app.MapPost("/api/deals/add", (Deal deal, DealService dealService) =>
 
 app.MapPost("/api/deals/remove", (Deal deal, DealService dealService) =>
 {
-    dealService.RemoveDeal(deal.Id);
+    MovieTickets.Core.Logic.DataStore.RemoveDeal(deal.Id);
     return Results.Ok(deal);
 });
 
@@ -256,6 +257,12 @@ app.MapPost("/api/deals/update", (Deal deal, DealService dealService) =>
     return Results.Ok(deal);
 });
 
+app.MapGet("/api/messages/{userId}", (string userId, MessageService messageService) =>
+{
+    var messages = messageService.GetAllMessagesForUser(userId);
+    return Results.Ok(messages);
+});
+
 app.Run();
 
-public sealed record QuoteRequest(string ScreeningId, IReadOnlyList<SeatSelection> Seats);
+public sealed record QuoteRequest(string ScreeningId, IReadOnlyList<SeatSelection> Seats, string PromoCode);

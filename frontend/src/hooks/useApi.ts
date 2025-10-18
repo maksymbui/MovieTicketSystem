@@ -65,6 +65,11 @@ export const createDeal = async (payload: Deal) => {
   return data as Deal;
 }
 
+export const fetchMessages = async (userId: string) => {
+  const { data } = await client.get(`/messages/${userId}`);
+  return data as Message[];
+}
+
 export interface CastMember {
   name: string;
   character?: string | null;
@@ -75,6 +80,13 @@ export interface Deal {
   movieId: string;
   discount: number;
   expiryDate: Date;
+}
+
+export interface Message {
+  id: string;
+  toUserId: string;
+  content: string;
+  sentUtc: string;
 }
 
 export interface Movie {

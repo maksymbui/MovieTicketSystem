@@ -10,6 +10,7 @@ import RegisterPage from './pages/RegisterPage';
 import MyOrdersPage from './pages/MyOrdersPage';
 import AdminMenuPage from './pages/AdminMenuPage'
 import DealsPage from './pages/DealsPage';
+import MailBoxPage from './pages/MailBoxPage';
 import { loadSession, clearSession } from '@/auth';
 import ManageDealsPage from './pages/ManageDealsPage';
 
@@ -67,6 +68,7 @@ const App = () => {
               )}
               {session && (
                 <>
+                  <Button component={Link} to="/mailbox" variant="light">MailBox</Button>
                   <Button component={Link} to="/my-orders" variant="light">My Orders</Button>
                   {session.role === 'Admin' && (
                     <Button component={Link} to="/admin-menu" variant="light" color="yellow">Admin Panel</Button>
@@ -94,6 +96,7 @@ const App = () => {
             <Route path="/admin-menu" element={<AdminMenuPage />} />
             <Route path="/admin/manage-deals" element={<ManageDealsPage />} />
             <Route path="/deals" element={<DealsPage />} />
+            <Route path="/mailbox" element={<MailBoxPage />} />
           </Routes>
         </Container>
       </AppShell.Main>

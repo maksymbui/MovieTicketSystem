@@ -1,0 +1,20 @@
+[
+  {
+    "id": "msg001",
+    "toUserId": "user123",
+    "content": "Welcome to MovieTickets! Your booking has been confirmed.",
+    "sentUtc": "2025-10-19T10:30:00Z"
+  },
+  {
+    "id": "msg002", 
+    "toUserId": "user456",
+    "content": "Your movie screening has been rescheduled. Please check your email for details.",
+    "sentUtc": "2025-10-19T14:15:00Z"
+  },
+  {
+    "id": "msg003",
+    "toUserId": "user789",
+    "content": "Thank you for your feedback! We appreciate your review.",
+    "sentUtc": "2025-10-19T16:45:00Z"
+  }
+]

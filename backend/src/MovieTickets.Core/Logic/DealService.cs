@@ -7,7 +7,7 @@ public sealed class DealService
 
     public Deal? GetDealForMovie(string movieId)
     {
-        return DataStore.DealsData.FirstOrDefault(d => d.MovieId == movieId);
+        return DataStore.Deals.FirstOrDefault(d => d.MovieId == movieId);
     }
 
     public IReadOnlyList<Deal> GetAll()
@@ -19,31 +19,21 @@ public sealed class DealService
 
     public bool AddDeal(Deal deal)
     {
-        foreach (var existingDeal in DataStore.DealsData)
+        foreach (var existingDeal in DataStore.Deals)
         {
             if (existingDeal.MovieId == deal.MovieId)
             {
                 return false;
             }
         }
-        DataStore.DealsData.Add(deal);
+        DataStore.AddDeal(deal);
         DataStore.SaveDeals();
         return true;
     }
 
-    public void RemoveDeal(string dealId)
-    {
-        var deal = DataStore.DealsData.FirstOrDefault(d => d.Id == dealId);
-        if (deal != null)
-        {
-            DataStore.DealsData.Remove(deal);
-            DataStore.SaveDeals();
-        }
-    }
-
     public void UpdateDeal(Deal deal)
     {
-        var existingDeal = DataStore.DealsData.FirstOrDefault(d => d.Id == deal.Id);
+        var existingDeal = DataStore.Deals.FirstOrDefault(d => d.Id == deal.Id);
         if (existingDeal != null)
         {
             existingDeal.MovieId = deal.MovieId;

@@ -28,10 +28,10 @@ public sealed class BookingService
         };
     }
 
-    public OrderQuote Preview(string screeningId, IReadOnlyList<SeatSelection> seats)
+    public OrderQuote Preview(string screeningId, IReadOnlyList<SeatSelection> seats, string promoCode)
     {
         EnsureSeatsAvailable(screeningId, seats);
-        return _pricing.Calculate(screeningId, seats);
+        return _pricing.Calculate(screeningId, seats, promoCode);
     }
 
     public Booking Confirm(CheckoutRequest request)
@@ -42,7 +42,7 @@ public sealed class BookingService
             throw new ArgumentException("At least one seat must be selected.", nameof(request));
 
         EnsureSeatsAvailable(request.ScreeningId, request.Seats);
-        var quote = _pricing.Calculate(request.ScreeningId, request.Seats);
+        var quote = _pricing.Calculate(request.ScreeningId, request.Seats, request.PromoCode);
 
         var booking = new Booking
         {
@@ -70,7 +70,9 @@ public sealed class BookingService
                 };
             }).ToList()
         };
-
+        sendNotification(booking);
+        RewardService rs = new RewardService();
+        rs.RemoveReward(request.PromoCode);
         DataStore.AddBooking(booking);
         return booking;
     }
@@ -95,4 +97,28 @@ public sealed class BookingService
 
     static string GenerateReference()
         => $"BK{Random.Shared.Next(100000, 999999)}";
+
+    static void sendNotification(Booking booking)
+    {
+        var user = DataStore.GetUserByEmail(booking.CustomerEmail);
+        if (user is null) return;
+        var Content = $"Dear {user.DisplayName}, your booking with reference {booking.ReferenceCode} has been confirmed.";
+        var ms = new MessageService();
+        var rs = new RewardService();
+        ms.SendMessageToUser(booking.CustomerEmail, Content);
+        if (rs.IsEligibleForReward(user))
+        {
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+            var random = new Random();
+
+            var reward = new Reward
+            {
+                RewardCode = new string(Enumerable.Range(0, 6)
+                .Select(_ => chars[random.Next(chars.Length)]).ToArray()),
+            };
+            DataStore.AddReward(reward);
+            var rewardContent = $"Congratulations {user.DisplayName}! You are now eligible for a reward. Please use this code to get 50% off: {reward.RewardCode}";
+            ms.SendMessageToUser(booking.CustomerEmail, rewardContent);
+        }
+    }
 }

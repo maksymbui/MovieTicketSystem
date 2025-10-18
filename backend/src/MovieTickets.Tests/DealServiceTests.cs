@@ -13,7 +13,6 @@ public class DealServiceTests
     public void Setup()
     {
         DS = new DealService();
-        DataStore.DealsData.Clear();
     }
 
     [Test]
@@ -27,7 +26,7 @@ public class DealServiceTests
 
         // Assert
         Assert.IsTrue(result);
-        Assert.That(DataStore.DealsData.Count, Is.EqualTo(1));
+        Assert.That(DataStore.Deals.Count, Is.EqualTo(1));
     }
 
     [Test]
@@ -35,7 +34,7 @@ public class DealServiceTests
     {
         // Arrange
         var deal = new Deal { MovieId = "movie-456", Discount = 20 };
-        DataStore.DealsData.Add(deal);
+        DataStore.AddDeal(deal);
 
         // Act
         var result = DS.GetDealForMovie("movie-456");

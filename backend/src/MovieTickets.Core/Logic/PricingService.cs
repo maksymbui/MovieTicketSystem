@@ -10,7 +10,7 @@ public sealed class PricingService
     const decimal PremiumSeatSurcharge = 4.00m;
     const decimal AccessibleDiscount = 2.50m;
 
-    public OrderQuote Calculate(string screeningId, IReadOnlyList<SeatSelection> seats)
+    public OrderQuote Calculate(string screeningId, IReadOnlyList<SeatSelection> seats, string promo)
     {
         var totalDiscount = 0m;
 
@@ -45,6 +45,12 @@ public sealed class PricingService
             }
         }
 
+        if (DataStore.IsValidReward(promo))
+        {
+            Console.WriteLine("Applying reward code: " + promo);
+            totalDiscount += subtotal * 0.5m;
+        }
+
         return new OrderQuote
         {
             ScreeningId = screeningId,
@@ -74,7 +80,7 @@ public sealed class PricingService
 
     decimal CalculateSeatDiscount(Screening screening, decimal seatPrice)
     {
-        var deal = DataStore.DealsData.FirstOrDefault(d => d.MovieId == screening.MovieId && d.ExpiryDate > DateTime.UtcNow);
+        var deal = DataStore.Deals.FirstOrDefault(d => d.MovieId == screening.MovieId && d.ExpiryDate > DateTime.UtcNow);
         if (deal != null)
         {
             return deal.Discount * seatPrice / 100;

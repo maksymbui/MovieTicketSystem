@@ -7,4 +7,5 @@ public sealed class CheckoutRequest
     public string CustomerName { get; init; } = "";
     public string CustomerEmail { get; init; } = "";
     public string CustomerPhone { get; init; } = "";
+    public string PromoCode { get; init; } = "";
 }

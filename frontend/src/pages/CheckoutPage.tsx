@@ -24,6 +24,7 @@ type CheckoutLocationState = {
   quote: OrderQuote;
   ticketTypes: TicketType[];
   session?: ScreeningSummary;
+  promoCode?: string;
 };
 
 const CheckoutPage = () => {
@@ -38,6 +39,7 @@ const CheckoutPage = () => {
   const quote = state?.quote;
   const ticketTypes = state?.ticketTypes ?? [];
   const session = state?.session;
+  const promoCode = state?.promoCode ?? '';
 
   const [customerName, setCustomerName] = useState('');
   const [customerEmail, setCustomerEmail] = useState('');
@@ -80,7 +82,7 @@ const CheckoutPage = () => {
       customerName,
       customerEmail,
       customerPhone,
-      promoCode: '',
+      promoCode,
       seats: seatAssignments,
       createAccount: false,
       password: ''

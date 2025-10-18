@@ -15,6 +15,7 @@ public static class DataStore
         Converters = { new JsonStringEnumConverter() }
     };
 
+    static readonly List<User> UsersData = new();
     static readonly List<Movie> MoviesData = new();
     static readonly List<Cinema> CinemasData = new();
     static readonly List<Auditorium> AuditoriumsData = new();
@@ -22,7 +23,9 @@ public static class DataStore
     static readonly List<TicketType> TicketTypesData = new();
     static readonly List<Booking> BookingsData = new();
     static readonly Dictionary<string, HashSet<string>> BookedSeatLookup = new();
-    public static List<Deal> DealsData = new();
+    static readonly List<Deal> DealsData = new();
+    static readonly List<Message> MessagesData = new();
+    static readonly List<Reward> RewardsData = new();
 
     static string RootPath = "";
 
@@ -33,6 +36,9 @@ public static class DataStore
     public static IReadOnlyList<TicketType> TicketTypes => TicketTypesData;
     public static IReadOnlyList<Booking> Bookings => BookingsData;
     public static IReadOnlyList<Deal> Deals => DealsData;
+    public static IReadOnlyList<User> Users => UsersData;
+    public static IReadOnlyList<Message> Messages => MessagesData;
+    public static IReadOnlyList<Reward> Rewards => RewardsData;
 
     public static void Load()
     {
@@ -46,6 +52,9 @@ public static class DataStore
         LoadInto(TicketTypesData, "ticket_types.json");
         LoadInto(BookingsData, "bookings.json");
         LoadInto(DealsData, "deals.json");
+        LoadInto(MessagesData, "messages.json");
+        LoadInto(UsersData, "users.json");
+        LoadInto(RewardsData, "rewards.json");
 
         BookedSeatLookup.Clear();
         foreach (var screening in ScreeningsData)
@@ -59,11 +68,75 @@ public static class DataStore
         }
     }
 
+    public static void SaveRewards()
+    {
+        var path = Path.Combine(RootPath, "rewards.json");
+        var json = JsonSerializer.Serialize(RewardsData, JsonOptions);
+        File.WriteAllText(path, json);
+    }
+    public static void RemoveReward(Reward reward)
+    {
+        RewardsData.Remove(reward);
+        SaveRewards();
+    }
+    public static void AddReward(Reward reward)
+    {
+        Console.WriteLine("Adding reward code: " + reward.RewardCode);
+        RewardsData.Add(reward);
+        SaveRewards();
+    }
+    public static bool IsValidReward(string code)
+    {
+        var reward = RewardsData.FirstOrDefault(r => string.Equals(r.RewardCode, code, StringComparison.OrdinalIgnoreCase));
+        if (reward == null)
+        {
+            return false;
+        }
+        return true;
+    }
+    public static void SaveMessages()
+    {
+        var path = Path.Combine(RootPath, "messages.json");
+        var json = JsonSerializer.Serialize(MessagesData, JsonOptions);
+        File.WriteAllText(path, json);
+    }
+
+    public static void AddMessage(Message message)
+    {
+        MessagesData.Add(message);
+        SaveMessages();
+    }
     public static void SaveDeals()
     {
         var path = Path.Combine(RootPath, "deals.json");
         var json = JsonSerializer.Serialize(DealsData, JsonOptions);
         File.WriteAllText(path, json);
+    }
+
+    public static void AddDeal(Deal deal)
+    {
+        DealsData.Add(deal);
+        SaveDeals();
+    }
+
+    public static void RemoveDeal(string dealId)
+    {
+        var deal = DealsData.FirstOrDefault(d => d.Id == dealId);
+        if (deal != null)
+        {
+            DealsData.Remove(deal);
+            SaveDeals();
+        }
+    }
+
+    public static Deal? GetDeal(string dealId)
+    {
+        return DealsData.FirstOrDefault(d => d.Id == dealId);
+    }
+
+    public static User? GetUserByEmail(string email)
+    {
+        return UsersData.FirstOrDefault(u => string.Equals(u.Email, email, StringComparison.OrdinalIgnoreCase));
     }
 
     public static IEnumerable<string> GetBookedSeats(string screeningId)
