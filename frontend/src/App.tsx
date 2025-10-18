@@ -9,6 +9,7 @@ import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import MyOrdersPage from './pages/MyOrdersPage';
 import AdminMenuPage from './pages/AdminMenuPage'
+import DealsPage from './pages/DealsPage';
 import { loadSession, clearSession } from '@/auth';
 import ManageDealsPage from './pages/ManageDealsPage';
 
@@ -57,6 +58,7 @@ const App = () => {
               </Button>
             )}
           <Group gap="sm">
+            <Button component={Link} to="/deals" variant="light">Deals</Button>
               {!session && (
                 <>
                   <Button component={Link} to="/login" variant="light">Sign in</Button>
@@ -72,6 +74,7 @@ const App = () => {
                   <Button onClick={() => { clearSession(); window.location.reload(); }} variant="light" color="red">Logout</Button>
                 </>
               )}
+                  
             </Group>
           </Group>
         </Container>
@@ -90,6 +93,7 @@ const App = () => {
             <Route path="/my-orders" element={<MyOrdersPage />} />
             <Route path="/admin-menu" element={<AdminMenuPage />} />
             <Route path="/admin/manage-deals" element={<ManageDealsPage />} />
+            <Route path="/deals" element={<DealsPage />} />
           </Routes>
         </Container>
       </AppShell.Main>

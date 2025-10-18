@@ -1,10 +1,14 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTickets.Core", "src\\MovieTickets.Core\\MovieTickets.Core.csproj", "{0CBD72F1-8A54-43CA-9746-AA3CD692F8F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTickets.Core", "src\MovieTickets.Core\MovieTickets.Core.csproj", "{0CBD72F1-8A54-43CA-9746-AA3CD692F8F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTickets.Api", "src\\MovieTickets.Api\\MovieTickets.Api.csproj", "{0F3FE2D9-A8AF-4BEC-88B1-5BD54C98B735}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTickets.Api", "src\MovieTickets.Api\MovieTickets.Api.csproj", "{0F3FE2D9-A8AF-4BEC-88B1-5BD54C98B735}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5D99F5AD-ECC8-4B44-8A2C-4A387D4CCE20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieTickets.Tests", "src\MovieTickets.Tests\MovieTickets.Tests.csproj", "{6C00AE7D-95AD-4DC0-81F7-2B878933CFE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,8 +24,15 @@ Global
 		{0F3FE2D9-A8AF-4BEC-88B1-5BD54C98B735}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F3FE2D9-A8AF-4BEC-88B1-5BD54C98B735}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F3FE2D9-A8AF-4BEC-88B1-5BD54C98B735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C00AE7D-95AD-4DC0-81F7-2B878933CFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C00AE7D-95AD-4DC0-81F7-2B878933CFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C00AE7D-95AD-4DC0-81F7-2B878933CFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C00AE7D-95AD-4DC0-81F7-2B878933CFE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C00AE7D-95AD-4DC0-81F7-2B878933CFE5} = {5D99F5AD-ECC8-4B44-8A2C-4A387D4CCE20}
 	EndGlobalSection
 EndGlobal

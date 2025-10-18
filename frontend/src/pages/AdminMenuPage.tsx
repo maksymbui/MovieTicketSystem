@@ -6,7 +6,6 @@ const AdminMenuPage = () => {
   const session = loadSession();
   const navigate = useNavigate();
 
-  // Check if user is admin
   if (session?.role !== 'Admin') {
     return (
       <Alert color="red">
