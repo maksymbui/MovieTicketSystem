@@ -23,7 +23,7 @@ export JWT__Issuer="movie-tickets"
 export JWT__Audience="movie-tickets-clients"
 
 #dotnet clean && rm -rf bin obj
-#dotnet build -c Debug
+dotnet build -c Debug
 #popd >/dev/null
 
 echo "▶ Publishing ASP.NET backend..."
