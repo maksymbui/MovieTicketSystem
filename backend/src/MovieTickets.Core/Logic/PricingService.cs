@@ -12,6 +12,8 @@ public sealed class PricingService
 
     public OrderQuote Calculate(string screeningId, IReadOnlyList<SeatSelection> seats)
     {
+        var totalDiscount = 0m;
+
         if (seats.Count == 0)
             return new OrderQuote { ScreeningId = screeningId };
 
@@ -29,6 +31,8 @@ public sealed class PricingService
             foreach (var seat in seatGroup)
             {
                 var unit = CalculateSeatPrice(screening, ticketType, seat.SeatLabel);
+                var seatDiscount = CalculateSeatDiscount(screening, unit);
+                totalDiscount += seatDiscount;
                 subtotal += unit;
                 lines.Add(new OrderQuoteLine
                 {
@@ -46,7 +50,7 @@ public sealed class PricingService
             ScreeningId = screeningId,
             Lines = lines,
             Subtotal = subtotal,
-            Discount = 0m
+            Discount = totalDiscount
         };
     }
 
@@ -66,5 +70,15 @@ public sealed class PricingService
             price += 2.50m;
 
         return Math.Round(price, 2, MidpointRounding.AwayFromZero);
+    }
+
+    decimal CalculateSeatDiscount(Screening screening, decimal seatPrice)
+    {
+        var deal = DataStore.DealsData.FirstOrDefault(d => d.MovieId == screening.MovieId && d.ExpiryDate > DateTime.UtcNow);
+        if (deal != null)
+        {
+            return deal.Discount * seatPrice / 100;
+        }
+        return 0m;
     }
 }

@@ -67,6 +67,7 @@ builder.Services.AddSingleton<MovieCatalogService>();
 builder.Services.AddSingleton<ScreeningService>();
 builder.Services.AddSingleton<PricingService>();
 builder.Services.AddSingleton<BookingService>();
+builder.Services.AddSingleton<DealService>();
 builder.Services.ConfigureHttpJsonOptions(options =>
 {
     options.SerializerOptions.Converters.Add(new JsonStringEnumConverter());
@@ -226,6 +227,33 @@ app.MapGet("/api/my/bookings", [Authorize] (HttpContext ctx) =>
     var bookings = MovieTickets.Core.Logic.DataStore.Bookings
         .Where(b => string.Equals(b.CustomerEmail, email, StringComparison.OrdinalIgnoreCase));
     return Results.Ok(bookings);
+});
+
+app.MapGet("/api/deals", (DealService dealService) =>
+{
+    var deals = dealService.GetAll();
+    return Results.Ok(deals);
+});
+
+app.MapPost("/api/deals/add", (Deal deal, DealService dealService) =>
+{
+    if (dealService.AddDeal(deal))
+    {
+        return Results.Ok(deal);
+    }
+    return Results.BadRequest(new { message = "Deal already exists for this movie." });
+});
+
+app.MapPost("/api/deals/remove", (Deal deal, DealService dealService) =>
+{
+    dealService.RemoveDeal(deal.Id);
+    return Results.Ok(deal);
+});
+
+app.MapPost("/api/deals/update", (Deal deal, DealService dealService) =>
+{
+    dealService.UpdateDeal(deal);
+    return Results.Ok(deal);
 });
 
 app.Run();

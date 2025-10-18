@@ -36,14 +36,7 @@ const MyOrdersPage = () => {
 
   return (
     <Stack>
-      <Group justify="space-between">
-        <Title order={2}>My Orders</Title>
-        <Group>
-          {!session && <Button component={Link} to="/login">Sign in</Button>}
-          {!session && <Button variant="light" component={Link} to="/register">Register</Button>}
-          {session && <Button variant="light" onClick={() => { clearSession(); location.reload(); }}>Sign out</Button>}
-        </Group>
-      </Group>
+      <Title order={2}>My Orders</Title>
 
       {error && <Alert color="red">{error}</Alert>}
 

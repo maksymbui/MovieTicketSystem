@@ -119,6 +119,7 @@ const SeatSelectionPage = () => {
     [quote, seatAssignments, ticketTypes]
   );
 
+  const summaryDeal = quote?.discount ?? 0;
   const summarySubtotal = quote?.subtotal ?? totalFromSummary(summaryLines);
   const summaryTotal = quote?.total ?? summarySubtotal;
   const seatRemainder = Math.max(selectedSeatCount - ticketsSelected, 0);
@@ -329,6 +330,10 @@ const SeatSelectionPage = () => {
               <Group justify="space-between" c="gray.5">
                 <Text size="sm">Subtotal</Text>
                 <Text size="sm">{formatCurrency(summarySubtotal)}</Text>
+              </Group>
+              <Group justify="space-between" c="gray.5">
+                <Text size="sm">Deal</Text>
+                <Text size="sm">{formatCurrency(summaryDeal)}</Text>
               </Group>
               <Group justify="space-between" fw={600}>
                 <Text>Total</Text>

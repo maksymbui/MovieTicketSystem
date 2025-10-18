@@ -151,10 +151,11 @@ const CheckoutPage = () => {
                 <Text size="sm">Subtotal</Text>
                 <Text size="sm">{formatCurrency(quote.subtotal)}</Text>
               </Group>
-              {quote.discount !== 0 && (
+              {console.log('DEBUG: quote.discount =', quote.discount)}
+              {(quote.discount !== 0 || true) && (
                 <Group justify="space-between" c="gray.5">
                   <Text size="sm">Discounts</Text>
-                  <Text size="sm">{formatCurrency(quote.discount)}</Text>
+                  <Text size="sm">{formatCurrency(quote.discount || 0)}</Text>
                 </Group>
               )}
               <Group justify="space-between" fw={600}>

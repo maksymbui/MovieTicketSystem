@@ -22,6 +22,7 @@ public static class DataStore
     static readonly List<TicketType> TicketTypesData = new();
     static readonly List<Booking> BookingsData = new();
     static readonly Dictionary<string, HashSet<string>> BookedSeatLookup = new();
+    public static List<Deal> DealsData = new();
 
     static string RootPath = "";
 
@@ -31,6 +32,7 @@ public static class DataStore
     public static IReadOnlyList<Screening> Screenings => ScreeningsData;
     public static IReadOnlyList<TicketType> TicketTypes => TicketTypesData;
     public static IReadOnlyList<Booking> Bookings => BookingsData;
+    public static IReadOnlyList<Deal> Deals => DealsData;
 
     public static void Load()
     {
@@ -43,6 +45,7 @@ public static class DataStore
         LoadInto(ScreeningsData, "screenings.json");
         LoadInto(TicketTypesData, "ticket_types.json");
         LoadInto(BookingsData, "bookings.json");
+        LoadInto(DealsData, "deals.json");
 
         BookedSeatLookup.Clear();
         foreach (var screening in ScreeningsData)
@@ -54,6 +57,13 @@ public static class DataStore
                     set.Add(line.SeatLabel);
             BookedSeatLookup[screening.Id] = set;
         }
+    }
+
+    public static void SaveDeals()
+    {
+        var path = Path.Combine(RootPath, "deals.json");
+        var json = JsonSerializer.Serialize(DealsData, JsonOptions);
+        File.WriteAllText(path, json);
     }
 
     public static IEnumerable<string> GetBookedSeats(string screeningId)

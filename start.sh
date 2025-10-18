@@ -22,9 +22,9 @@ export JWT__Secret="$SECRET"
 export JWT__Issuer="movie-tickets"
 export JWT__Audience="movie-tickets-clients"
 
-dotnet clean && rm -rf bin obj
-dotnet build -c Debug
-popd >/dev/null
+#dotnet clean && rm -rf bin obj
+#dotnet build -c Debug
+#popd >/dev/null
 
 echo "▶ Publishing ASP.NET backend..."
 dotnet publish "$API_PROJECT" -c Release

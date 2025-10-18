@@ -45,10 +45,36 @@ export const postBooking = async (payload: CheckoutRequest) => {
   return data as Booking;
 };
 
+export const fetchDeals = async () => {
+  const { data } = await client.get('/deals');
+  return data as Deal[];
+}
+
+export const updateDeal = async (payload: Deal) => {
+  const { data } = await client.post(`/deals/update`, payload);
+  return data as Deal;
+}
+
+export const removeDeal = async (payload: string) => {
+  const { data } = await client.post(`/deals/remove`, { id: payload });
+  return data as { success: boolean };
+}
+
+export const createDeal = async (payload: Deal) => {
+  const { data } = await client.post('/deals/add', payload);
+  return data as Deal;
+}
+
 export interface CastMember {
   name: string;
   character?: string | null;
   profileUrl?: string | null;
+}
+
+export interface Deal {
+  movieId: string;
+  discount: number;
+  expiryDate: Date;
 }
 
 export interface Movie {

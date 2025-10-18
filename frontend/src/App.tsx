@@ -8,10 +8,15 @@ import CheckoutPage from './pages/CheckoutPage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import MyOrdersPage from './pages/MyOrdersPage';
+import AdminMenuPage from './pages/AdminMenuPage'
+import { loadSession, clearSession } from '@/auth';
+import ManageDealsPage from './pages/ManageDealsPage';
+
 
 const App = () => {
   const location = useLocation();
   const isCatalogRoute = location.pathname === '/' || location.pathname === '/movies';
+  const session = loadSession();
 
   return (
     <AppShell
@@ -52,9 +57,21 @@ const App = () => {
               </Button>
             )}
           <Group gap="sm">
-              <Button component={Link} to="/my-orders" variant="light">My Orders</Button>
-              <Button component={Link} to="/login" variant="light">Sign in</Button>
-              <Button component={Link} to="/register" variant="outline">Register</Button>
+              {!session && (
+                <>
+                  <Button component={Link} to="/login" variant="light">Sign in</Button>
+                  <Button component={Link} to="/register" variant="outline">Register</Button>
+                </>
+              )}
+              {session && (
+                <>
+                  <Button component={Link} to="/my-orders" variant="light">My Orders</Button>
+                  {session.role === 'Admin' && (
+                    <Button component={Link} to="/admin-menu" variant="light" color="yellow">Admin Panel</Button>
+                  )}
+                  <Button onClick={() => { clearSession(); window.location.reload(); }} variant="light" color="red">Logout</Button>
+                </>
+              )}
             </Group>
           </Group>
         </Container>
@@ -71,6 +88,8 @@ const App = () => {
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/my-orders" element={<MyOrdersPage />} />
+            <Route path="/admin-menu" element={<AdminMenuPage />} />
+            <Route path="/admin/manage-deals" element={<ManageDealsPage />} />
           </Routes>
         </Container>
       </AppShell.Main>
