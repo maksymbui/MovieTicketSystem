@@ -1,5 +1,22 @@
 # Movie Tickets – Assignment 2
 
+## File Structure
+
+- `/backend`: Contains all backend logic, including API, business logic, data models, and tests.
+  - `src/MovieTickets.Api/`: ASP.NET Core API project (entry point, endpoints, API services).
+  - `src/MovieTickets.Core/`: Core business logic, entities, models, and data storage.
+  - `src/MovieTickets.Tests/`: NUnit test project for backend logic.
+- `/frontend`: React + TypeScript frontend application, all user interface code and pages.
+  - `src/pages/`: Main UI screens (seat selection, deals, checkout, etc.).
+  - `src/hooks/`, `src/utils/`: API calls and utility functions.
+- `/desktop`: Electron desktop app version (cross-platform desktop support).
+- `/storage`: JSON files for persistent data (movies, bookings, users, etc.).
+- `/tools/SeedGenerator`: Utility for generating and seeding initial data.
+- `start.sh`, `flake.nix`, `flake.lock`: Scripts and Nix files for reproducible development environments.
+
+> [!WARNING]
+> After navigating towards the seat selection screen, the 'Quick Book' option is there for demo/testing, it auto-fills your current selection with adults and calls the same booking endpoint. It is not indicative of actual performance (nor is the rest of data)
+
 ## File References
 
 - High cohesion/low coupling: `backend/src/MovieTickets.Core/Logic/*`, `Entities/*`, `Models/*`
@@ -41,16 +58,6 @@ Open another terminal:
 
 > [!NOTE]
 > To refresh the movie catalog from TMDB, set `TMDB__APIKEY` (or edit `backend/src/MovieTickets.Api/appsettings.json`) and call `POST http://localhost:####/api/admin/import/tmdb`... and rerun: `dotnet run --project tools/SeedGenerator`.
-
-File structure is relatively self-explanatory.
-
-- `/backend`: Stores logic and seeded data.
-- `/desktop`: Electron, nuff said.
-- `/frontend`: Honestly, I have no idea, shit is straight up vibe-coded, I don't do UI, I know enough to theme my dotfiles but making a website? couldn't care less. Make sure to check Blame though.
-- `/storage`: Theoretically, this directory isn't needed, but I'm not bothered enough to refactor it. Tldr, its just filler data. We would curl first, then use SeedGenerator, as the CopyToOutputDirectory is set as PreserveNewest, out data won't overrite itself.
-
-> [!WARNING]
-> After navigating towards the seat selection screen, the 'Quick Book' option is there for demo/testing, it auto-fills your current selection with adults and calls the same booking endpoint. It is not indicative of actual performance (nor is the rest of data)
 
 ## For Windows:
 
