@@ -38,6 +38,7 @@ public sealed class DealService
         {
             existingDeal.MovieId = deal.MovieId;
             existingDeal.Discount = deal.Discount;
+            existingDeal.ExpiryDate = deal.ExpiryDate;
         }
         DataStore.SaveDeals();
     }

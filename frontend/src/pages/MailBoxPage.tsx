@@ -28,14 +28,6 @@ const MailBoxPage = () => {
     loadMessages();
   }, []);
 
-  if (session?.role !== 'Admin') {
-    return (
-      <Alert color="red">
-        Access denied. Admin privileges required.
-      </Alert>
-    );
-  }
-
   const formatDateTime = (utcDateString: string) => {
     const date = new Date(utcDateString);
     return date.toLocaleString();
